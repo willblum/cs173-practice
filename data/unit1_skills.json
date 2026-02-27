@@ -1,0 +1,28 @@
+[
+    "Perform algebraic manipulations involving equations, inequalities, fractions, absolute values, squares, and square roots",
+    "Work with the imaginary unit i (square root of -1)",
+    "Solve and factor simple second-order polynomials and find their roots",
+    "Apply basic rules for manipulating exponents and logarithms",
+    "Define and compose numerical functions (e.g., g(f(x)))",
+
+    "Identify standard number sets: ℝ, ℕ, ℤ, ℤ+, ℚ, ℂ",
+    "Use correct notation for set membership (e.g., x ∈ ℤ)",
+    "Know that 0 ∈ ℕ but 0 ∉ ℤ+ under the course convention",
+    "Understand closed and open intervals [a,b] and (a,b)",
+    "Apply the floor ⌊x⌋ and ceiling ⌈x⌉ functions",
+
+    "Know truth tables for logical operators, especially implication",
+    "Interpret inclusive OR unless otherwise stated",
+    "Understand universal (∀) and existential (∃) quantifiers and their scope",
+    "Translate between English statements and logical notation",
+    "Apply distributive, commutative, and associative laws in logic",
+    "Recognize that (p → q) is equivalent to (¬p ∨ q)",
+    "Evaluate logical equivalences using truth tables or counterexamples",
+    "Identify non-statements and statements with unbound variables",
+    "Determine the truth of complex statements from given components",
+    "Identify hypotheses and conclusions in if/then statements",
+    "Form negations of statements correctly",
+    "Determine the converse and contrapositive of implications",
+    "Simplify negations using DeMorgan’s laws and double negation",
+    "Negate quantified statements correctly"
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "question": "Which of the following is shorthand for the set of integers?",
+    "choices": ["J", "N", "W", "Z"],
+    "correctIndex": 3,
+    "explanation": "The standard shorthand for the set of integers is Z (ℤ)."
+  },
+  {
+    "question": "If √2 is rational, then −3 is positive.",
+    "choices": ["True", "False", "Undefined"],
+    "correctIndex": 0,
+    "explanation": "An implication with a false premise is always true. √2 is irrational, so the premise is false, making the statement true."
+  },
+  {
+    "question": "Is log₂(3) < log₃(2)?",
+    "choices": ["True", "False"],
+    "correctIndex": 1,
+    "explanation": "log₂(3) ≈ 1.585 and log₃(2) ≈ 0.631, so log₂(3) > log₃(2)."
+  },
+  {
+    "question": "(p ∨ ¬p) → q",
+    "choices": ["True", "False", "Depends on q"],
+    "correctIndex": 2,
+    "explanation": "(p ∨ ¬p) is always true (a tautology), so the statement reduces to True → q, which is logically equivalent to q. Therefore it depends on q."
+  },
+  {
+    "question": "¬(p ∧ ¬q) ≡ ¬p ∨ q",
+    "choices": ["True", "False"],
+    "correctIndex": 0,
+    "explanation": "By DeMorgan’s Law, ¬(p ∧ ¬q) = ¬p ∨ ¬(¬q) = ¬p ∨ q."
+  }
+]

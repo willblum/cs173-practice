@@ -1,0 +1,46 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f7fa;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 700px;
+  margin: 60px auto;
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+button {
+  padding: 8px 14px;
+  margin: 5px 5px 5px 0;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.primary-btn {
+  background-color: #2c7be5;
+  color: white;
+}
+
+.secondary-btn {
+  background-color: #e9ecef;
+}
+
+.choice-btn {
+  width: 100%;
+  text-align: left;
+  background-color: #f1f3f5;
+}
+
+textarea {
+  width: 100%;
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}

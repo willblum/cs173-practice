@@ -1,0 +1,7 @@
+[
+    {
+        "instruction": "State the contrapositive of the following claim, moving all negations so they are on individual predicates.",
+        "claim": "For every dragon d, if d is green, then d is not large or d is fat.",
+        "solution": "For every dragon d, if d is large and d is not fat, then d is not green."
+    }
+]

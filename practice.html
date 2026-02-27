@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Practice</title>
+<link rel="stylesheet" href="css/styles.css">
+<script>
+    window.MathJax = {
+        tex: {
+            inlineMath: [['$', '$'], ['\\(', '\\)']],
+            displayMath: [['$$', '$$']]
+        }
+    };
+</script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+<body class="light">
+  <div class="container">
+
+    <h2 id="unitTitle"></h2>
+
+    <button class="primary-btn" onclick="showFRQ()">Practice FRQ</button>
+    <button class="secondary-btn" onclick="showMCQ()">Practice MCQ</button>
+    <button class="secondary-btn" onclick="showSkills()">Skill List</button>
+
+    <hr>
+
+    <div id="content"></div>
+
+  </div>
+
+  <script src="js/practice.js"></script>
+</body>
+</html>
