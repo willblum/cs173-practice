@@ -3,30 +3,196 @@
     "question": "Which of the following is shorthand for the set of integers?",
     "choices": ["J", "N", "W", "Z"],
     "correctIndex": 3,
-    "explanation": "The standard shorthand for the set of integers is Z (ℤ)."
+    "explanation": "The standard shorthand for the set of integers is ℤ (Z). ℕ is natural numbers, and the others are not standard.",
+    "source": "Examlet 01"
   },
   {
     "question": "If √2 is rational, then −3 is positive.",
     "choices": ["True", "False", "Undefined"],
     "correctIndex": 0,
-    "explanation": "An implication with a false premise is always true. √2 is irrational, so the premise is false, making the statement true."
+    "explanation": "An implication with a false premise is always true (vacuous truth). Since √2 is irrational, the premise is false, making the entire statement true.",
+    "source": "Examlet 01"
   },
   {
     "question": "Is log₂(3) < log₃(2)?",
     "choices": ["True", "False"],
     "correctIndex": 1,
-    "explanation": "log₂(3) ≈ 1.585 and log₃(2) ≈ 0.631, so log₂(3) > log₃(2)."
+    "explanation": "log₂(3) ≈ 1.585 and log₃(2) ≈ 0.631, so log₂(3) > log₃(2). The statement is false.",
+    "source": "Examlet 01"
   },
   {
     "question": "(p ∨ ¬p) → q",
     "choices": ["True", "False", "Depends on q"],
     "correctIndex": 2,
-    "explanation": "(p ∨ ¬p) is always true (a tautology), so the statement reduces to True → q, which is logically equivalent to q. Therefore it depends on q."
+    "explanation": "(p ∨ ¬p) is always true (tautology), so the statement reduces to True → q, which is logically equivalent to q. Therefore it depends on q.",
+    "source": "Examlet 01"
   },
   {
     "question": "¬(p ∧ ¬q) ≡ ¬p ∨ q",
     "choices": ["True", "False"],
     "correctIndex": 0,
-    "explanation": "By DeMorgan’s Law, ¬(p ∧ ¬q) = ¬p ∨ ¬(¬q) = ¬p ∨ q."
+    "explanation": "By De Morgan's Law: ¬(p ∧ ¬q) = ¬p ∨ ¬(¬q) = ¬p ∨ q. The equivalence holds.",
+    "source": "Examlet 01"
+  },
+  {
+    "question": "If U. Illinois is in Paris, then π < 0.",
+    "choices": ["True", "False", "Undefined"],
+    "correctIndex": 0,
+    "explanation": "The premise 'U. Illinois is in Paris' is false. A conditional with a false hypothesis is vacuously true regardless of the conclusion.",
+    "source": "Examlet 01, SU2019"
+  },
+  {
+    "question": "The interval [-9, 4] is countable.",
+    "choices": ["True", "False"],
+    "correctIndex": 1,
+    "explanation": "The closed interval [-9, 4] contains all real numbers between -9 and 4, which is uncountably infinite. Only intervals containing only integers would be countable.",
+    "source": "Examlet 01, SU2019"
+  },
+  {
+    "question": "Which of the following best describes ℤ⁺?",
+    "choices": ["All integers", "Positive integers (1, 2, 3, ...)", "Non-negative integers (0, 1, 2, ...)", "All rational numbers"],
+    "correctIndex": 1,
+    "explanation": "ℤ⁺ denotes the set of positive integers {1, 2, 3, ...}. Note that 0 ∉ ℤ⁺ under CS 173 convention.",
+    "source": "Examlet 01"
+  },
+  {
+    "question": "0 ∈ ℕ",
+    "choices": ["True", "False"],
+    "correctIndex": 0,
+    "explanation": "Under the CS 173 convention, 0 ∈ ℕ. The natural numbers include 0 in this course.",
+    "source": "Examlet 01"
+  },
+  {
+    "question": "0 ∈ ℤ⁺",
+    "choices": ["True", "False"],
+    "correctIndex": 1,
+    "explanation": "Under the CS 173 convention, 0 ∉ ℤ⁺. The positive integers start at 1.",
+    "source": "Examlet 01"
+  },
+  {
+    "question": "The converse of p → q is:",
+    "choices": ["¬p → ¬q", "q → p", "¬q → ¬p", "p ∧ ¬q"],
+    "correctIndex": 1,
+    "explanation": "The converse of p → q is q → p. The contrapositive is ¬q → ¬p, and ¬p → ¬q is the inverse.",
+    "source": "Examlet 01"
+  },
+  {
+    "question": "The contrapositive of p → q is:",
+    "choices": ["q → p", "¬p → ¬q", "¬q → ¬p", "p ∨ q"],
+    "correctIndex": 2,
+    "explanation": "The contrapositive of p → q is ¬q → ¬p. An implication and its contrapositive are logically equivalent.",
+    "source": "Examlet 01"
+  },
+  {
+    "question": "¬(∀x, P(x)) is equivalent to:",
+    "choices": ["∀x, ¬P(x)", "∃x, ¬P(x)", "¬∃x, P(x)", "∀x, P(x)"],
+    "correctIndex": 1,
+    "explanation": "The negation of a universal statement is an existential statement with the predicate negated: ¬(∀x, P(x)) ≡ ∃x, ¬P(x).",
+    "source": "Examlet 01"
+  },
+  {
+    "question": "¬(∃x, P(x)) is equivalent to:",
+    "choices": ["∃x, ¬P(x)", "∀x, ¬P(x)", "∀x, P(x)", "¬∀x, P(x)"],
+    "correctIndex": 1,
+    "explanation": "The negation of an existential statement is a universal statement with the predicate negated: ¬(∃x, P(x)) ≡ ∀x, ¬P(x).",
+    "source": "Examlet 01"
+  },
+  {
+    "question": "p → q is equivalent to ¬p ∨ q.",
+    "choices": ["True", "False"],
+    "correctIndex": 0,
+    "explanation": "This is a fundamental logical equivalence. The implication p → q can always be rewritten as ¬p ∨ q.",
+    "source": "Examlet 01"
+  },
+  {
+    "question": "¬(p ∧ q) ≡ ¬p ∧ ¬q",
+    "choices": ["True", "False"],
+    "correctIndex": 1,
+    "explanation": "This is INCORRECT. By De Morgan's Law, ¬(p ∧ q) ≡ ¬p ∨ ¬q (OR, not AND).",
+    "source": "Examlet 01, SP2019"
+  },
+  {
+    "question": "⌊3.7⌋ = ?",
+    "choices": ["3", "4", "3.7", "Undefined"],
+    "correctIndex": 0,
+    "explanation": "The floor function ⌊x⌋ returns the greatest integer less than or equal to x. ⌊3.7⌋ = 3.",
+    "source": "Examlet 01"
+  },
+  {
+    "question": "⌈3.2⌉ = ?",
+    "choices": ["3", "4", "3.2", "Undefined"],
+    "correctIndex": 1,
+    "explanation": "The ceiling function ⌈x⌉ returns the smallest integer greater than or equal to x. ⌈3.2⌉ = 4.",
+    "source": "Examlet 01"
+  },
+  {
+    "question": "⌊-2.3⌋ = ?",
+    "choices": ["-2", "-3", "-2.3", "Undefined"],
+    "correctIndex": 1,
+    "explanation": "The floor function rounds toward negative infinity. ⌊-2.3⌋ = -3.",
+    "source": "Examlet 01"
+  },
+  {
+    "question": "{2, 3, 4} ∩ {3, 4, 5} = {3, 4}",
+    "choices": ["True", "False"],
+    "correctIndex": 0,
+    "explanation": "The intersection contains elements common to both sets. 3 and 4 appear in both sets, so {2,3,4} ∩ {3,4,5} = {3,4}.",
+    "source": "Examlet 01, SP2019"
+  },
+  {
+    "question": "√(-4) is a real number.",
+    "choices": ["True", "False"],
+    "correctIndex": 1,
+    "explanation": "√(-4) = 2i, which is an imaginary number, not a real number. √(-4) ∈ ℂ but √(-4) ∉ ℝ.",
+    "source": "Examlet 01"
+  },
+  {
+    "question": "Which set does √2 belong to?",
+    "choices": ["ℤ (integers)", "ℚ (rationals)", "ℝ \\ ℚ (irrationals)", "ℂ \\ ℝ (complex non-reals)"],
+    "correctIndex": 2,
+    "explanation": "√2 is irrational — it cannot be expressed as a fraction of integers. It belongs to ℝ \\ ℚ (the set of irrationals).",
+    "source": "Examlet 01"
+  },
+  {
+    "question": "p ∧ (q ∨ r) ≡ (p ∧ q) ∨ (p ∧ r)",
+    "choices": ["True", "False"],
+    "correctIndex": 0,
+    "explanation": "This is the distributive law of logic. AND distributes over OR, just like multiplication distributes over addition.",
+    "source": "Examlet 01"
+  },
+  {
+    "question": "If p is true and q is false, what is p → q?",
+    "choices": ["True", "False"],
+    "correctIndex": 1,
+    "explanation": "An implication p → q is false only when the hypothesis p is true and the conclusion q is false. This is the only case where an implication is false.",
+    "source": "Examlet 01"
+  },
+  {
+    "question": "3/7 ∈ ℤ",
+    "choices": ["True", "False"],
+    "correctIndex": 1,
+    "explanation": "3/7 is a rational number (∈ ℚ), but it is not an integer. 3/7 ∉ ℤ.",
+    "source": "Examlet 01"
+  },
+  {
+    "question": "Which of the following is a statement (has a definite truth value)?",
+    "choices": ["x + 3 = 5", "Close the door!", "7 is prime", "Is it raining?"],
+    "correctIndex": 2,
+    "explanation": "'7 is prime' is a statement because it has a definite truth value (true). 'x + 3 = 5' has an unbound variable, and the others are commands/questions, not statements.",
+    "source": "Examlet 01"
+  },
+  {
+    "question": "The interval (2, 5) contains:",
+    "choices": ["2 and 5", "All reals strictly between 2 and 5", "All integers between 2 and 5", "Only 3 and 4"],
+    "correctIndex": 1,
+    "explanation": "The open interval (2, 5) contains all real numbers x such that 2 < x < 5. The endpoints 2 and 5 are NOT included.",
+    "source": "Examlet 01"
+  },
+  {
+    "question": "p ∨ (p ∧ q) ≡ p",
+    "choices": ["True", "False"],
+    "correctIndex": 0,
+    "explanation": "This is the absorption law. p ∨ (p ∧ q) simplifies to p. You can verify with a truth table.",
+    "source": "Examlet 01"
   }
 ]

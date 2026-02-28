@@ -2,6 +2,85 @@
     {
         "instruction": "State the contrapositive of the following claim, moving all negations so they are on individual predicates.",
         "claim": "For every dragon d, if d is green, then d is not large or d is fat.",
-        "solution": "For every dragon d, if d is large and d is not fat, then d is not green."
+        "solution": "For every dragon d, if d is large and d is not fat, then d is not green.",
+        "source": "Examlet 01, SP2019"
+    },
+    {
+        "instruction": "State the negation of the following claim, moving all negations so that they are on individual predicates.",
+        "claim": "For every tiger k, if k is orange, then k is large and k is not friendly.",
+        "solution": "There exists a tiger k such that k is orange and (k is not large or k is friendly).",
+        "source": "Examlet 01, SU2019"
+    },
+    {
+        "instruction": "State the contrapositive of the following claim, moving all negations so that they are on individual predicates.",
+        "claim": "For every tiger k, if k is orange, then k is large and k is not friendly.",
+        "solution": "For every tiger k, if k is not large or k is friendly, then k is not orange.",
+        "source": "Examlet 01, SU2019"
+    },
+    {
+        "instruction": "State the negation of the following claim, moving all negations so that they are on individual predicates.",
+        "claim": "For any student s, if s rides a bicycle, then s wears a helmet or s has no fear of death.",
+        "solution": "There exists a student s such that s rides a bicycle and s does not wear a helmet and s has a fear of death.",
+        "source": "Examlet 01, SP2019"
+    },
+    {
+        "instruction": "State the contrapositive of the following claim, moving all negations so that they are on individual predicates.",
+        "claim": "For any student s, if s rides a bicycle, then s wears a helmet or s has no fear of death.",
+        "solution": "For any student s, if s does not wear a helmet and s has a fear of death, then s does not ride a bicycle.",
+        "source": "Examlet 01, SP2019"
+    },
+    {
+        "instruction": "Find all integer solutions to the following equation. Show your work.",
+        "claim": "$2p^2 + 5p = 3$",
+        "solution": "Rearrange: $2p^2 + 5p - 3 = 0$. Factor: $(2p - 1)(p + 3) = 0$. So $p = 1/2$ or $p = -3$. Since we need integer solutions, $p = -3$.",
+        "source": "Examlet 01, SU2019"
+    },
+    {
+        "instruction": "Simplify, showing your work.",
+        "claim": "$25 \\times 2^{-3\\log_2(5)}$",
+        "solution": "$25 \\times 2^{\\log_2(5^{-3})} = 25 \\times 5^{-3} = 5^2 \\times 5^{-3} = 5^{-1} = \\frac{1}{5}$",
+        "source": "Examlet 01, SU2019"
+    },
+    {
+        "instruction": "Simplify, showing your work.",
+        "claim": "$\\log_3(45x) - \\log_3(5x)$",
+        "solution": "$\\log_3\\left(\\frac{45x}{5x}\\right) = \\log_3(9) = \\log_3(3^2) = 2$",
+        "source": "Examlet 01, SU2019"
+    },
+    {
+        "instruction": "Multiply out and simplify, showing your work.",
+        "claim": "$(x^{x-2} + x^2)^2$",
+        "solution": "$x^{2(x-2)} + 2 \\cdot x^{x-2} \\cdot x^2 + x^4 = x^{2x-4} + 2x^x + x^4$",
+        "source": "Examlet 01, SP2019 White"
+    },
+    {
+        "instruction": "Solve for x, expressing your answer as a single fraction. Simplify your answer and show your work.",
+        "claim": "$\\frac{3}{x} + m = \\frac{3}{p}$",
+        "solution": "$\\frac{3}{x} = \\frac{3}{p} - m = \\frac{3 - mp}{p}$. Therefore $x = \\frac{3p}{3 - mp}$.",
+        "source": "Examlet 01, SP2019"
+    },
+    {
+        "instruction": "State the negation of the following claim, moving all negations so that they are on individual predicates.",
+        "claim": "For all cats c, if c is fluffy, then c is not mean or c is playful.",
+        "solution": "There exists a cat c such that c is fluffy and c is mean and c is not playful.",
+        "source": "Examlet 01"
+    },
+    {
+        "instruction": "State the contrapositive of the following claim, moving all negations so they are on individual predicates.",
+        "claim": "For every bird b, if b can fly and b is colorful, then b is not a penguin.",
+        "solution": "For every bird b, if b is a penguin, then b cannot fly or b is not colorful.",
+        "source": "Examlet 01"
+    },
+    {
+        "instruction": "Find all integer solutions to the following equation. Show your work.",
+        "claim": "$x^2 - 5x + 6 = 0$",
+        "solution": "Factor: $(x - 2)(x - 3) = 0$. So $x = 2$ or $x = 3$. Both are integers.",
+        "source": "Examlet 01"
+    },
+    {
+        "instruction": "Simplify, showing your work.",
+        "claim": "$\\log_2(8) + \\log_2(4)$",
+        "solution": "$\\log_2(8) + \\log_2(4) = 3 + 2 = 5$. Alternatively, $\\log_2(8 \\times 4) = \\log_2(32) = 5$.",
+        "source": "Examlet 01"
     }
 ]

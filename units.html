@@ -1,17 +1,44 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-  <title>Units</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Select a Unit — CS 173 Practice</title>
+  <link rel="stylesheet" href="css/styles.css">
 </head>
+
 <body>
-    <div class="container">
-        <h2>Select a Unit</h2>
-      
-        <button onclick="openUnit('unit1')">
-          Unit 1: Prereqs and Logic
-        </button>
-      
-        <script src="js/units.js"></script>
+  <div class="container">
+    <a href="index.html" class="back-link">← Back to Home</a>
+
+    <div class="page-header">
+      <h2>Choose a Unit</h2>
+      <p>Select a topic to start practicing</p>
     </div>
+
+    <div class="units-grid">
+      <button class="unit-card" onclick="openUnit('unit1')">
+        <div class="unit-number">1</div>
+        <div class="unit-info">
+          <h3>Prereqs &amp; Logic</h3>
+          <p>Sets, logic operators, quantifiers, negations, contrapositives</p>
+        </div>
+        <span class="unit-arrow">→</span>
+      </button>
+
+      <button class="unit-card" onclick="openUnit('unit2')">
+        <div class="unit-number">2</div>
+        <div class="unit-info">
+          <h3>Proofs</h3>
+          <p>Direct proof, contrapositive, contradiction, cases, counterexamples</p>
+        </div>
+        <span class="unit-arrow">→</span>
+      </button>
+    </div>
+  </div>
+
+  <script src="js/units.js"></script>
 </body>
+
 </html>
