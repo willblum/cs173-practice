@@ -855,7 +855,7 @@ textarea::placeholder {
 }
 
 .unit-body {
-  padding: 0 24px 24px;
+  padding: 16px 24px 24px;
   transition: all var(--transition-med);
 }
 
