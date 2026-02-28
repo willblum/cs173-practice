@@ -1,0 +1,47 @@
+[
+  {
+    "question": "The level of a leaf node in a full and complete binary tree of height h is exactly...",
+    "choices": [
+      "0",
+      "1",
+      "h-1",
+      "h"
+    ],
+    "correctIndex": 3,
+    "explanation": "If a binary tree is 'full and complete' of height h, every leaf is pushed to the absolute bottom level, which is level h (assuming the root is level 0).",
+    "source": "Examlet 9 (White)"
+  },
+  {
+    "question": "A binary tree of height h has at least 2^{h+1} - 1 nodes.",
+    "choices": [
+      "true",
+      "false"
+    ],
+    "correctIndex": 1,
+    "explanation": "False. 2^{h+1} - 1 is the MAXIMUM number of nodes a binary tree of height h can have (if it is perfectly full and complete). The minimum number of nodes it can have is just h+1 (a single stick).",
+    "source": "Examlet 9 (White)"
+  },
+  {
+    "question": "Does Grammar G (below) generate all non-empty strings containing a's and/or b's? \nS \u2192 aSa | bSb | aSb | bSa | a | b",
+    "choices": [
+      "Yes",
+      "No"
+    ],
+    "correctIndex": 1,
+    "explanation": "No. Notice that every recursive rule adds exactly 2 characters to the string length (e.g. `aSa`, `bSb`), and the base cases terminate with exactly 1 character (`a` or `b`). This means every generated string will always have an odd total length. Therefore, it cannot generate even-length strings like 'aa' or 'ab'.",
+    "source": "Examlet 9 (White)"
+  },
+  {
+    "question": "Circle the trees that match the grammar G: \nS \u2192 a N b | a N c | a\nN \u2192 S S | d",
+    "image": "images/sp19_ex9_mcq.png",
+    "choices": [
+      "Only the top-left one",
+      "Both top trees",
+      "All trees shown",
+      "None of them"
+    ],
+    "correctIndex": 1,
+    "explanation": "Review the parse trees. S requires either producing just 'a' (leaf), or grouping an internal 'N' bounded by 'a' and ('b' or 'c'). N requires generating exactly two 'S' branches or just 'd'. The top trees follow these rules properly.",
+    "source": "Examlet 9 (White)"
+  }
+]

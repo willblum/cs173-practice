@@ -1,0 +1,13 @@
+[
+  "Know the basic notation f:A&rarr;B. Know the meaning of the terms domain, co-domain, image (of the function), pre-image (of a value in B).",
+  "Define the composition of two functions. Compute the composition of two specific functions.",
+  "Identify when a formula or diagram defines something that is not a function (e.g. two output values for a single input).",
+  "Define the identity function id A  on a set A",
+  "Define what it means for a function function to be one-to-one, onto, bijective, increasing, strictly increasing.",
+  "Be able to identify whether a function (presented via a formula, diagram, or other method) has one of these properties.",
+  "Prove that a function has one of these properties.",
+  "Prove general results about these properties, e.g. a strictly increasing function is one-to-one, composition of two one-to-one functions is one-to-one.",
+  "Understand how to simplify proofs using \"without loss of generality\"",
+  "Negate a statement containing multiple quantifiers.",
+  "Understand the difference in meaning between the statement &forall; x, &exist; y P(x,y) and the statement &exist; y, &forall; x, P(x,y)."
+]

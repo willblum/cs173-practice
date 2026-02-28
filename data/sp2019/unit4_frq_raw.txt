@@ -1,0 +1,196 @@
+CS 173, Spring 19
+Examlet 4, colored
+1
+Name:
+NetID:
+Lecture:
+A
+B
+Discussion:
+Thursday
+Friday
+9
+10
+11
+12
+1
+2
+3
+4
+5
+6
+Let’s deﬁne a relation T between natural numbers follows:
+aTb if and only if a = b + 2k, where k is a natural number
+Working directly from this deﬁnition, prove that T is antisymmetric.
+CS 173, Spring 19
+Examlet 4, colored
+2
+Name:
+NetID:
+Lecture:
+A
+B
+Discussion:
+Thursday
+Friday
+9
+10
+11
+12
+1
+2
+3
+4
+5
+6
+A closed interval of the real line can be represented as a pair (c, r), where c is the center of the interval
+and r is its radius. Let X = {(c, r) | c, r ∈R, r ≥0} be the set of closed intervals represented this way.
+Now, let’s deﬁne the interval containment ⪯on X as follows
+(c, r) ⪯(d, q) if and only if r ≤q and |c −d| + r ≤q.
+Prove that ⪯is transitive.
+CS 173, Spring 19
+Examlet 4, colored
+3
+Name:
+NetID:
+Lecture:
+A
+B
+Discussion:
+Thursday
+Friday
+9
+10
+11
+12
+1
+2
+3
+4
+5
+6
+Suppose that T is a relation on the integers which is transitive. Let’s deﬁne a relation R on the
+integers as follows:
+xRy if and only if there is an integer k such that xTk and kTy.
+Prove that R is transitive.
+CS 173, Spring 19
+Examlet 4, colored
+4
+Name:
+NetID:
+Lecture:
+A
+B
+Discussion:
+Thursday
+Friday
+9
+10
+11
+12
+1
+2
+3
+4
+5
+6
+Let T be the relation deﬁned on Z2 by
+(x, y)T(p, q) if and only if x < p or (x = p and y ≤q)
+Prove that T is antisymmetric.
+CS 173, Spring 19
+Examlet 4, colored
+5
+Name:
+NetID:
+Lecture:
+A
+B
+Discussion:
+Thursday
+Friday
+9
+10
+11
+12
+1
+2
+3
+4
+5
+6
+Deﬁne the relation ∼on Z by
+x ∼y if and only if 5 | (3x + 7y)
+Working directly from the deﬁnition of divides, prove that ∼is transitive.
+CS 173, Spring 19
+Examlet 4, colored
+6
+Name:
+NetID:
+Lecture:
+A
+B
+Discussion:
+Thursday
+Friday
+9
+10
+11
+12
+1
+2
+3
+4
+5
+6
+Let A = {(x, y, z) ∈Z3 : x ≤y ≤z}. Let’s deﬁne a relation R on A as follows:
+(a, b, c)R(x, y, z) if and only if a ≤x and z ≤b.
+Working directly from this deﬁnition, prove that R is antisymmetric.
+CS 173, Spring 19
+Examlet 4, colored
+7
+Name:
+NetID:
+Lecture:
+A
+B
+Discussion:
+Thursday
+Friday
+9
+10
+11
+12
+1
+2
+3
+4
+5
+6
+Let A = Z+ × Z+, i.e. pairs of positive integers.
+Deﬁne a relation ≫on A as follows:
+(x, y) ≫(p, q) if and only if there exists an integer n ≥1 such that (x, y) = (np, nq).
+Prove that ≫is antisymmetric.
+CS 173, Spring 19
+Examlet 4, colored
+8
+Name:
+NetID:
+Lecture:
+A
+B
+Discussion:
+Thursday
+Friday
+9
+10
+11
+12
+1
+2
+3
+4
+5
+6
+Let A = {(x, y, z) ∈Z3 : x ≤y ≤z}. Let’s deﬁne a relation R on A as follows:
+(a, b, c)R(x, y, z) if and only if a ≤x and z ≤b.
+Working directly from this deﬁnition, prove that R is transitive.

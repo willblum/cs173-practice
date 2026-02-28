@@ -1,0 +1,14 @@
+[
+  {
+    "instruction": "Prove using weak induction.",
+    "claim": "Use induction to prove the following claim: For any natural number n \u2265 1 and any real number x, where 0 < x < 1, (1-x)^n \u2265 1-nx.",
+    "solution": "Proof by induction on n. Base case n=1: (1-x)^1 = 1-x. The RHS is 1 - 1(x) = 1-x. 1-x \u2265 1-x is true. IH: Assume (1-x)^k \u2265 1-kx for some arbitrary integer k \u2265 1. Step: We must show (1-x)^{k+1} \u2265 1-(k+1)x. Start with (1-x)^{k+1} = (1-x)(1-x)^k. Since 0 < x < 1, (1-x) is positive. So we can multiply the inequality from our IH by (1-x) without flipping the sign: (1-x)(1-x)^k \u2265 (1-x)(1-kx). Distributing the right side gives: 1 - kx - x + kx^2. This equals 1 - (k+1)x + kx^2. Since k \u2265 1 and x^2 > 0, the term kx^2 must be positive. Therefore, 1 - (k+1)x + kx^2 \u2265 1 - (k+1)x. Combining inequalities yields (1-x)^{k+1} \u2265 1 - (k+1)x. \u25A1",
+    "source": "Examlet 10 (Colored)"
+  },
+  {
+    "instruction": "Factorial induction.",
+    "claim": "Use (strong) induction to prove the following claim: (2n)! / (n!)^2 > 2^n, for all integers n \u2265 2.",
+    "solution": "Base Case n=2: LHS is 4! / (2!)^2 = 24 / 4 = 6. RHS is 2^2 = 4. Since 6 > 4, the base case holds. IH: Assume (2k)! / (k!)^2 > 2^k for some arbitrary integer k \u2265 2. Step: Consider n=k+1. The expression is (2k+2)! / ((k+1)!)^2. Factor this to relate it to the IH: [(2k+2)(2k+1)(2k)!] / [(k+1)^2 \u00d7 (k!)^2]. This is equal to [(2k+2)(2k+1) / (k+1)^2] \u00d7 [(2k)! / (k!)^2]. By IH, the second bracket is > 2^k, so the expression is > [(2k+2)(2k+1) / (k+1)^2] \u00d7 2^k. Simplify ratio: 2(k+1)(2k+1) / (k+1)^2 = 2(2k+1)/(k+1). Since k \u2265 2, 2k+1 > k+1, meaning the ratio is > 2 \u00d7 1 = 2. Thus the whole expression is > 2 \u00d7 2^k = 2^{k+1}. \u25A1",
+    "source": "Examlet 10 (Colored)"
+  }
+]

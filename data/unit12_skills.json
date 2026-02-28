@@ -1,0 +1,10 @@
+[
+  "Direct proofs involving harder use of inequalities State Diagrams Read basic notation for state diagrams, e.g. state diagrams are directed graphs, states are the vertices, actions are labelled on the edges, how are start and end states marked, loops and multi-edges are possible.",
+  "Know what is/isn't allowed in a deterministic state diagram.",
+  "Trace walks in a state diagram: walks must follow the edge directions, therefore cycles and paths also must follow the edge directions, the full description of a walk contains the state sequence and the action sequence.",
+  "Know the basic description of the transition function &delta;, i.e. each input is a pair of a state plus an action, each output is a set of possible next states. Remember that this means that the co-domain is the powerset of the set of states.",
+  "Have a general familiarity with some common examples of state diagrams: states of a game or puzzle, memory states of a computer program, phone lattice for a set of words.",
+  "Construct state diagrams that meet a (simple) specification, e.g. a phone lattice that represents a set of words.",
+  "Counting states Calculate (or estimate for large cases) the number of states for an example system (e.g. a game).",
+  "Know that algorithms can be made more efficient by not creating multiple states with identical properties. Or, said another way, organizing your work so that you don't repeatedly re-solve a sub-problem."
+]

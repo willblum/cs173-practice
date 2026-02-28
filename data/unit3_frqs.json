@@ -1,0 +1,8 @@
+[
+  {
+    "instruction": "Prove the subset relation.",
+    "claim": "Let A = {(x, y) \u2208 \u211d\u00b2 : y = x\u00b2 - 4}, B = {(p, q) \u2208 \u2124\u00b2 : q < 0}, and C = {(a, b) \u2208 \u211d\u00b2 : |a| \u2264 1}. Prove that A \u2229 B \u2286 C.",
+    "solution": "Let (x, y) \u2208 A \u2229 B. This means (x, y) \u2208 A and (x, y) \u2208 B. From A, we know y = x\u00b2 - 4. From B, we know x, y are integers and y < 0. Since y = x\u00b2 - 4 and y < 0, we have x\u00b2 - 4 < 0, which implies x\u00b2 < 4. Since x is an integer (from B), the possible values for x are -1, 0, 1. For all these values, |x| \u2264 1. Thus, (x, y) satisfies the condition for set C. Therefore, (x, y) \u2208 C, proving A \u2229 B \u2286 C.",
+    "source": "Examlet 3 (Colored)"
+  }
+]

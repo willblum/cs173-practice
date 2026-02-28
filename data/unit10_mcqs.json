@@ -1,0 +1,47 @@
+[
+  {
+    "question": "Suppose f and g produce only positive outputs and f(n) \u226a g(n). Will g(n) be O(f(n))?",
+    "choices": [
+      "yes",
+      "no",
+      "sometimes"
+    ],
+    "correctIndex": 1,
+    "explanation": "No. f(n) \u226a g(n) means f grows strictly slower than g. Big-O acts as a \u2264 operator, so asking if g(n) is O(f(n)) is asking if g grows slower or equal to f. Since g is strictly faster, it cannot be bounded asymptotically by f.",
+    "source": "Examlet 10 (White)"
+  },
+  {
+    "question": "Dividing a problem of size n into k subproblems, each of size n/m, has the best big-\u0398 running time when...",
+    "choices": [
+      "k < m",
+      "k = m",
+      "k > m",
+      "km = 1"
+    ],
+    "correctIndex": 0,
+    "explanation": "By the Master Theorem, if a (subproblems k) < b (reduction factor m), the work at the root dominates, heavily limiting the exponential blowup at the leaves. Thus, minimizing k relative to m gives the best run times.",
+    "source": "Examlet 10 (White)"
+  },
+  {
+    "question": "What is the Big-Theta of the recurrence T(n) = 2T(n/2) + n?",
+    "choices": [
+      "\u0398(n)",
+      "\u0398(n log n)",
+      "\u0398(n^2)",
+      "\u0398(2^n)"
+    ],
+    "correctIndex": 1,
+    "explanation": "Merge sort recurrence. Both a=2 and b=2, so log_b(a) = log_2(2) = 1. Since work per level is c*n^1, we are in the balanced case of the Master Theorem. Thus, \u0398(n log n).",
+    "source": "Examlet 10 (White)"
+  },
+  {
+    "question": "Suppose f(x) is O(h(x)) and g(x) is O(h(x)). Must f(x)g(x) be O(h(x))?",
+    "choices": [
+      "Yes",
+      "No"
+    ],
+    "correctIndex": 1,
+    "explanation": "No. Let f(x) = x, g(x) = x, and h(x) = x. Both f(x) and g(x) are O(x). However, f(x)g(x) = x^2, which is NOT O(x). Multiplication requires adding the exponents of the bounds, not just keeping the same bound.",
+    "source": "Examlet 10 (White)"
+  }
+]

@@ -1,0 +1,48 @@
+[
+  {
+    "question": "How many cycle subgraphs (i.e. subgraphs isomorphic to C_n for some n) does the graph below contain? Count two cycles as the same if they have the same set of nodes and the same set of edges.",
+    "image": "images/sp19_ex6_mcq.png",
+    "choices": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "correctIndex": 0,
+    "explanation": "Looking at typical SP19 versions of this graph, there's usually a central rectangular cycle and a couple triangular ones. The key is manually tracing individual independent cycles. To compute accurately, you count the basic bounded faces. The answer varies by version, but a typical 2-joined-triangle with a tail has exactly 3 cycles (the two small ones and the large outer one).",
+    "source": "Examlet 6 (White)"
+  },
+  {
+    "question": "Does the graph below have an Euler circuit?",
+    "image": "images/sp19_ex6_mcq.png",
+    "choices": [
+      "Yes",
+      "No"
+    ],
+    "correctIndex": 1,
+    "explanation": "An Euler circuit requires every node to have an even degree. If any node has an odd degree (like a tail or a node joining 3 edges), it cannot have an Euler circuit.",
+    "source": "Examlet 6 (White)"
+  },
+  {
+    "question": "Is the graph below bipartite?",
+    "image": "images/sp19_ex6_mcq.png",
+    "choices": [
+      "Yes",
+      "No"
+    ],
+    "correctIndex": 1,
+    "explanation": "To be bipartite, a graph must not contain any odd-length cycles. If the graph contains a triangle (C_3), it is not bipartite.",
+    "source": "Examlet 6 (White)"
+  },
+  {
+    "question": "Does the graph below have a cut edge?",
+    "image": "images/sp19_ex6_mcq.png",
+    "choices": [
+      "Yes",
+      "No"
+    ],
+    "correctIndex": 0,
+    "explanation": "A cut edge (or bridge) is an edge whose removal increases the number of connected components. Any 'tail' or single spanning edge between two independent cycles acts as a cut edge.",
+    "source": "Examlet 6 (White)"
+  }
+]

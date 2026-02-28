@@ -1,0 +1,199 @@
+CS 173, Spring 19
+Examlet 3, colored sheet
+1
+Name:
+NetID:
+Lecture:
+A
+B
+Discussion:
+Thursday
+Friday
+9
+10
+11
+12
+1
+2
+3
+4
+5
+6
+A = {(x, y) ∈R2 : y = x2 −4}
+B = {(p, q) ∈Z2 : q < 0}
+C = {(a, b) ∈R2 : |a| ≤1}
+Prove that A ∩B ⊆C.
+CS 173, Spring 19
+Examlet 3, colored sheet
+2
+Name:
+NetID:
+Lecture:
+A
+B
+Discussion:
+Thursday
+Friday
+9
+10
+11
+12
+1
+2
+3
+4
+5
+6
+A = {(x, y, z) ∈R3 | 0 < x < y −1}
+B = {(a, b, c) ∈R3 | b2 + 2 < c2}
+C = {(p, q, r) ∈R3 | p2 < r2}
+Prove that A ∩B ⊆C.
+CS 173, Spring 19
+Examlet 3, colored sheet
+3
+Name:
+NetID:
+Lecture:
+A
+B
+Discussion:
+Thursday
+Friday
+9
+10
+11
+12
+1
+2
+3
+4
+5
+6
+A = {α(2, −4) + (1 −α)(−3, 6)) | α ∈R}
+B = {(a, b) ∈R2 | a ≥1}
+C = {(p, q) ∈R2 | q ≤0}
+Prove that A ∩B ⊆C.
+CS 173, Spring 19
+Examlet 3, colored sheet
+4
+Name:
+NetID:
+Lecture:
+A
+B
+Discussion:
+Thursday
+Friday
+9
+10
+11
+12
+1
+2
+3
+4
+5
+6
+A = {(x, y) ∈R2 : y = x2 −2x −1}
+B = {(p, q) ∈R2 : |p| ≥3}
+C = {(m, n) ∈R2 : n ≥0}
+Prove that A ∩B ⊆C.
+CS 173, Spring 19
+Examlet 3, colored sheet
+5
+Name:
+NetID:
+Lecture:
+A
+B
+Discussion:
+Thursday
+Friday
+9
+10
+11
+12
+1
+2
+3
+4
+5
+6
+A = {(x, y, z) ∈R3 : y = x2 −2x + 11}
+B = {(a, b, c) ∈R3 : b ≤c}
+C = {(p, q, r) ∈R3 : r ≥5}
+Prove that A ∩B ⊆C.
+CS 173, Spring 19
+Examlet 3, colored sheet
+6
+Name:
+NetID:
+Lecture:
+A
+B
+Discussion:
+Thursday
+Friday
+9
+10
+11
+12
+1
+2
+3
+4
+5
+6
+A = {(x, y, z) ∈R3 : |x + y + z| = 20}
+B = {(a, b, c) ∈N3 : a + b < 5}
+C = {(p, q, r) ∈R3 : r > 10}
+Prove that A ∩B ⊆C.
+CS 173, Spring 19
+Examlet 3, colored sheet
+7
+Name:
+NetID:
+Lecture:
+A
+B
+Discussion:
+Thursday
+Friday
+9
+10
+11
+12
+1
+2
+3
+4
+5
+6
+A = {(x, y) ∈R2 : xy ≤−7}
+B = {(p3, p2) : p ∈R}
+C = {(a, b) ∈R2 : a < 0}
+Prove that A ∩B ⊆C.
+CS 173, Spring 19
+Examlet 3, colored sheet
+8
+Name:
+NetID:
+Lecture:
+A
+B
+Discussion:
+Thursday
+Friday
+9
+10
+11
+12
+1
+2
+3
+4
+5
+6
+A = {a(1, 0) + b(3, 1) + c(2, 4) : a, b, c are positive reals and a + b + c = 1}
+B = {(x, y) ∈R2 : x ≤3 and y ≥0}
+Prove that A ⊆B.

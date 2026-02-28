@@ -1,0 +1,21 @@
+[
+  {
+    "instruction": "Compute the number of isomorphisms.",
+    "claim": "How many isomorphisms are there from the graph G (below) to itself? Justify your answer.",
+    "image": "images/sp19_ex6_frq.png",
+    "solution": "An isomorphism from G to itself is an automorphism. You must map nodes of degree d to nodes of degree d, and preserve neighborhood structures. For example, the 'tail' nodes or center hubs are fixed. Count the number of independent symmetric swaps you can perform (like swapping two identical leaves attached to the same node). Multiply these independent choices together to get the total automorphisms, usually something like 2 \u00d7 2 \u00d7 ...",
+    "source": "Examlet 6 (Colored)"
+  },
+  {
+    "instruction": "Identify subgraphs.",
+    "claim": "Is the cycle graph C_4 a subgraph of graph K_{3,3}? Briefly justify your answer.",
+    "solution": "Yes. The complete bipartite graph K_{3,3} contains nodes partitioned into sets of size 3. We can pick two nodes from the first set (A, B) and two from the second set (X, Y). The edges A-X, X-B, B-Y, and Y-A all exist in K_{3,3} and form the cycle C_4.",
+    "source": "Examlet 6 (Colored)"
+  },
+  {
+    "instruction": "Analyze graph components.",
+    "claim": "The degree sequence of a graph is the list of the degrees of all the nodes in the graph, arranged in numerical order. Suppose graph G has degree sequence 1, 1, 1, 1, 2. Is G connected? Briefly justify your answer.",
+    "solution": "No, it cannot be connected. A connected graph on 5 nodes must have at least 4 edges (it must be at least a spanning tree). The sum of degrees here is 1+1+1+1+2 = 6, which means the graph has 6/2 = 3 edges in total. Since 3 < 4, the graph cannot be connected.",
+    "source": "Examlet 6 (Colored)"
+  }
+]

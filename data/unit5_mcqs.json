@@ -1,0 +1,23 @@
+[
+  {
+    "question": "If a function from \u211d to \u211d is strictly increasing, it must be one-to-one.",
+    "choices": [
+      "true",
+      "false"
+    ],
+    "correctIndex": 0,
+    "explanation": "True. If strictly increasing, then x \u2260 y implies f(x) \u2260 f(y) (one will always be strictly less or greater than the other), so no two distinct inputs share an output.",
+    "source": "Examlet 5"
+  },
+  {
+    "question": "Consider g: \u2124 \u2192 \u2124 where g(x) = 7 - x/3. Which describes it best?",
+    "choices": [
+      "onto",
+      "not onto",
+      "not a function"
+    ],
+    "correctIndex": 2,
+    "explanation": "Not a function from Z to Z. An input like x=1 gives 7 - 1/3, which is not an integer, so it violates the co-domain.",
+    "source": "Examlet 5"
+  }
+]

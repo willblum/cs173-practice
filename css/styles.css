@@ -1,43 +1,43 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap');
 
 /* ============================================
    CSS Custom Properties (Design Tokens)
    ============================================ */
 :root {
   /* Background layers */
-  --bg-deep: #0a0e1a;
-  --bg-surface: #111827;
-  --bg-card: rgba(30, 41, 69, 0.65);
-  --bg-card-hover: rgba(40, 55, 90, 0.75);
-  --bg-input: rgba(15, 23, 42, 0.8);
+  --bg-deep: #050505;
+  --bg-surface: #0a0a09;
+  --bg-card: rgba(20, 18, 18, 0.65);
+  --bg-card-hover: rgba(30, 26, 26, 0.75);
+  --bg-input: rgba(15, 12, 12, 0.8);
 
   /* Text */
-  --text-primary: #f1f5f9;
-  --text-secondary: #94a3b8;
-  --text-muted: #64748b;
+  --text-primary: #f8fafc;
+  --text-secondary: #a1a1aa;
+  --text-muted: #52525b;
 
   /* Accent gradient */
-  --accent-1: #8b5cf6;
-  --accent-2: #06b6d4;
-  --accent-3: #a78bfa;
+  --accent-1: #ea580c;
+  --accent-2: #e11d48;
+  --accent-3: #fb923c;
   --gradient-main: linear-gradient(135deg, var(--accent-1), var(--accent-2));
-  --gradient-subtle: linear-gradient(135deg, rgba(139, 92, 246, 0.15), rgba(6, 182, 212, 0.15));
+  --gradient-subtle: linear-gradient(135deg, rgba(234, 88, 12, 0.15), rgba(225, 29, 72, 0.15));
 
   /* Semantic */
-  --success: #34d399;
-  --success-bg: rgba(52, 211, 153, 0.12);
-  --error: #f87171;
-  --error-bg: rgba(248, 113, 113, 0.12);
+  --success: #22c55e;
+  --success-bg: rgba(34, 197, 94, 0.12);
+  --error: #ef4444;
+  --error-bg: rgba(239, 68, 68, 0.12);
 
   /* Borders */
-  --border: rgba(148, 163, 184, 0.1);
-  --border-hover: rgba(139, 92, 246, 0.4);
+  --border: rgba(234, 88, 12, 0.15);
+  --border-hover: rgba(234, 88, 12, 0.4);
 
   /* Shadows */
   --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.3);
   --shadow-md: 0 4px 20px rgba(0, 0, 0, 0.4);
   --shadow-lg: 0 8px 40px rgba(0, 0, 0, 0.5);
-  --shadow-glow: 0 0 30px rgba(139, 92, 246, 0.15);
+  --shadow-glow: 0 0 30px rgba(234, 88, 12, 0.15);
 
   /* Radius */
   --radius-sm: 8px;
@@ -68,7 +68,7 @@ html {
 }
 
 body {
-  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  font-family: 'Outfit', -apple-system, BlinkMacSystemFont, sans-serif;
   background-color: var(--bg-deep);
   color: var(--text-primary);
   min-height: 100vh;
@@ -86,9 +86,9 @@ body::before {
   right: 0;
   bottom: 0;
   background:
-    radial-gradient(ellipse 600px 400px at 20% 20%, rgba(139, 92, 246, 0.08) 0%, transparent 70%),
-    radial-gradient(ellipse 500px 350px at 80% 80%, rgba(6, 182, 212, 0.06) 0%, transparent 70%),
-    radial-gradient(ellipse 400px 300px at 50% 50%, rgba(167, 139, 250, 0.04) 0%, transparent 70%);
+    radial-gradient(ellipse 600px 400px at 20% 20%, rgba(234, 88, 12, 0.08) 0%, transparent 70%),
+    radial-gradient(ellipse 500px 350px at 80% 80%, rgba(225, 29, 72, 0.06) 0%, transparent 70%),
+    radial-gradient(ellipse 400px 300px at 50% 50%, rgba(251, 146, 60, 0.04) 0%, transparent 70%);
   pointer-events: none;
   z-index: 0;
   animation: meshFloat 20s ease-in-out infinite alternate;
@@ -186,7 +186,7 @@ body::before {
   border-radius: var(--radius-md);
   border: none;
   cursor: pointer;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Outfit', sans-serif;
   font-size: 15px;
   font-weight: 600;
   transition: all var(--transition-fast);
@@ -198,12 +198,12 @@ body::before {
 .btn-primary {
   background: var(--gradient-main);
   color: white;
-  box-shadow: 0 4px 15px rgba(139, 92, 246, 0.3);
+  box-shadow: 0 4px 15px rgba(234, 88, 12, 0.3);
 }
 
 .btn-primary:hover {
   transform: translateY(-2px);
-  box-shadow: 0 6px 25px rgba(139, 92, 246, 0.4);
+  box-shadow: 0 6px 25px rgba(234, 88, 12, 0.4);
 }
 
 .btn-primary:active {
@@ -238,6 +238,44 @@ body::before {
 .btn-icon {
   font-size: 18px;
   line-height: 1;
+}
+
+/* ============================================
+   PDF Link Groups
+   ============================================ */
+.pdf-links {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 8px;
+  margin-top: 16px;
+}
+
+.pdf-group {
+  display: flex;
+  align-items: stretch;
+  gap: 8px;
+}
+
+.pdf-group .btn-secondary {
+  flex: 1;
+  justify-content: flex-start;
+}
+
+.pdf-group .btn-sol {
+  background: rgba(251, 146, 60, 0.08);
+  border: 1px solid rgba(251, 146, 60, 0.2);
+  color: var(--accent-3);
+  padding: 12px 16px;
+  border-radius: var(--radius-md);
+  font-size: 14px;
+  transition: all var(--transition-fast);
+}
+
+.pdf-group .btn-sol:hover {
+  background: rgba(251, 146, 60, 0.15);
+  border-color: rgba(251, 146, 60, 0.4);
+  color: #fff;
 }
 
 /* ============================================
@@ -280,7 +318,7 @@ body::before {
   backdrop-filter: blur(12px);
   text-align: left;
   width: 100%;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Outfit', sans-serif;
   color: var(--text-primary);
 }
 
@@ -299,7 +337,7 @@ body::before {
   height: 48px;
   border-radius: var(--radius-md);
   background: var(--gradient-subtle);
-  border: 1px solid rgba(139, 92, 246, 0.2);
+  border: 1px solid rgba(234, 88, 12, 0.2);
   font-size: 1.1rem;
   font-weight: 700;
   color: var(--accent-3);
@@ -361,7 +399,7 @@ body::before {
   background: var(--bg-card);
   color: var(--text-secondary);
   cursor: pointer;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Outfit', sans-serif;
   font-size: 14px;
   font-weight: 600;
   transition: all var(--transition-fast);
@@ -379,7 +417,7 @@ body::before {
   background: var(--gradient-main);
   color: white;
   border-color: transparent;
-  box-shadow: 0 4px 15px rgba(139, 92, 246, 0.3);
+  box-shadow: 0 4px 15px rgba(234, 88, 12, 0.3);
 }
 
 /* ============================================
@@ -416,7 +454,7 @@ body::before {
 }
 
 .question-card .claim-block {
-  background: rgba(139, 92, 246, 0.08);
+  background: rgba(234, 88, 12, 0.08);
   border-left: 3px solid var(--accent-1);
   border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
   padding: 16px 20px;
@@ -447,7 +485,7 @@ body::before {
   border-radius: var(--radius-md);
   padding: 14px 18px;
   cursor: pointer;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Outfit', sans-serif;
   font-size: 15px;
   color: var(--text-primary);
   transition: all var(--transition-fast);
@@ -470,12 +508,12 @@ body::before {
 }
 
 .choice-btn:hover:not(:disabled) {
-  background: rgba(139, 92, 246, 0.08);
+  background: rgba(234, 88, 12, 0.08);
   border-color: var(--border-hover);
 }
 
 .choice-btn:hover:not(:disabled) .choice-letter {
-  background: rgba(139, 92, 246, 0.2);
+  background: rgba(234, 88, 12, 0.2);
   color: var(--accent-3);
 }
 
@@ -516,7 +554,7 @@ textarea {
   border: 1px solid var(--border);
   background: var(--bg-input);
   color: var(--text-primary);
-  font-family: 'Inter', monospace;
+  font-family: 'Outfit', monospace;
   font-size: 15px;
   line-height: 1.6;
   resize: vertical;
@@ -526,7 +564,7 @@ textarea {
 textarea:focus {
   outline: none;
   border-color: var(--accent-1);
-  box-shadow: 0 0 0 3px rgba(139, 92, 246, 0.15);
+  box-shadow: 0 0 0 3px rgba(234, 88, 12, 0.15);
 }
 
 textarea::placeholder {
@@ -570,8 +608,8 @@ textarea::placeholder {
 }
 
 .explanation-box {
-  background: rgba(6, 182, 212, 0.06);
-  border: 1px solid rgba(6, 182, 212, 0.15);
+  background: rgba(225, 29, 72, 0.06);
+  border: 1px solid rgba(225, 29, 72, 0.15);
   border-radius: var(--radius-md);
   padding: 16px 20px;
   margin-top: 12px;
@@ -594,8 +632,8 @@ textarea::placeholder {
 }
 
 .solution-box {
-  background: rgba(139, 92, 246, 0.06);
-  border: 1px solid rgba(139, 92, 246, 0.15);
+  background: rgba(234, 88, 12, 0.06);
+  border: 1px solid rgba(234, 88, 12, 0.15);
   border-radius: var(--radius-md);
   padding: 16px 20px;
   margin-top: 16px;
@@ -911,4 +949,14 @@ textarea::placeholder {
    ============================================ */
 .MathJax {
   color: var(--text-primary) !important;
+}
+
+.question-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: var(--radius-sm);
+  margin-bottom: 20px;
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow-sm);
+  display: block;
 }

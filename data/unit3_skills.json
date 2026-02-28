@@ -1,0 +1,23 @@
+[
+  "Know what it means for a statement to be \"vacuously true.\"",
+  "For congruence mod k, know which integers are in the equivalence class of x. Know the shorthand notation [x] k  (and the shorthand [x] for when k is clear from context).",
+  "Know when [x] k and [y] k are equal as elements of Z k .",
+  "Do arithmetic in Z k (e.g. addition, multiplication, taking integer powers), keeping intermediate results small.",
+  "Notation set builder notation for defining sets",
+  "set membership (&isin;) and subset/inclusion (&sube;)",
+  "special symbol for the empty set: &empty;",
+  "an ordered pair, triple, n-tuple",
+  "Define formally, be familiar with standard notation, compute the values for concrete input sets A is a subset of B",
+  "The cartesian product of two sets A and B, of three or more sets",
+  "The cardinality of a set",
+  "The complement of a set (given some specified universe).",
+  "The union, intersection, and difference of two sets.",
+  "Know the meaning of the term disjoint.",
+  "Know what happens if one of the inputs to these operations is the empty set.",
+  "Given a simple set relationship, recognize whether it's correct or not. If not, show a counter-example.",
+  "Know DeMorgan's laws and the distributive laws for sets.",
+  "Cardinality Know the inclusion-exclusion formula relating the cardinality of sets A and B to that of their union and intersection.",
+  "Given the cardinality of two sets A and B, compute the cardinality of their Cartesian product.",
+  "Apply these two formulas to real-world counting problems.",
+  "Prove a set inclusion by choosing an element from the smaller set (while keeping it arbitrary!) and showing it's in the larger set."
+]

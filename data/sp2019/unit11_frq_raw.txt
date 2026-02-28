@@ -1,0 +1,358 @@
+CS 173, Spring 19
+Examlet 11, colored sheet
+1
+Name:
+NetID:
+Lecture:
+A
+B
+Discussion:
+Thursday
+Friday
+9
+10
+11
+12
+1
+2
+3
+4
+5
+6
+01 Jump(a1, . . . , an: an array of n positive integers)
+02
+if (n = 1) return a1
+03
+else if (n = 2) return a1 + a2
+04
+else if (n = 3) return a1 + a2 + a3
+05
+else
+06
+p = ⌊n/3⌋
+07
+q = ⌊2n/3⌋
+08
+rv = Jump(a1, . . . , ap) + Jump(aq+1, . . . , an)
+09
+rv = rv + Jump(ap+1, . . . , aq)
+10
+return rv
+Dividing an array takes constant time.
+1. (5 points) Let T(n) be the running time of Jump. Give a recursive deﬁnition of T(n).
+2. (3 points) What is the height of the recursion tree for T(n), assuming n is a power of 3?
+3. (3 points) What is amount of work (aka sum of the values in the nodes) at level k of this tree?
+4. (4 points) What is the big-Theta running time of Jump? Brieﬂy justify your answer.
+CS 173, Spring 19
+Examlet 11, colored sheet
+2
+Name:
+NetID:
+Lecture:
+A
+B
+Discussion:
+Thursday
+Friday
+9
+10
+11
+12
+1
+2
+3
+4
+5
+6
+01 Swing(k,n)
+\\ inputs are positive integers
+02
+if (n = 1) return k
+03
+else if (n = 2) return k2
+04
+else
+05
+half = ⌊n/2⌋
+06
+answer = Swing(k,half)
+07
+answer = answer*answer
+08
+if (n is odd)
+09
+answer = answer*k
+10
+return answer
+1. (5 points) Suppose T(n) is the running time of Swing. Give a recursive deﬁnition of T(n).
+2. (4 points) What is the height of the recursion tree for T(n)? (Assume that n is a power of 2.)
+3. (3 points) How many leaves are in the recursion tree for T(n)?
+4. (3 points) What is the big-Theta running time of Swing?
+CS 173, Spring 19
+Examlet 11, colored sheet
+3
+Name:
+NetID:
+Lecture:
+A
+B
+Discussion:
+Thursday
+Friday
+9
+10
+11
+12
+1
+2
+3
+4
+5
+6
+01 Waltz(a1, a2, . . . an: list of real numbers)
+02
+if (n = 1) then return 0
+03
+else if (n = 2) then return |a1 −a2|
+04
+else
+05
+L = Waltz(a2,a3,. . . ,an)
+06
+R = Waltz(a1,a2,. . . ,an−1)
+07
+Q = |a1 −an|
+08
+return max(L,R,Q)
+Removing the ﬁrst element of a list takes constant time; removing the last element takes O(n) time.
+1. (3 points) Give a succinct English description of what Waltz computes.
+2. (4 points) Suppose T(n) is the running time of Waltz. Give a recursive deﬁnition of T(n).
+3. (4 points) What is the height of the recursion tree for T(n)?
+4. (4 points) How many leaves are in the recursion tree for T(n)?
+CS 173, Spring 19
+Examlet 11, colored sheet
+4
+Name:
+NetID:
+Lecture:
+A
+B
+Discussion:
+Thursday
+Friday
+9
+10
+11
+12
+1
+2
+3
+4
+5
+6
+01 Grind(a1, . . . , an) \\ input is a sorted array of n integers
+02
+if (n = 1) return a1
+03
+else
+04
+m = ⌊n
+2⌋
+05
+if am > 0
+06
+return Grind(a1, . . . , am)
+\\ constant time to extract part of array
+07
+else
+08
+return Grind(am+1, . . . , an)
+\\ constant time to extract part of array
+1. (5 points) Suppose that T(n) is the running time of Grind on an input array of length n and assume
+that n is a power of 2. Give a recursive deﬁnition of T(n).
+2. (4 points) What is the height of the recursion tree for T(n)?
+3. (3 points) How many leaves does this tree have?
+4. (3 points) What is the big-Theta running time of Grind?
+CS 173, Spring 19
+Examlet 11, colored sheet
+5
+Name:
+NetID:
+Lecture:
+A
+B
+Discussion:
+Thursday
+Friday
+9
+10
+11
+12
+1
+2
+3
+4
+5
+6
+01 Weave(a0, . . . , an−1)) \\ input is an array of n integers (n ≥2)
+02
+if (n = 2 and a0 > a1)
+03
+swap(a0, a1)
+\\ interchange the values at positions 0 and 1 in the array
+04
+else if (n > 2)
+05
+p = ⌊n
+4⌋
+06
+q = ⌊n
+2⌋
+07
+r = p + q
+08
+Weave(a0, . . . , aq)
+\\ constant time to make smaller array
+09
+Weave(aq+1, . . . , an−1)
+\\ constant time to make smaller array
+10
+Weave(ap, . . . , ar)
+\\ constant time to make smaller array
+1. (5 points) Suppose that T(n) is the running time of Weave on an input array of length n. Give a
+recursive deﬁnition of T(n).
+2. (4 points) What is the height of the recursion tree for T(n), assuming n is a power of 2?
+3. (3 points) What is the amount of work (aka sum of the values in the nodes) at level k of this tree?
+4. (3 points) How many leaves are in the recursion tree for T(n)? (Simplify your answer.)
+CS 173, Spring 19
+Examlet 11, colored sheet
+6
+Name:
+NetID:
+Lecture:
+A
+B
+Discussion:
+Thursday
+Friday
+9
+10
+11
+12
+1
+2
+3
+4
+5
+6
+01 Act(a1, . . . , an; b1, . . . , bn) \\ input is 2 arrays of n integers, n is a power of 2
+02
+if (n = 1)
+03
+return a1b1
+04
+else
+05
+p = n
+2
+06
+rv = Act(a1, . . . , ap, b1, . . . , bp)
+07
+rv = rv + Act(a1, . . . , ap, bp+1, . . . , bn)
+08
+rv = rv + Act(ap+1, . . . , an, bp+1, . . . , bn)
+09
+rv = rv + Act(ap+1, . . . , an, b1, . . . , bp)
+10
+return rv
+1. (5 points) Suppose that T(n) is the running time of Act on an input array of length n. Give a
+recursive deﬁnition of T(n). Assume that dividing an array in half takes constant time.
+2. (3 points) What is the height of the recursion tree for T(n), assuming n is a power of 2?
+3. (3 points) What is the amount of work (aka sum of the values in the nodes) at level k of this tree?
+4. (4 points) What is the big-Theta running time of Act. Brieﬂy justify your answer. Recall that
+Pn
+k=0 ak = an+1−1
+a−1 .
+CS 173, Spring 19
+Examlet 11, colored sheet
+7
+Name:
+NetID:
+Lecture:
+A
+B
+Discussion:
+Thursday
+Friday
+9
+10
+11
+12
+1
+2
+3
+4
+5
+6
+01 Dig (a1, . . . , an: array of integers)
+02
+if (n = 1)
+03
+if (a1 > 8) return true
+04
+else return false
+05
+else if (Dig(a1, . . . , an−1) is true and Dig(a2, . . . , an) is true)
+06
+return true
+07
+else return false
+1. (3 points) If Dig returns true, what must be true of the values in the input array?
+2. (5 points) Give a recursive deﬁnition for T(n), the running time of Dig on an input of length n,
+assuming it takes constant time to set up the recursive calls in line 05.
+3. (3 points) What is the height of the recursion tree for T(n)?
+4. (4 points) What is the big-theta running time of Dig?
+CS 173, Spring 19
+Examlet 11, colored sheet
+8
+Name:
+NetID:
+Lecture:
+A
+B
+Discussion:
+Thursday
+Friday
+9
+10
+11
+12
+1
+2
+3
+4
+5
+6
+01 Swim(a1, . . . , an) \\ input is a sorted list of n integers
+02
+if (n = 1) return a1
+03
+else
+04
+m = ⌊n
+2⌋
+05
+if am > 0
+06
+return Swim(a1, . . . , am)
+\\ O(n) time to extract half of list
+07
+else
+08
+return Swim(am+1, . . . , an)
+\\ O(n) time to extract half of list
+1. (5 points) Suppose that T(n) is the running time of Swim on an input list of length n and assume
+that n is a power of 2. Give a recursive deﬁnition of T(n).
+2. (4 points) What is the height of the recursion tree for T(n)?
+3. (3 points) What value is in each node at level k of this tree?
+4. (3 points) What is the big-Theta running time of Swim?

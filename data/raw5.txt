@@ -1,0 +1,54 @@
+CS 173, Summer 19
+Examlet 5
+10
+Name:
+NetID:
+Lecture:
+A
+Discussion:
+Monday & Wednesday
+1:30
+2:30
+1. (10 points) Suppose that f : Z →Z is one-to-one. Let’s deﬁne g : Z →Z2 by g(n) = (|n|, f(n)|n|).
+Prove that g is one-to-one.
+2. (5 points)
+Using precise mathematical words and notation, deﬁne what it means for a function
+g : M →C to be “onto.” You must use explicit quantiﬁers. Do not assume the reader knows what
+the image of the function is.
+CS 173, Summer 19
+Examlet 5
+11
+Name:
+NetID:
+Lecture:
+A
+Discussion:
+Monday & Wednesday
+1:30
+2:30
+1. (5 points) How many diﬀerent 13-letter strings beginning with ma can be made be rearranging the
+letters in the word ‘‘massachusetts’’? Show your work.
+2. (10 points) Check the (single) box that best characterizes each item.
+The composition of two one-to-one
+functions is one-to-one.
+true
+false
+f : N2 →N
+f(p, q) = pq
+onto
+not onto
+not a function
+g : R →Z
+g(x) = |x|
+one-to-one
+not one-to-one
+not a function
+Each elf has exactly one gift:
+charm, strength, or
+stamina. If there are 10 elves, there must be at least
+three elves with the same gift.
+true
+false
+∀p ∈Z+, ∃t ∈Z+, gcd(p, t) = 1
+true
+false

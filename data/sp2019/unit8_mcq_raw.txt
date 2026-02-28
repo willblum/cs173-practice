@@ -1,0 +1,52 @@
+CS 173, Fall 18
+Examlet 8, Part B
+1
+Name:
+NetID:
+Lecture:
+B
+Discussion:
+Friday
+11
+12
+1
+2
+3
+4
+1. (8 points) Suppose we have a function g deﬁned by
+g(0)
+=
+g(1) = c
+g(n)
+=
+kg(n −2) + n2, for n ≥2
+where k and c are constants. Express g(n) in terms of g(n −6) (where n ≥6). Show your work
+and simplify your answer. You do not need to ﬁnd a closed form for g(n).
+2. (2 points) Suppose that f : N →N is such that f(n) = n!. Give a recursive deﬁnition of f
+CS 173, Fall 18
+Examlet 8, Part B
+2
+Name:
+NetID:
+Lecture:
+B
+Discussion:
+Friday
+11
+12
+1
+2
+3
+4
+1. (8 points) Suppose we have a function f deﬁned by
+f(1)
+=
+5
+f(n)
+=
+3f(n −1) + n2 for n ≥2
+Express f(n) in terms of f(n −3) (where n ≥4). Show your work and simplify your answer. You
+do not need to ﬁnd a closed form for f(n).
+2. (2 points) Suppose that G0 is the graph consisting of a single vertex. Also suppose that the graph
+Gn consists of a copy of Gn−1 plus an extra vertex v and edges joining v to each vertex in Gn−1.
+Give a clear picture or precise description of G4.

@@ -1,0 +1,61 @@
+CS 173, Summer 19
+Examlet 6
+10
+Name:
+NetID:
+Lecture:
+A
+Discussion:
+Monday & Wednesday
+1:30
+2:30
+1. (10 points)
+Are graphs X and Y (below) isomorphic? Justify your answer.
+Graph X
+1
+2
+3
+4
+5
+6
+7
+8
+9
+Graph Y
+A
+B
+C
+D
+E
+F
+H
+J
+K
+2. (5 points) The degree sequence of a graph is the list of the degrees of all the nodes in the graph,
+arranged in numerical order, largest to smallest. Is it possible to construct a (simple) graph with
+degree sequence: 5, 3, 3, 2, 2, 1? Show how or brieﬂy explain why this isn’t possible.
+CS 173, Summer 19
+Examlet 6
+11
+Name:
+NetID:
+Lecture:
+A
+Discussion:
+Monday & Wednesday
+1:30
+2:30
+(9 points) How many paths are there from A to B in the graph below? Explain or show work.
+A
+P
+Q
+R
+T
+S
+W
+X
+Y
+B
+(2 points) Does the above graph have a cut edge?
+(2 points) How many connected components does the above graph have?
+(2 points) What is the diameter of the above graph?

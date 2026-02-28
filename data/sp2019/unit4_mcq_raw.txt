@@ -1,0 +1,317 @@
+CS 173, Spring 19
+Examlet 4, white
+1
+Name:
+NetID:
+Lecture:
+A
+B
+Discussion:
+Thursday
+Friday
+9
+10
+11
+12
+1
+2
+3
+4
+5
+6
+1. (5 points)
+Check all boxes that correctly characterize this relation on the set {A, B, C, D, E, F}.
+A
+B
+C
+D
+F
+E
+Reﬂexive:
+Irreﬂexive:
+Symmetric:
+Antisymmetric:
+Transitive:
+2. (5 points)
+Suppose that S is the set of all binary strings (i.e. ﬁnite sequences of 1’s and 0’s).
+Suppose that ∼is the relation on S where a ∼b if and only if a and b contain the same number of
+1’s. For example, 0101 ∼1000001. List three members of [111].
+3. (5 points) Let T be the relation deﬁned on set of pairs (x, y) ∈R2 such that (x, y)T(p, q) if and
+only if x ≤p or y ≤q. Is T antisymmetric? Informally explain why it is, or give a concrete
+counter-example showing that it is not.
+CS 173, Spring 19
+Examlet 4, white
+2
+Name:
+NetID:
+Lecture:
+A
+B
+Discussion:
+Thursday
+Friday
+9
+10
+11
+12
+1
+2
+3
+4
+5
+6
+1. (5 points)
+Check all boxes that correctly characterize this relation on the set {A, B, C, D, E, F}.
+A
+B
+C
+D
+F
+E
+Reﬂexive:
+Irreﬂexive:
+Symmetric:
+Antisymmetric:
+Transitive:
+2. (5 points) A relation is a partial order if it has which three properties? (Naming the properties is
+suﬃcient. You don’t have to deﬁne them.)
+3. (5 points) Suppose that R is a relation on the integers such that xRy for all integers x and y. Is
+R an equivalence relation?
+CS 173, Spring 19
+Examlet 4, white
+3
+Name:
+NetID:
+Lecture:
+A
+B
+Discussion:
+Thursday
+Friday
+9
+10
+11
+12
+1
+2
+3
+4
+5
+6
+1. (5 points)
+Check all boxes that correctly characterize this relation on the set {A, B, C, D, E, F}.
+A
+B
+C
+D
+F
+E
+Reﬂexive:
+Irreﬂexive:
+Symmetric:
+Antisymmetric:
+Transitive:
+2. (5 points) Let’s deﬁne the equivalence relation ∼on N3 such that (x, y, z) ∼(p, q, r) if and only
+(x, y, z) = α(p, q, r) for some integer α. List three members of [(1, 2, 3)] List three elements that
+are related to (1, 2, 3) in either direction.
+3. (5 points) Suppose that R is the relation on the set of integers such that aRb if and only if
+|a −b| ≤13 Is R transitive?
+Informally explain why it is, or give a concrete counter-example
+showing that it is not.
+CS 173, Spring 19
+Examlet 4, white
+4
+Name:
+NetID:
+Lecture:
+A
+B
+Discussion:
+Thursday
+Friday
+9
+10
+11
+12
+1
+2
+3
+4
+5
+6
+1. (5 points)
+Check all boxes that correctly characterize this relation on the set {A, B, C, D, E, F}.
+A
+B
+C
+D
+F
+E
+Reﬂexive:
+Irreﬂexive:
+Symmetric:
+Antisymmetric:
+Transitive:
+2. (5 points) Let R be the relation on the integers such that xRy if and only if ⌊x/4⌋= ⌊y/4⌋. List
+the values in [8].
+3. (5 points)
+Let T be a reﬂexive relation deﬁned on the integers. Let S be the relation on the
+integers such that aSb if and only if there is an integer k such that aTk and kTb. Is S reﬂexive?
+(I.e. is S reﬂexive for any reﬂexive relation T?) Informally explain why it is, or give a concrete
+counter-example showing that it is not.
+CS 173, Spring 19
+Examlet 4, white
+5
+Name:
+NetID:
+Lecture:
+A
+B
+Discussion:
+Thursday
+Friday
+9
+10
+11
+12
+1
+2
+3
+4
+5
+6
+1. (5 points)
+Check all boxes that correctly characterize this relation on the set {A, B, C, D, E, F}.
+A
+B
+C
+D
+F
+E
+Reﬂexive:
+Irreﬂexive:
+Symmetric:
+Antisymmetric:
+Transitive:
+2. (5 points) Can a relation be irreﬂexive, symmetric, and also transitive? Either give such a relation
+or brieﬂy explain why it’s not possible to construct one.
+3. (5 points) Suppose that R is a relation on the integers such xRy if and only if x = y. Is R a partial
+order?
+CS 173, Spring 19
+Examlet 4, white
+6
+Name:
+NetID:
+Lecture:
+A
+B
+Discussion:
+Thursday
+Friday
+9
+10
+11
+12
+1
+2
+3
+4
+5
+6
+1. (5 points)
+Check all boxes that correctly characterize this relation on the set {A, B, C, D, E, F}.
+A
+B
+C
+D
+F
+E
+Reﬂexive:
+Irreﬂexive:
+Symmetric:
+Antisymmetric:
+Transitive:
+2. (5 points) Suppose that R is a relation on a set A. Using precise mathematical words and notation,
+deﬁne what it means for R to be symmetric.
+3. (5 points) Let T be the relation deﬁned on N such that aTb if and only if a = b+2k for some natural
+number k. Is T antisymmetric? Informally explain why it is, or give a concrete counter-example
+showing that it is not.
+CS 173, Spring 19
+Examlet 4, white
+7
+Name:
+NetID:
+Lecture:
+A
+B
+Discussion:
+Thursday
+Friday
+9
+10
+11
+12
+1
+2
+3
+4
+5
+6
+1. (5 points)
+Check all boxes that correctly characterize this relation on the set {A, B, C, D, E, F}.
+A
+B
+C
+D
+F
+E
+Reﬂexive:
+Irreﬂexive:
+Symmetric:
+Antisymmetric:
+Transitive:
+2. (5 points) Let’s deﬁne the equivalence relation ∼on N3 such that (x, y, z) ∼(p, q, r) if and only
+x + y + z = p + q + r. List three members of [(1, 2, 3)].
+3. (5 points)
+Suppose that R is a relation on the integers such xRy if and only if xy = 1 for all
+integers x and y. Is R a partial order?
+CS 173, Spring 19
+Examlet 4, white
+8
+Name:
+NetID:
+Lecture:
+A
+B
+Discussion:
+Thursday
+Friday
+9
+10
+11
+12
+1
+2
+3
+4
+5
+6
+1. (5 points)
+Check all boxes that correctly characterize this relation on the set {A, B, C, D, E, F}.
+A
+B
+C
+D
+F
+E
+Reﬂexive:
+Irreﬂexive:
+Symmetric:
+Antisymmetric:
+Transitive:
+2. (5 points)
+A relation is an equivalence relation if it has which three properties? (Naming the
+properties is suﬃcient. You don’t have to deﬁne them.)
+3. (5 points) Suppose that ⪰is the relation between subsets of the integers such that A ⪰B if and
+only if A −B ̸= ∅. (A and B are sets of integers, so A −B is a set diﬀerence.) Is ⪰transitive?
+Informally explain why it’s true or give a concrete counter-example.

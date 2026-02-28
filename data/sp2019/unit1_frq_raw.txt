@@ -1,0 +1,267 @@
+CS 173, Spring 19
+Examlet 1, colored
+1
+Name:
+NetID:
+Lecture:
+A
+B
+Discussion:
+Thursday
+Friday
+9
+10
+11
+12
+1
+2
+3
+4
+5
+6
+1. (5 points) State the contrapositive of the following claim, moving all negations (e.g. “not”) so
+that they are on individual predicates.
+For every dragon d, if d is green, then d is not large or d is fat.
+2. (5 points) State the negation of the following claim, moving all negations (e.g. “not”) so that they
+are on individual predicates.
+For any student s, if s rides a bicycle, then s wears a helmet or s has no fear of death.
+3. (5 points) Solve 3
+x +m = 3
+p for x, expressing your answer as a single fraction. Simplify your answer
+and show your work.
+CS 173, Spring 19
+Examlet 1, colored
+2
+Name:
+NetID:
+Lecture:
+A
+B
+Discussion:
+Thursday
+Friday
+9
+10
+11
+12
+1
+2
+3
+4
+5
+6
+1. (5 points) Give a truth table for the following expression and (using your truth table or other
+means) ﬁnd a simpler expression equivalent to it.
+(p ∧q) ∨q ≡
+p
+q
+p ∧q
+(p ∧q) ∨q
+T
+T
+T
+F
+F
+T
+F
+F
+2. (5 points) State the contrapositive of the following claim, moving all negations (e.g. “not”) so
+that they are on individual predicates.
+For every cat c, if c is not ﬁerce or c wears a collar, then c is a pet.
+3. (5 points) Solve 16p2 −81 = 0 for p. Simplify your answer and show your work.
+CS 173, Spring 19
+Examlet 1, colored
+3
+Name:
+NetID:
+Lecture:
+A
+B
+Discussion:
+Thursday
+Friday
+9
+10
+11
+12
+1
+2
+3
+4
+5
+6
+1. (5 points) State the negation of the following claim, moving all negations (e.g. “not”) so that they
+are on individual predicates.
+For every dragon d, if d is not large, then d is green or d not hungry.
+2. (5 points) State the contrapositive of the following claim, moving all negations (e.g. “not”) so
+that they are on individual predicates.
+For every tree t, if t is in Illinois and t is not hardy, then t is indoors.
+3. (5 points) Suppose that k is a positive integer, x is a positive real number, and 1
+k = x + 1
+6. What
+are the possible values for k? (Hint: k is an INTEGER.) Brieﬂy explain or show work.
+CS 173, Spring 19
+Examlet 1, colored
+4
+Name:
+NetID:
+Lecture:
+A
+B
+Discussion:
+Thursday
+Friday
+9
+10
+11
+12
+1
+2
+3
+4
+5
+6
+1. (5 points) Show that the following two expressions are not logically equivalent, by giving speciﬁc
+values of p, q for which they produce diﬀerent values.
+p →(q →p)
+(p →q) →p
+2. (5 points) State the contrapositive of the following claim, moving all negations (e.g. “not”) so
+that they are on individual predicates.
+For every car c, if c is a Tesla, then c is new or c is not fast.
+3. (5 points) Suppose that k is a positive integer, x is a positive real number, and 1
+k + x = 1
+6. What
+are the possible values for k? (Hint: k is an INTEGER.) Brieﬂy explain or show work.
+CS 173, Spring 19
+Examlet 1, colored
+5
+Name:
+NetID:
+Lecture:
+A
+B
+Discussion:
+Thursday
+Friday
+9
+10
+11
+12
+1
+2
+3
+4
+5
+6
+1. (5 points) State the negation of the following claim, moving all negations (e.g. “not”) so that they
+are on individual predicates.
+For every tree t, if t grows in Canada, then t is not tall or t is a conifer.
+2. (5 points) State the contrapositive of the following claim, moving all negations (e.g. “not”) so
+that they are on individual predicates.
+For every garbage can c, if c was supplied by the city, then c is small or c has wheels.
+3. (5 points) Solve 3x + 2m = w
+y for x, expressing your answer as a single fraction. Simplify your
+answer and show your work.
+CS 173, Spring 19
+Examlet 1, colored
+6
+Name:
+NetID:
+Lecture:
+A
+B
+Discussion:
+Thursday
+Friday
+9
+10
+11
+12
+1
+2
+3
+4
+5
+6
+1. (5 points) Give a truth table for the following expression and (using your truth table or other
+means) ﬁnd a simpler expression equivalent to it.
+(p →q) ∧(p →¬q) ≡
+p
+q
+p →q
+p →¬q
+(p →q) ∧(p →¬q)
+T
+T
+T
+F
+F
+T
+F
+F
+2. (5 points) State the negation of the following claim, moving all negations (e.g. “not”) so that they
+are on individual predicates.
+For every book b, if b is blue or b is not heavy, then b is not a math book.
+3. (5 points) Solve 2m2 −m −6
+m −2
+= 9 for m. (Assume m ̸= 2.)
+CS 173, Spring 19
+Examlet 1, colored
+7
+Name:
+NetID:
+Lecture:
+A
+B
+Discussion:
+Thursday
+Friday
+9
+10
+11
+12
+1
+2
+3
+4
+5
+6
+1. (5 points) State the negation of the following claim, moving all negations (e.g. “not”) so that they
+are on individual predicates.
+There is a soup s such that s is tasty and s does not contain meat.
+2. (5 points) State the contrapositive of the following claim, moving all negations (e.g. “not”) so
+that they are on individual predicates.
+For any bear b, if b is blue and b talks, then b is fuzzy.
+3. (5 points) Suppose that G and H are functions whose inputs and outputs are real numbers, deﬁned
+by G(x) = x −2 and H(x) = √2x + 1, where the square root function returns only the positive root.
+Compute the value of H(G(G(8))), showing your work.
+CS 173, Spring 19
+Examlet 1, colored
+8
+Name:
+NetID:
+Lecture:
+A
+B
+Discussion:
+Thursday
+Friday
+9
+10
+11
+12
+1
+2
+3
+4
+5
+6
+1. (5 points) Show that the following two expressions are not logically equivalent, by giving speciﬁc
+values of p, q, and r for which they produce diﬀerent values.
+(p →q) ∧r
+p →(q ∧r)
+2. (5 points) State the contrapositive of the following claim, moving all negations (e.g. “not”) so
+that they are on individual predicates.
+For every jedi j, if j has a light saber and j is not sick, then j can defeat the Dark Side.
+3. (5 points) Suppose that x is an integer and x2 + 3x −18 < 0. What are the possible values of x?
+Show your work.

@@ -1,0 +1,10 @@
+[
+  "Understand how to read a recursive definition, e.g. compute selected values or objects produced by that definition.",
+  "Know that a recursive definition requires both a base case (or cases) and a recursive step/formula.",
+  "Define the Fibonacci numbers.",
+  "Know the definition of the k-dimensional hypercube graph, its shorthand name Q k , and how many vertices and edgesit contains. Unrolling Given a recursively defined function, find its closed form by unrolling. Test questions will involve either doing certain key steps or a very simple example, not an entire long messy unrolling.",
+  "Write inductive proofs that need to use the truth of the claim for more than one immediately previous value, e.g. multiple previous values, a previous value several steps back.",
+  "Determine whether an inductive proof requires more than one base case and, if so, which ones.",
+  "Use induction to prove facts about a recursively defined function, e.g. that it has some specific closed form.",
+  "Use induction to prove (fairly simple) properties for objects such as graphs and strings."
+]

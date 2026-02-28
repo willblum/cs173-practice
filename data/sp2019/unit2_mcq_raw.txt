@@ -1,0 +1,273 @@
+CS 173, Spring 19
+Examlet 2, white
+1
+Name:
+NetID:
+Lecture:
+A
+B
+Discussion:
+Thursday
+Friday
+9
+10
+11
+12
+1
+2
+3
+4
+5
+6
+1. (5 points) Is the following claim true? Informally explain why it is, or give a concrete counter-
+example showing that it is not.
+Claim: For all positive integers a, b, and c, if gcd(a, bc) = 1, then gcd(a, b) = 1 and
+gcd(a, c) = 1.
+2. (6 points) Use the Euclidean algorithm to compute gcd(1568, 546). Show your work.
+3. (4 points) Check the (single) box that best characterizes each item.
+For any positive integers p and q,
+if lcm(p, q) = pq, then p and q are relatively prime.
+true
+false
+Zero is a factor of 7.
+true
+false
+CS 173, Spring 19
+Examlet 2, white
+2
+Name:
+NetID:
+Lecture:
+A
+B
+Discussion:
+Thursday
+Friday
+9
+10
+11
+12
+1
+2
+3
+4
+5
+6
+1. (5 points) Is the following claim true? Informally explain why it is, or give a concrete counter-
+example showing that it is not.
+Claim: For all positive integers a, b, and c, gcd(ca, cb) = c · gcd(a, b)
+2. (6 points) Use the Euclidean algorithm to compute gcd(2015, 837). Show your work.
+3. (4 points) Check the (single) box that best characterizes each item.
+gcd(0, 0)
+0
+k
+undeﬁned
+25 ≡4 (mod 7)
+true
+false
+CS 173, Spring 19
+Examlet 2, white
+3
+Name:
+NetID:
+Lecture:
+A
+B
+Discussion:
+Thursday
+Friday
+9
+10
+11
+12
+1
+2
+3
+4
+5
+6
+1. (5 points) Is the following claim true? Informally explain why it is, or give a concrete counter-
+example showing that it is not.
+For any positive integer k, (k −1)2 ≡1 (mod k).
+2. (6 points) Use the Euclidean algorithm to compute gcd(1183, 351). Show your work.
+3. (4 points) Check the (single) box that best characterizes each item.
+If a and b are positive and r = remainder(a, b),
+then gcd(b, r) = gcd(b, a)
+true
+false
+7 | −7
+true
+false
+CS 173, Spring 19
+Examlet 2, white
+4
+Name:
+NetID:
+Lecture:
+A
+B
+Discussion:
+Thursday
+Friday
+9
+10
+11
+12
+1
+2
+3
+4
+5
+6
+1. (5 points) Is the following claim true? Informally explain why it is, or give a concrete counter-
+example showing that it is not.
+Claim: For all positive integers a, b, and c, if gcd(a, b) = 1 and gcd(b, c) = 1, then
+gcd(a, c) = 1.
+2. (6 points) Write pseudocode (iterative or recursive) for a function gcd(a,b) that implements the
+Euclidean algorithm. Assume both inputs are positive.
+3. (4 points) Check the (single) box that best characterizes each item.
+gcd(p, q) =
+pq
+lcm(p, q)
+(p and q positive integers)
+always
+sometimes
+never
+−7 ≡13 (mod 6)
+true
+false
+CS 173, Spring 19
+Examlet 2, white
+5
+Name:
+NetID:
+Lecture:
+A
+B
+Discussion:
+Thursday
+Friday
+9
+10
+11
+12
+1
+2
+3
+4
+5
+6
+1. (5 points) Is the following claim true? Informally explain why it is, or give a concrete counter-
+example showing that it is not.
+For any positive integers a, b, and c, if a | bc, then a | b or a | c
+2. (6 points) Use the Euclidean algorithm to compute gcd(1702, 1221). Show your work.
+3. (4 points) Check the (single) box that best characterizes each item.
+If a and b are positive integers
+and r = remainder(a, b),
+then gcd(b, r) = gcd(r, a)
+true
+false
+29 ≡2 (mod 9)
+true
+false
+CS 173, Spring 19
+Examlet 2, white
+6
+Name:
+NetID:
+Lecture:
+A
+B
+Discussion:
+Thursday
+Friday
+9
+10
+11
+12
+1
+2
+3
+4
+5
+6
+1. (5 points) Is the following claim true? Informally explain why it is, or give a concrete counter-
+example showing that it is not.
+Claim: For all positive integers a, b, and c, if gcd(a, b) = n and gcd(a, c) = p, then
+gcd(a, bc) = np.
+2. (6 points) Use the Euclidean algorithm to compute gcd(2380, 391). Show your work.
+3. (4 points) Check the (single) box that best characterizes each item.
+For any positive integers p, q, and k,
+if p ≡q (mod k), then p2 ≡q2 (mod k)
+true
+false
+2 | −4
+true
+false
+CS 173, Spring 19
+Examlet 2, white
+7
+Name:
+NetID:
+Lecture:
+A
+B
+Discussion:
+Thursday
+Friday
+9
+10
+11
+12
+1
+2
+3
+4
+5
+6
+1. (5 points) Is the following claim true? Informally explain why it is, or give a concrete counter-
+example showing that it is not.
+Claim: For any positive integers p and q, p ≡q (mod 1).
+2. (6 points) Use the Euclidean algorithm to compute gcd(7917, 357). Show your work.
+3. (4 points) Check the (single) box that best characterizes each item.
+If a and b are positive integers
+and r = remainder(a, b),
+then gcd(a, b) = gcd(r, a)
+true
+false
+−2 ≡2 (mod 4)
+true
+false
+CS 173, Spring 19
+Examlet 2, white
+8
+Name:
+NetID:
+Lecture:
+A
+B
+Discussion:
+Thursday
+Friday
+9
+10
+11
+12
+1
+2
+3
+4
+5
+6
+1. (5 points) Is the following claim true? Informally explain why it is false, or give a concrete example
+showing that it is not.
+There is an integer n such that n ≡5 (mod 6) and n ≡6 (mod 7)?
+2. (6 points) Use the Euclidean algorithm to compute gcd(1224, 850). Show your work.
+3. (4 points) Check the (single) box that best characterizes each item.
+Two positive integers p and q are relatively
+prime if and only if gcd(p, q) = 1.
+true
+false
+0 | 0
+true
+false

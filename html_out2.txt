@@ -1,0 +1,1155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-T3R8BEY2ZJ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-T3R8BEY2ZJ');
+</script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="CS 173 UIUC">
+    <title>CS 173</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+        body {
+            cursor: url('https://cur.cursors-4u.net/cursors/cur-13/cur1123.cur'), auto;
+            font-family: 'Press Start 2P', monospace;
+            background: radial-gradient(ellipse at top, #0f0f0f, #000000);
+            color: #33ff00;
+            margin: 0;
+            padding: 20px;
+            font-size: 12px;
+        }
+
+        h1, h2 {
+            text-align: center;
+            color: #00ffff;
+        }
+
+        a {
+            color: #00ffcc;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-shadow: 
+            0 0 2px #00ffff,
+            0 0 5px #00ffff,
+            0 0 10px #00ffff,
+            0 0 20px #00ffff;
+            text-decoration: none;
+         }
+
+        .back-to-home {
+            display: block;
+            margin: 20px auto;
+            padding: 10px 20px;
+            background-color: #222;
+            color: #33ff00;
+            border: 2px solid #00ffcc;
+            border-radius: 5px;
+            width: fit-content;
+            text-align: center;
+            transition: background 0.3s, transform 0.3s;
+        }
+
+        .back-to-home:hover {
+            background-color: #00ffcc;
+            color: black;
+            transform: scale(1.05);
+            box-shadow: 0 0 10px #00ffcc;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 30px;
+            border: 2px solid #00ffcc;
+        }
+
+        th, td {
+            border: 1px solid #00ffcc;
+            padding: 8px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #111;
+            color: #00ffcc;
+        }
+
+        td {
+        	font-family: 'Courier New', monospace;
+        	font-size: 14px;
+            background-color: #000;
+        }
+
+        tr:nth-child(even) td {
+            background-color: #111;
+        }
+
+        tr:hover td {
+            background-color: #003300;
+        }
+    </style>
+</head>
+<body>
+    <h1>CS 173</h1>
+    <a href="http://jacobprabhu.com/uiuc" class="back-to-home">Back to Homepage</a>
+    
+    <h2>Old Examlets</h2>
+    <table>
+        <thead>
+            <tr>
+      <th>
+      Examlet
+      </th>
+
+      <th>
+      SU2019
+      </th>
+
+      <th>
+      SP2019
+      </th>
+
+      <th>
+      FA2018
+      </th>
+
+      <th>
+      SP2018
+      </th>
+
+      <th>
+      FA2017
+      </th>
+
+      <th>
+      SP2017
+      </th>
+
+      <th>
+      FA2016
+      </th>
+      
+      <th>
+      SP2016
+      </th>
+
+      <th>
+      FA2015
+      </th>
+      
+      <th>
+      SP2015
+      </th>
+
+      <th>
+      FA2014
+      </th>
+    </tr>
+
+
+<!--  NEXT  -->
+<tr>
+   <td> #1:  Prerequisites and Logic</td>
+      <td>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2019SU_examlet01.pdf" target="_blank" rel="noopener noreferrer"> Exam</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2019SU_examlet01-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      </td>
+      
+      <td>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2019SP_examlet01C.pdf" target="_blank" rel="noopener noreferrer"> Colored</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2019SP_examlet01C-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2019SP_examlet01W.pdf" target="_blank" rel="noopener noreferrer"> White</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2019SP_examlet01W-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      </td>
+      
+      <td>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2018FA_examlet01A.pdf" target="_blank" rel="noopener noreferrer"> A Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2018FA_examlet01A-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2018FA_examlet01B.pdf" target="_blank" rel="noopener noreferrer"> B Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2018FA_examlet01B-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      </td>
+      
+      <td>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2018SP_examlet01A.pdf" target="_blank" rel="noopener noreferrer"> A Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2018SP_examlet01A-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2018SP_examlet01B.pdf" target="_blank" rel="noopener noreferrer"> B Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2018SP_examlet01B-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      </td>
+      
+      <td>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2017FA_examlet01A.pdf" target="_blank" rel="noopener noreferrer"> A Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2017FA_examlet01A-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2017FA_examlet01B.pdf" target="_blank" rel="noopener noreferrer"> B Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2017FA_examlet01B-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      </td>
+      
+      <td>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2017SP_examlet01A.pdf" target="_blank" rel="noopener noreferrer"> A Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2017SP_examlet01A-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2017SP_examlet01B.pdf" target="_blank" rel="noopener noreferrer"> B Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2017SP_examlet01B-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      </td>
+      
+      <td>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2016FA_examlet01A.pdf" target="_blank" rel="noopener noreferrer"> A Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2016FA_examlet01A-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2016FA_examlet01B.pdf" target="_blank" rel="noopener noreferrer"> B Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2016FA_examlet01B-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      </td>
+      
+      <td>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2016SP_examlet01A.pdf" target="_blank" rel="noopener noreferrer"> A Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2016SP_examlet01A-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2016SP_examlet01B.pdf" target="_blank" rel="noopener noreferrer"> B Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2016SP_examlet01B-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      </td>
+      
+      <td>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2015FA_examlet01A.pdf" target="_blank" rel="noopener noreferrer"> A Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2015FA_examlet01A-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2015FA_examlet01B.pdf" target="_blank" rel="noopener noreferrer"> B Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2015FA_examlet01B-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      </td>
+      
+      <td>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2015SP_examlet01A.pdf" target="_blank" rel="noopener noreferrer"> A Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2015SP_examlet01A-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2015SP_examlet01B.pdf" target="_blank" rel="noopener noreferrer"> B Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2015SP_examlet01B-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      </td>
+      
+      <td>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2014FA_examlet01A-sol.pdf" target="_blank" rel="noopener noreferrer"> A Sheet Sol</a> <br>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2014FA_examlet01B-sol.pdf" target="_blank" rel="noopener noreferrer"> B Sheet Sol</a> <br>
+      </td>
+      
+<!--  NEXT  -->
+<tr>
+   <td> #2:  Number theory</td>
+      <td>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2019SU_examlet02.pdf" target="_blank" rel="noopener noreferrer"> Exam</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2019SU_examlet02-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      </td>
+      
+      <td>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2019SP_examlet02C.pdf" target="_blank" rel="noopener noreferrer"> Colored</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2019SP_examlet02C-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2019SP_examlet02W.pdf" target="_blank" rel="noopener noreferrer"> White</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2019SP_examlet02W-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      </td>
+      
+      <td>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2018FA_examlet02A.pdf" target="_blank" rel="noopener noreferrer"> A Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2018FA_examlet02A-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2018FA_examlet02B.pdf" target="_blank" rel="noopener noreferrer"> B Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2018FA_examlet02B-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      </td>
+      
+      <td>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2018SP_examlet02A.pdf" target="_blank" rel="noopener noreferrer"> A Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2018SP_examlet02A-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2018SP_examlet02B.pdf" target="_blank" rel="noopener noreferrer"> B Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2018SP_examlet02B-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      </td>
+      
+      <td>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2017FA_examlet02A.pdf" target="_blank" rel="noopener noreferrer"> A Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2017FA_examlet02A-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2017FA_examlet02B.pdf" target="_blank" rel="noopener noreferrer"> B Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2017FA_examlet02B-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      </td>
+      
+      <td>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2017SP_examlet02A.pdf" target="_blank" rel="noopener noreferrer"> A Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2017SP_examlet02A-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2017SP_examlet02B.pdf" target="_blank" rel="noopener noreferrer"> B Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2017SP_examlet02B-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      </td>
+      
+      <td>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2016FA_examlet02A.pdf" target="_blank" rel="noopener noreferrer"> A Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2016FA_examlet02A-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2016FA_examlet02B.pdf" target="_blank" rel="noopener noreferrer"> B Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2016FA_examlet02B-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      </td>
+      
+      <td>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2016SP_examlet02A.pdf" target="_blank" rel="noopener noreferrer"> A Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2016SP_examlet02A-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2016SP_examlet02B.pdf" target="_blank" rel="noopener noreferrer"> B Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2016SP_examlet02B-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      </td>
+      
+      <td>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2015FA_examlet02A.pdf" target="_blank" rel="noopener noreferrer"> A Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2015FA_examlet02A-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2015FA_examlet02B.pdf" target="_blank" rel="noopener noreferrer"> B Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2015FA_examlet02B-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      </td>
+      
+      <td>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2015SP_examlet02A.pdf" target="_blank" rel="noopener noreferrer"> A Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2015SP_examlet02A-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2015SP_examlet02B.pdf" target="_blank" rel="noopener noreferrer"> B Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2015SP_examlet02B-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      </td>
+      
+      <td>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2014FA_examlet02A-sol.pdf" target="_blank" rel="noopener noreferrer"> A Sheet Sol</a> <br>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2014FA_examlet02B-sol.pdf" target="_blank" rel="noopener noreferrer"> B Sheet Sol</a> <br>
+      </td>
+
+
+<!--  NEXT  -->
+<tr>
+   <td> #3:  Modular arithmetic<br> Set theory </td>
+      <td>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2019SU_examlet03.pdf" target="_blank" rel="noopener noreferrer"> Exam</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2019SU_examlet03-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      </td>
+      
+      <td>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2019SP_examlet03C.pdf" target="_blank" rel="noopener noreferrer"> Colored</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2019SP_examlet03C-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2019SP_examlet03W.pdf" target="_blank" rel="noopener noreferrer"> White</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2019SP_examlet03W-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      </td>
+      
+      <td>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2018FA_examlet03A.pdf" target="_blank" rel="noopener noreferrer"> A Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2018FA_examlet03A-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2018FA_examlet03B.pdf" target="_blank" rel="noopener noreferrer"> B Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2018FA_examlet03B-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      </td>
+      
+      <td>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2018SP_examlet03A.pdf" target="_blank" rel="noopener noreferrer"> A Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2018SP_examlet03A-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2018SP_examlet03B.pdf" target="_blank" rel="noopener noreferrer"> B Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2018SP_examlet03B-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      </td>
+      
+      <td>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2017FA_examlet03A.pdf" target="_blank" rel="noopener noreferrer"> A Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2017FA_examlet03A-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2017FA_examlet03B.pdf" target="_blank" rel="noopener noreferrer"> B Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2017FA_examlet03B-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      </td>
+      
+      <td>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2017SP_examlet03A.pdf" target="_blank" rel="noopener noreferrer"> A Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2017SP_examlet03A-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2017SP_examlet03B.pdf" target="_blank" rel="noopener noreferrer"> B Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2017SP_examlet03B-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      </td>
+      
+      <td>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2016FA_examlet03A.pdf" target="_blank" rel="noopener noreferrer"> A Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2016FA_examlet03A-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2016FA_examlet03B.pdf" target="_blank" rel="noopener noreferrer"> B Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2016FA_examlet03B-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      </td>
+      
+      <td>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2016SP_examlet03A.pdf" target="_blank" rel="noopener noreferrer"> A Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2016SP_examlet03A-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2016SP_examlet03B.pdf" target="_blank" rel="noopener noreferrer"> B Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2016SP_examlet03B-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      </td>
+      
+      <td>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2015FA_examlet03A.pdf" target="_blank" rel="noopener noreferrer"> A Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2015FA_examlet03A-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2015FA_examlet03B.pdf" target="_blank" rel="noopener noreferrer"> B Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2015FA_examlet03B-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      </td>
+      
+      <td>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2015SP_examlet03A.pdf" target="_blank" rel="noopener noreferrer"> A Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2015SP_examlet03A-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2015SP_examlet03B.pdf" target="_blank" rel="noopener noreferrer"> B Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2015SP_examlet03B-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      </td>
+      
+      <td>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2014FA_examlet03A-sol.pdf" target="_blank" rel="noopener noreferrer"> A Sheet Sol</a> <br>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2014FA_examlet03B-sol.pdf" target="_blank" rel="noopener noreferrer"> B Sheet Sol</a> <br>
+      </td>
+
+<!--  NEXT  -->
+<tr>
+   <td> #4: Relations</td>
+      <td>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2019SU_examlet04.pdf" target="_blank" rel="noopener noreferrer"> Exam</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2019SU_examlet04-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      </td>
+      
+      <td>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2019SP_examlet04C.pdf" target="_blank" rel="noopener noreferrer"> Colored</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2019SP_examlet04C-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2019SP_examlet04W.pdf" target="_blank" rel="noopener noreferrer"> White</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2019SP_examlet04W-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      </td>
+      
+      <td>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2018FA_examlet04A.pdf" target="_blank" rel="noopener noreferrer"> A Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2018FA_examlet04A-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2018FA_examlet04B.pdf" target="_blank" rel="noopener noreferrer"> B Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2018FA_examlet04B-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      </td>
+      
+      <td>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2018SP_examlet04A.pdf" target="_blank" rel="noopener noreferrer"> A Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2018SP_examlet04A-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2018SP_examlet04B.pdf" target="_blank" rel="noopener noreferrer"> B Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2018SP_examlet04B-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      </td>
+      
+      <td>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2017FA_examlet04A.pdf" target="_blank" rel="noopener noreferrer"> A Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2017FA_examlet04A-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2017FA_examlet04B.pdf" target="_blank" rel="noopener noreferrer"> B Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2017FA_examlet04B-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      </td>
+      
+      <td>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2017SP_examlet04A.pdf" target="_blank" rel="noopener noreferrer"> A Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2017SP_examlet04A-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2017SP_examlet04B.pdf" target="_blank" rel="noopener noreferrer"> B Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2017SP_examlet04B-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      </td>
+      
+      <td>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2016FA_examlet04A.pdf" target="_blank" rel="noopener noreferrer"> A Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2016FA_examlet04A-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2016FA_examlet04B.pdf" target="_blank" rel="noopener noreferrer"> B Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2016FA_examlet04B-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      </td>
+      
+      <td>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2016SP_examlet04A.pdf" target="_blank" rel="noopener noreferrer"> A Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2016SP_examlet04A-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2016SP_examlet04B.pdf" target="_blank" rel="noopener noreferrer"> B Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2016SP_examlet04B-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      </td>
+      
+      <td>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2015FA_examlet04A.pdf" target="_blank" rel="noopener noreferrer"> A Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2015FA_examlet04A-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2015FA_examlet04B.pdf" target="_blank" rel="noopener noreferrer"> B Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2015FA_examlet04B-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      </td>
+      
+      <td>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2015SP_examlet04A.pdf" target="_blank" rel="noopener noreferrer"> A Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2015SP_examlet04A-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2015SP_examlet04B.pdf" target="_blank" rel="noopener noreferrer"> B Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2015SP_examlet04B-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      </td>
+      
+      <td>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2014FA_examlet04A-sol.pdf" target="_blank" rel="noopener noreferrer"> A Sheet Sol</a> <br>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2014FA_examlet04B-sol.pdf" target="_blank" rel="noopener noreferrer"> B Sheet Sol</a> <br>
+      </td>
+
+<!--  NEXT  -->
+<tr>
+   <td> #5: Functions</td>
+      <td>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2019SU_examlet05.pdf" target="_blank" rel="noopener noreferrer"> Exam</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2019SU_examlet05-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      </td>
+      
+      <td>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2019SP_examlet05C.pdf" target="_blank" rel="noopener noreferrer"> Colored</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2019SP_examlet05C-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2019SP_examlet05W.pdf" target="_blank" rel="noopener noreferrer"> White</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2019SP_examlet05W-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      </td>
+      
+      <td>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2018FA_examlet05A.pdf" target="_blank" rel="noopener noreferrer"> A Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2018FA_examlet05A-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2018FA_examlet05B.pdf" target="_blank" rel="noopener noreferrer"> B Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2018FA_examlet05B-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      </td>
+      
+      <td>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2018SP_examlet05.pdf" target="_blank" rel="noopener noreferrer"> Exam</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2018SP_examlet05-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      </td>
+      
+      <td>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2017FA_examlet05A.pdf" target="_blank" rel="noopener noreferrer"> A Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2017FA_examlet05A-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2017FA_examlet05B.pdf" target="_blank" rel="noopener noreferrer"> B Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2017FA_examlet05B-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      </td>
+      
+      <td>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2017SP_examlet05A.pdf" target="_blank" rel="noopener noreferrer"> A Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2017SP_examlet05A-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2017SP_examlet05B.pdf" target="_blank" rel="noopener noreferrer"> B Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2017SP_examlet05B-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      </td>
+      
+      <td>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2016FA_examlet05A.pdf" target="_blank" rel="noopener noreferrer"> A Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2016FA_examlet05A-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2016FA_examlet05B.pdf" target="_blank" rel="noopener noreferrer"> B Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2016FA_examlet05B-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      </td>
+      
+      <td>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2016SP_examlet05A.pdf" target="_blank" rel="noopener noreferrer"> A Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2016SP_examlet05A-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2016SP_examlet05B.pdf" target="_blank" rel="noopener noreferrer"> B Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2016SP_examlet05B-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      </td>
+      
+      <td>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2015FA_examlet05A.pdf" target="_blank" rel="noopener noreferrer"> A Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2015FA_examlet05A-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2015FA_examlet05B.pdf" target="_blank" rel="noopener noreferrer"> B Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2015FA_examlet05B-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      </td>
+      
+      <td>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2015SP_examlet05A.pdf" target="_blank" rel="noopener noreferrer"> A Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2015SP_examlet05A-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2015SP_examlet05B.pdf" target="_blank" rel="noopener noreferrer"> B Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2015SP_examlet05B-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      </td>
+      
+      <td>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2014FA_examlet05A-sol.pdf" target="_blank" rel="noopener noreferrer"> A Sheet Sol</a> <br>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2014FA_examlet05B-sol.pdf" target="_blank" rel="noopener noreferrer"> B Sheet Sol</a> <br>
+      </td>
+
+<!--  NEXT  -->
+<tr>
+   <td> #6: Graphs</td>
+      <td>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2019SU_examlet06.pdf" target="_blank" rel="noopener noreferrer"> Exam</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2019SU_examlet06-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      </td>
+      
+      <td>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2019SP_examlet06C.pdf" target="_blank" rel="noopener noreferrer"> Colored</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2019SP_examlet06C-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2019SP_examlet06W.pdf" target="_blank" rel="noopener noreferrer"> White</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2019SP_examlet06W-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      </td>
+      
+      <td>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2018FA_examlet06A.pdf" target="_blank" rel="noopener noreferrer"> A Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2018FA_examlet06A-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2018FA_examlet06B.pdf" target="_blank" rel="noopener noreferrer"> B Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2018FA_examlet06B-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      </td>
+      
+      <td>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2018SP_examlet06A.pdf" target="_blank" rel="noopener noreferrer"> A Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2018SP_examlet06A-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2018SP_examlet06B.pdf" target="_blank" rel="noopener noreferrer"> B Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2018SP_examlet06B-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      </td>
+      
+      <td>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2017FA_examlet06A.pdf" target="_blank" rel="noopener noreferrer"> A Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2017FA_examlet06A-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2017FA_examlet06B.pdf" target="_blank" rel="noopener noreferrer"> B Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2017FA_examlet06B-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      </td>
+      
+      <td>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2017SP_examlet06A.pdf" target="_blank" rel="noopener noreferrer"> A Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2017SP_examlet06A-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2017SP_examlet06B.pdf" target="_blank" rel="noopener noreferrer"> B Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2017SP_examlet06B-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      </td>
+      
+      <td>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2016FA_examlet06A.pdf" target="_blank" rel="noopener noreferrer"> A Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2016FA_examlet06A-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2016FA_examlet06B.pdf" target="_blank" rel="noopener noreferrer"> B Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2016FA_examlet06B-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      </td>
+      
+      <td>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2016SP_examlet06A.pdf" target="_blank" rel="noopener noreferrer"> A Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2016SP_examlet06A-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2016SP_examlet06B.pdf" target="_blank" rel="noopener noreferrer"> B Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2016SP_examlet06B-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      </td>
+      
+      <td>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2015FA_examlet06A.pdf" target="_blank" rel="noopener noreferrer"> A Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2015FA_examlet06A-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2015FA_examlet06B.pdf" target="_blank" rel="noopener noreferrer"> B Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2015FA_examlet06B-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      </td>
+      
+      <td>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2015SP_examlet06A.pdf" target="_blank" rel="noopener noreferrer"> A Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2015SP_examlet06A-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2015SP_examlet06B.pdf" target="_blank" rel="noopener noreferrer"> B Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2015SP_examlet06B-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      </td>
+      
+      <td>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2014FA_examlet06A-sol.pdf" target="_blank" rel="noopener noreferrer"> A Sheet Sol</a> <br>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2014FA_examlet06B-sol.pdf" target="_blank" rel="noopener noreferrer"> B Sheet Sol</a> <br>
+      </td>
+
+<!--  NEXT  -->
+<tr>
+   <td> #7: Two-way bounding <br> Easy Induction</td>
+      <td>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2019SU_examlet07.pdf" target="_blank" rel="noopener noreferrer"> Exam</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2019SU_examlet07-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      </td>
+      
+      <td>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2019SP_examlet07C.pdf" target="_blank" rel="noopener noreferrer"> Colored</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2019SP_examlet07C-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2019SP_examlet07W.pdf" target="_blank" rel="noopener noreferrer"> White</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2019SP_examlet07W-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      </td>
+      
+      <td>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2018FA_examlet07A.pdf" target="_blank" rel="noopener noreferrer"> A Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2018FA_examlet07A-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2018FA_examlet07B.pdf" target="_blank" rel="noopener noreferrer"> B Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2018FA_examlet07B-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      </td>
+      
+      <td>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2018SP_examlet07A.pdf" target="_blank" rel="noopener noreferrer"> A Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2018SP_examlet07A-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2018SP_examlet07B.pdf" target="_blank" rel="noopener noreferrer"> B Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2018SP_examlet07B-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      </td>
+      
+      <td>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2017FA_examlet07A.pdf" target="_blank" rel="noopener noreferrer"> A Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2017FA_examlet07A-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2017FA_examlet07B.pdf" target="_blank" rel="noopener noreferrer"> B Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2017FA_examlet07B-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      </td>
+      
+      <td>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2017SP_examlet07A.pdf" target="_blank" rel="noopener noreferrer"> A Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2017SP_examlet07A-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2017SP_examlet07B.pdf" target="_blank" rel="noopener noreferrer"> B Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2017SP_examlet07B-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      </td>
+      
+      <td>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2016FA_examlet07A.pdf" target="_blank" rel="noopener noreferrer"> A Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2016FA_examlet07A-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2016FA_examlet07B.pdf" target="_blank" rel="noopener noreferrer"> B Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2016FA_examlet07B-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      </td>
+      
+      <td>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2016SP_examlet07A.pdf" target="_blank" rel="noopener noreferrer"> A Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2016SP_examlet07A-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2016SP_examlet07B.pdf" target="_blank" rel="noopener noreferrer"> B Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2016SP_examlet07B-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      </td>
+      
+      <td>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2015FA_examlet07A.pdf" target="_blank" rel="noopener noreferrer"> A Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2015FA_examlet07A-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2015FA_examlet07B.pdf" target="_blank" rel="noopener noreferrer"> B Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2015FA_examlet07B-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      </td>
+      
+      <td>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2015SP_examlet07A.pdf" target="_blank" rel="noopener noreferrer"> A Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2015SP_examlet07A-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2015SP_examlet07B.pdf" target="_blank" rel="noopener noreferrer"> B Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2015SP_examlet07B-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      </td>
+      
+      <td>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2014FA_examlet07A-sol.pdf" target="_blank" rel="noopener noreferrer"> A Sheet Sol</a> <br>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2014FA_examlet07B-sol.pdf" target="_blank" rel="noopener noreferrer"> B Sheet Sol</a> <br>
+      </td>
+
+<!--  NEXT  -->
+<tr>
+   <td> #8: Induction<br> Recursive Definition</td>
+      <td>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2019SU_examlet08.pdf" target="_blank" rel="noopener noreferrer"> Exam</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2019SU_examlet08-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      </td>
+      
+      <td>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2019SP_examlet08C.pdf" target="_blank" rel="noopener noreferrer"> Colored</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2019SP_examlet08C-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2019SP_examlet08W.pdf" target="_blank" rel="noopener noreferrer"> White</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2019SP_examlet08W-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      </td>
+      
+      <td>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2018FA_examlet08A.pdf" target="_blank" rel="noopener noreferrer"> A Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2018FA_examlet08A-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2018FA_examlet08B.pdf" target="_blank" rel="noopener noreferrer"> B Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2018FA_examlet08B-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      </td>
+      
+      <td>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2018SP_examlet08A.pdf" target="_blank" rel="noopener noreferrer"> A Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2018SP_examlet08A-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2018SP_examlet08B.pdf" target="_blank" rel="noopener noreferrer"> B Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2018SP_examlet08B-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      </td>
+      
+      <td>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2017FA_examlet08A.pdf" target="_blank" rel="noopener noreferrer"> A Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2017FA_examlet08A-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2017FA_examlet08B.pdf" target="_blank" rel="noopener noreferrer"> B Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2017FA_examlet08B-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      </td>
+      
+      <td>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2017SP_examlet08A.pdf" target="_blank" rel="noopener noreferrer"> A Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2017SP_examlet08A-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2017SP_examlet08B.pdf" target="_blank" rel="noopener noreferrer"> B Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2017SP_examlet08B-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      </td>
+      
+      <td>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2016FA_examlet08A.pdf" target="_blank" rel="noopener noreferrer"> A Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2016FA_examlet08A-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2016FA_examlet08B.pdf" target="_blank" rel="noopener noreferrer"> B Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2016FA_examlet08B-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      </td>
+      
+      <td>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2016SP_examlet08A.pdf" target="_blank" rel="noopener noreferrer"> A Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2016SP_examlet08A-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2016SP_examlet08B.pdf" target="_blank" rel="noopener noreferrer"> B Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2016SP_examlet08B-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      </td>
+      
+      <td>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2015FA_examlet08A.pdf" target="_blank" rel="noopener noreferrer"> A Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2015FA_examlet08A-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2015FA_examlet08B.pdf" target="_blank" rel="noopener noreferrer"> B Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2015FA_examlet08B-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      </td>
+      
+      <td>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2015SP_examlet08A.pdf" target="_blank" rel="noopener noreferrer"> A Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2015SP_examlet08A-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2015SP_examlet08B.pdf" target="_blank" rel="noopener noreferrer"> B Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2015SP_examlet08B-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      </td>
+      
+      <td>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2014FA_examlet08A-sol.pdf" target="_blank" rel="noopener noreferrer"> A Sheet Sol</a> <br>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2014FA_examlet08B-sol.pdf" target="_blank" rel="noopener noreferrer"> B Sheet Sol</a> <br>
+      </td>
+
+<!--  NEXT  -->
+<tr>
+   <td> #9: Trees, Grammars</td>
+      <td>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2019SU_examlet09.pdf" target="_blank" rel="noopener noreferrer"> Exam</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2019SU_examlet09-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      </td>
+      
+      <td>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2019SP_examlet09C.pdf" target="_blank" rel="noopener noreferrer"> Colored</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2019SP_examlet09C-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2019SP_examlet09W.pdf" target="_blank" rel="noopener noreferrer"> White</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2019SP_examlet09W-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      </td>
+      
+      <td>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2018FA_examlet09A.pdf" target="_blank" rel="noopener noreferrer"> A Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2018FA_examlet09A-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2018FA_examlet09B.pdf" target="_blank" rel="noopener noreferrer"> B Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2018FA_examlet09B-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      </td>
+      
+      <td>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2018SP_examlet09A.pdf" target="_blank" rel="noopener noreferrer"> A Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2018SP_examlet09A-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2018SP_examlet09B.pdf" target="_blank" rel="noopener noreferrer"> B Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2018SP_examlet09B-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2018SP_examlet09C.pdf" target="_blank" rel="noopener noreferrer"> C Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2018SP_examlet09C-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      </td>
+      
+      <td>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2017FA_examlet09A.pdf" target="_blank" rel="noopener noreferrer"> A Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2017FA_examlet09A-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2017FA_examlet09B.pdf" target="_blank" rel="noopener noreferrer"> B Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2017FA_examlet09B-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      </td>
+      
+      <td>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2017SP_examlet09A.pdf" target="_blank" rel="noopener noreferrer"> A Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2017SP_examlet09A-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2017SP_examlet09B.pdf" target="_blank" rel="noopener noreferrer"> B Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2017SP_examlet09B-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      </td>
+      
+      <td>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2016FA_examlet09A.pdf" target="_blank" rel="noopener noreferrer"> A Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2016FA_examlet09A-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2016FA_examlet09B.pdf" target="_blank" rel="noopener noreferrer"> B Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2016FA_examlet09B-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      </td>
+      
+      <td>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2016SP_examlet09A.pdf" target="_blank" rel="noopener noreferrer"> A Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2016SP_examlet09A-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2016SP_examlet09B.pdf" target="_blank" rel="noopener noreferrer"> B Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2016SP_examlet09B-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      </td>
+      
+      <td>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2015FA_examlet09A.pdf" target="_blank" rel="noopener noreferrer"> A Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2015FA_examlet09A-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2015FA_examlet09B.pdf" target="_blank" rel="noopener noreferrer"> B Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2015FA_examlet09B-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      </td>
+      
+      <td>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2015SP_examlet09A.pdf" target="_blank" rel="noopener noreferrer"> A Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2015SP_examlet09A-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2015SP_examlet09B.pdf" target="_blank" rel="noopener noreferrer"> B Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2015SP_examlet09B-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      </td>
+      
+      <td>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2014FA_examlet09A-sol.pdf" target="_blank" rel="noopener noreferrer"> A Sheet Sol</a> <br>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2014FA_examlet09B-sol.pdf" target="_blank" rel="noopener noreferrer"> B Sheet Sol</a> <br>
+      </td>
+
+<!--  NEXT  -->
+<tr>
+   <td> #10: Big-O <br> Recursion Trees</td>
+      <td>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2019SU_examlet10.pdf" target="_blank" rel="noopener noreferrer"> Exam</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2019SU_examlet10-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      </td>
+      
+      <td>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2019SP_examlet10C.pdf" target="_blank" rel="noopener noreferrer"> Colored</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2019SP_examlet10C-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2019SP_examlet10W.pdf" target="_blank" rel="noopener noreferrer"> White</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2019SP_examlet10W-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      </td>
+      
+      <td>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2018FA_examlet10A.pdf" target="_blank" rel="noopener noreferrer"> A Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2018FA_examlet10A-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2018FA_examlet10B.pdf" target="_blank" rel="noopener noreferrer"> B Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2018FA_examlet10B-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      </td>
+      
+      <td>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2018SP_examlet10A.pdf" target="_blank" rel="noopener noreferrer"> A Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2018SP_examlet10A-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2018SP_examlet10B.pdf" target="_blank" rel="noopener noreferrer"> B Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2018SP_examlet10B-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      </td>
+      
+      <td>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2017FA_examlet10A.pdf" target="_blank" rel="noopener noreferrer"> A Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2017FA_examlet10A-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2017FA_examlet10B.pdf" target="_blank" rel="noopener noreferrer"> B Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2017FA_examlet10B-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      </td>
+      
+      <td>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2017SP_examlet10A.pdf" target="_blank" rel="noopener noreferrer"> A Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2017SP_examlet10A-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2017SP_examlet10B.pdf" target="_blank" rel="noopener noreferrer"> B Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2017SP_examlet10B-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      </td>
+      
+      <td>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2016FA_examlet10A.pdf" target="_blank" rel="noopener noreferrer"> A Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2016FA_examlet10A-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2016FA_examlet10B.pdf" target="_blank" rel="noopener noreferrer"> B Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2016FA_examlet10B-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      </td>
+      
+      <td>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2016SP_examlet10A.pdf" target="_blank" rel="noopener noreferrer"> A Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2016SP_examlet10A-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2016SP_examlet10B.pdf" target="_blank" rel="noopener noreferrer"> B Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2016SP_examlet10B-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      </td>
+      
+      <td>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2015FA_examlet10A.pdf" target="_blank" rel="noopener noreferrer"> A Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2015FA_examlet10A-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2015FA_examlet10B.pdf" target="_blank" rel="noopener noreferrer"> B Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2015FA_examlet10B-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      </td>
+      
+      <td>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2015SP_examlet10A.pdf" target="_blank" rel="noopener noreferrer"> A Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2015SP_examlet10A-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2015SP_examlet10B.pdf" target="_blank" rel="noopener noreferrer"> B Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2015SP_examlet10B-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      </td>
+      
+      <td>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2014FA_examlet10A-sol.pdf" target="_blank" rel="noopener noreferrer"> A Sheet Sol</a> <br>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2014FA_examlet10B-sol.pdf" target="_blank" rel="noopener noreferrer"> B Sheet Sol</a> <br>
+      </td>
+
+<!--  NEXT  -->
+<tr>
+   <td> #11: Algorithms, NP</td>
+	  <td>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2019SU_examlet11.pdf" target="_blank" rel="noopener noreferrer"> Exam</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2019SU_examlet11-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      </td>
+      
+      <td>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2019SP_examlet11C.pdf" target="_blank" rel="noopener noreferrer"> Colored</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2019SP_examlet11C-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2019SP_examlet11W.pdf" target="_blank" rel="noopener noreferrer"> White</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2019SP_examlet11W-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      </td>
+      
+      <td>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2018FA_examlet11A.pdf" target="_blank" rel="noopener noreferrer"> A Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2018FA_examlet11A-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2018FA_examlet11B.pdf" target="_blank" rel="noopener noreferrer"> B Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2018FA_examlet11B-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      </td>
+      
+      <td>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2018SP_examlet11A.pdf" target="_blank" rel="noopener noreferrer"> A Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2018SP_examlet11A-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2018SP_examlet11B.pdf" target="_blank" rel="noopener noreferrer"> B Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2018SP_examlet11B-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      </td>
+      
+      <td>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2017FA_examlet11A.pdf" target="_blank" rel="noopener noreferrer"> A Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2017FA_examlet11A-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2017FA_examlet11B.pdf" target="_blank" rel="noopener noreferrer"> B Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2017FA_examlet11B-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      </td>
+      
+      <td>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2017SP_examlet11A.pdf" target="_blank" rel="noopener noreferrer"> A Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2017SP_examlet11A-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2017SP_examlet11B.pdf" target="_blank" rel="noopener noreferrer"> B Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2017SP_examlet11B-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      </td>
+      
+      <td>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2016FA_examlet11A.pdf" target="_blank" rel="noopener noreferrer"> A Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2016FA_examlet11A-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2016FA_examlet11B.pdf" target="_blank" rel="noopener noreferrer"> B Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2016FA_examlet11B-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      </td>
+      
+      <td>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2016SP_examlet11A.pdf" target="_blank" rel="noopener noreferrer"> A Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2016SP_examlet11A-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2016SP_examlet11B.pdf" target="_blank" rel="noopener noreferrer"> B Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2016SP_examlet11B-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      </td>
+      
+      <td>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2015FA_examlet11A.pdf" target="_blank" rel="noopener noreferrer"> A Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2015FA_examlet11A-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2015FA_examlet11B.pdf" target="_blank" rel="noopener noreferrer"> B Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2015FA_examlet11B-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      </td>
+      
+      <td>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2015SP_examlet11A.pdf" target="_blank" rel="noopener noreferrer"> A Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2015SP_examlet11A-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2015SP_examlet11B.pdf" target="_blank" rel="noopener noreferrer"> B Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2015SP_examlet11B-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      </td>
+      
+      <td>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2014FA_examlet11A-sol.pdf" target="_blank" rel="noopener noreferrer"> A Sheet Sol</a> <br>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2014FA_examlet11B-sol.pdf" target="_blank" rel="noopener noreferrer"> B Sheet Sol</a> <br>
+      </td>
+
+<!--  NEXT  -->
+<tr>
+   <td> #12: Contradiction <br> Collections of Sets</td>
+<td>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2019SU_examlet12.pdf" target="_blank" rel="noopener noreferrer"> Exam</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2019SU_examlet12-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      </td>
+      
+      <td>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2019SP_examlet12C.pdf" target="_blank" rel="noopener noreferrer"> Colored</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2019SP_examlet12C-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2019SP_examlet12W.pdf" target="_blank" rel="noopener noreferrer"> White</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2019SP_examlet12W-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      </td>
+      
+      <td>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2018FA_examlet12A.pdf" target="_blank" rel="noopener noreferrer"> A Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2018FA_examlet12A-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2018FA_examlet12B.pdf" target="_blank" rel="noopener noreferrer"> B Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2018FA_examlet12B-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      </td>
+      
+      <td>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2018SP_examlet12A.pdf" target="_blank" rel="noopener noreferrer"> A Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2018SP_examlet12A-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2018SP_examlet12B.pdf" target="_blank" rel="noopener noreferrer"> B Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2018SP_examlet12B-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      </td>
+      
+      <td>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2017FA_examlet12A.pdf" target="_blank" rel="noopener noreferrer"> A Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2017FA_examlet12A-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2017FA_examlet12B.pdf" target="_blank" rel="noopener noreferrer"> B Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2017FA_examlet12B-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      </td>
+      
+      <td>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2017SP_examlet12A.pdf" target="_blank" rel="noopener noreferrer"> A Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2017SP_examlet12A-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2017SP_examlet12B.pdf" target="_blank" rel="noopener noreferrer"> B Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2017SP_examlet12B-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      </td>
+      
+      <td>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2016FA_examlet12A.pdf" target="_blank" rel="noopener noreferrer"> A Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2016FA_examlet12A-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2016FA_examlet12B.pdf" target="_blank" rel="noopener noreferrer"> B Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2016FA_examlet12B-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      </td>
+      
+      <td>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2016SP_examlet12A.pdf" target="_blank" rel="noopener noreferrer"> A Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2016SP_examlet12A-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2016SP_examlet12B.pdf" target="_blank" rel="noopener noreferrer"> B Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2016SP_examlet12B-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      </td>
+      
+      <td>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2015FA_examlet12A.pdf" target="_blank" rel="noopener noreferrer"> A Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2015FA_examlet12A-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2015FA_examlet12B.pdf" target="_blank" rel="noopener noreferrer"> B Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2015FA_examlet12B-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      </td>
+      
+      <td>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2015SP_examlet12A.pdf" target="_blank" rel="noopener noreferrer"> A Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2015SP_examlet12A-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2015SP_examlet12B.pdf" target="_blank" rel="noopener noreferrer"> B Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2015SP_examlet12B-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      </td>
+      
+      <td>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2014FA_examlet12A-sol.pdf" target="_blank" rel="noopener noreferrer"> A Sheet Sol</a> <br>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2014FA_examlet12B-sol.pdf" target="_blank" rel="noopener noreferrer"> B Sheet Sol</a> <br>
+      </td>
+
+<!--  NEXT  -->
+<tr>
+   <td> Final: State Diagrams<br> Countability</td>
+<td>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2019SU_examlet13.pdf" target="_blank" rel="noopener noreferrer"> Final</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2019SU_examlet13-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      </td>
+      
+      <td>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2019SP_examlet13.pdf" target="_blank" rel="noopener noreferrer"> Final</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2019SP_examlet13-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      </td>
+      
+      <td>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2018FA_examlet13.pdf" target="_blank" rel="noopener noreferrer"> Final</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2018FA_examlet13-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      </td>
+      
+      <td>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2018SP_examlet13A.pdf" target="_blank" rel="noopener noreferrer"> A Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2018SP_examlet13A-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2018SP_examlet13B.pdf" target="_blank" rel="noopener noreferrer"> B Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2018SP_examlet13B-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      </td>
+      
+      <td>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2017FA_examlet13A.pdf" target="_blank" rel="noopener noreferrer"> A Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2017FA_examlet13A-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2017FA_examlet13B.pdf" target="_blank" rel="noopener noreferrer"> B Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2017FA_examlet13B-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      </td>
+      
+      <td>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2017SP_examlet13A.pdf" target="_blank" rel="noopener noreferrer"> A Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2017SP_examlet13A-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2017SP_examlet13B.pdf" target="_blank" rel="noopener noreferrer"> B Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2017SP_examlet13B-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      </td>
+      
+      <td>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2016FA_examlet13A.pdf" target="_blank" rel="noopener noreferrer"> A Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2016FA_examlet13A-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2016FA_examlet13B.pdf" target="_blank" rel="noopener noreferrer"> B Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2016FA_examlet13B-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2016FA_examlet13C.pdf" target="_blank" rel="noopener noreferrer"> C Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2016FA_examlet13C-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      </td>
+      
+      <td>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2016SP_examlet13A.pdf" target="_blank" rel="noopener noreferrer"> A Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2016SP_examlet13A-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2016SP_examlet13B.pdf" target="_blank" rel="noopener noreferrer"> B Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2016SP_examlet13B-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2016SP_examlet13C.pdf" target="_blank" rel="noopener noreferrer"> C Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2016SP_examlet13C-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      </td>
+      
+      <td>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2015FA_examlet13A.pdf" target="_blank" rel="noopener noreferrer"> A Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2015FA_examlet13A-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2015FA_examlet13B.pdf" target="_blank" rel="noopener noreferrer"> B Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2015FA_examlet13B-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      </td>
+      
+      <td>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2015SP_examlet13A.pdf" target="_blank" rel="noopener noreferrer"> A Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2015SP_examlet13A-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2015SP_examlet13B.pdf" target="_blank" rel="noopener noreferrer"> B Sheet</a>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2015SP_examlet13B-sol.pdf" target="_blank" rel="noopener noreferrer"> Sol</a> <br>
+      </td>
+      
+      <td>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2014FA_examlet13A-sol.pdf" target="_blank" rel="noopener noreferrer"> A Sheet Sol</a> <br>
+      <a href="http://jacobprabhu.com/cs173/CS_173_2014FA_examlet13B-sol.pdf" target="_blank" rel="noopener noreferrer"> B Sheet Sol</a> <br>
+      </td>
+
+  </tbody>
+</table>
+<p>
+
+
+
+</p><div id="veepn-breach-alert"><template shadowrootmode="open"><style>.breach-popup{font-family:FigtreeVF,sans-serif;position:fixed;z-index:2147483638;text-rendering:optimizelegibility;top:0;left:0;right:0;pointer-events:none;padding-inline:16px;height:0;overflow:visible;color:#222e3a}.breach-popup *{box-sizing:border-box}.breach-popup__inner{background-color:#de4558;width:100%;border-radius:16px;margin-inline:auto;pointer-events:all;position:relative;transition:transform .25s ease-in-out,max-width .25s ease-in-out;transform:translateY(16px);max-height:calc(100svh - 80px);display:flex;flex-direction:column}.breach-popup__header{min-height:32px;display:flex;align-items:center;justify-content:space-between;column-gap:16px;padding:4px;cursor:pointer}.breach-popup__close{cursor:pointer;background-color:transparent;border-style:none;outline:none;display:flex;align-items:center;justify-content:center;width:24px;height:24px;flex-shrink:0;opacity:.5}.breach-popup__wrap{display:grid;grid-template-rows:0fr;transition:grid-template-rows .25s ease-in-out;overflow:hidden}.breach-popup__content{overflow:hidden;opacity:0;transform:translateY(-10px)}.breach-popup--minimize .breach-popup__inner{max-width:485px;transform:translateY(-100%)}.breach-popup--collapse .breach-popup__inner{max-width:485px}.breach-popup--expand .breach-popup__inner{max-width:1120px}.breach-popup--expand .breach-popup__wrap{grid-template-rows:1fr}.breach-popup--expand .breach-popup__content{opacity:1;transform:translateY(0);transition:transform .25s ease-in-out,opacity .25s ease-in-out;transition-delay:.15s}.breach-popup--expand .breach-popup__header{cursor:default}.breach-info{padding:2px;height:100%}.breach-info__inner{padding:22px 22px 0;background-color:#fff;border-bottom-left-radius:15px;border-bottom-right-radius:15px;height:100%;overflow:auto}.breach-info__alert{font-size:24px;line-height:32px;font-weight:700;margin:0}.breach-info__list{margin-top:24px;display:flex;flex-wrap:wrap;gap:24px}@media only screen and (width >= 992px){.breach-info__list{flex-wrap:nowrap}}.breach-info__item{width:100%}.breach-info__item:nth-child(2){max-width:320px}.breach-info__item:nth-child(3){max-width:200px}.breach-info__title{font-size:18px;font-weight:700;line-height:32px;letter-spacing:-.1px;color:#de4558;margin-top:0;margin-bottom:4px}.breach-info__description{font-size:16px;line-height:28px;letter-spacing:-.1px}.breach-info__description ul{margin:0}.breach-info__actions{display:flex;justify-content:center;padding-top:32px;padding-bottom:22px;background-color:#fff;position:sticky;bottom:0}.breach-info__btn{cursor:pointer;border-style:none;outline:none;display:inline-flex;align-items:center;height:48px;padding-inline:20px;border-radius:12px;text-align:center;font-size:16px;font-weight:700;line-height:28px;letter-spacing:-.1px;color:#fff;background-color:#ff6400}.button-expand{position:absolute;bottom:0;left:50%;transform:translate(-50%,100%);z-index:1}.button-expand__pointer{cursor:pointer}.button-expand__alert{pointer-events:none;transition:opacity .25s ease-in-out}.button-expand__arrow{pointer-events:none;transition:transform .25s ease-in-out,opacity .25s ease-in-out;transform-origin:center}.button-expand--minimize .button-expand__arrow,.button-expand--collapse .button-expand__alert,.button-expand--expand .button-expand__alert{opacity:0}.button-expand--expand .button-expand__arrow{transform:rotate(180deg)}.header-collapse{display:flex;align-items:center;flex-wrap:wrap;column-gap:4px;padding-left:8px;font-size:14px;line-height:20px;letter-spacing:-.1px;color:#fff}.header-expand{display:flex;align-items:center;flex-wrap:wrap;column-gap:4px;padding-left:20px;font-size:14px;font-weight:500;line-height:20px;letter-spacing:-.1px;color:#fff}</style></template></div><style>@font-face{font-family:FigtreeVF;src:url(chrome-extension://majdfhpaihoncoakbjgbdhglocklcgno/fonts/FigtreeVF.woff2) format("woff2 supports variations"),url(chrome-extension://majdfhpaihoncoakbjgbdhglocklcgno/fonts/FigtreeVF.woff2) format("woff2-variations");font-weight:100 1000;font-display:swap}</style></body></html>

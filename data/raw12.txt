@@ -1,0 +1,71 @@
+CS 173, Summer 19
+Examlet 12
+10
+Name:
+NetID:
+Lecture:
+A
+Discussion:
+Monday & Wednesday
+1:30
+2:30
+(7 points)
+Donald Knuth has proposed a replacement for conventional resistor codes. In the new
+system, each resistor has 10 stripes. Each stripe can be either red, blue, or green. The type of resistor
+is determined by the total amount of each color. E.g. two resistors with 4 red, 5 blue, and 1 green are
+the same, regardless of the order in which those stripes appear. How many diﬀerent types of resistor can
+this code represent?
+Brieﬂy justify your answer and/or show work.
+(6 points) State the negation of the following claim, moving all negations (e.g. “not”) so that they
+are on individual predicates.
+There is a relish r such that r is orange but r is not spicy.
+(2 points) Check the (single) box that best characterizes each item.
+How many ways can I choose 10 bagels
+from among 5 varieties, if I can have any
+number of bagels from any type?
+10!
+5!5!
+14!
+10!4!
+14!
+9!5!
+15!
+10!5!
+105
+510
+CS 173, Summer 19
+Examlet 12
+11
+Name:
+NetID:
+Lecture:
+A
+Discussion:
+Monday & Wednesday
+1:30
+2:30
+Graph G is at right, with set of
+nodes V and set of edges E.
+a
+b
+c
+h
+e
+k
+g
+d
+Let f : V →P(V ) such that f(n) = {v ∈V | there is an edge between n and v}.
+Let T = {f(n) | n ∈V }.
+(3 points) f(b) =
+(3 points) Is T a partition of V ? Check the partition properties that are satisﬁed.
+No Empty set
+No Partial Overlap
+Covers base set
+(7 points)
+Suppose that A and B are sets, CA is a partition of A and CB is a partition of B. Is
+CA ∪CB a partition of A ∪B? Brieﬂy justify your answer.
+(2 points) Check the (single) box that best characterizes each item.
+A partition of a set A contains A
+always
+sometimes
+never

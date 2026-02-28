@@ -1,0 +1,49 @@
+[
+  {
+    "question": "How many ways can I choose 10 bagels from among 5 varieties, if I can have any number of bagels from any type?",
+    "choices": [
+      "10! / 5!",
+      "14! / (10! 4!)",
+      "15! / (10! 5!)",
+      "5^10"
+    ],
+    "correctIndex": 1,
+    "explanation": "This is a combinations with repetition problem (stars and bars). We are choosing k=10 items from n=5 buckets. The formula is C(k+n-1, n-1) = C(10+5-1, 5-1) = C(14, 4) = 14! / (10! 4!).",
+    "source": "Final Exam"
+  },
+  {
+    "question": "A partition of a set A contains A itself.",
+    "choices": [
+      "always",
+      "sometimes",
+      "never"
+    ],
+    "correctIndex": 1,
+    "explanation": "A partition containing just the single element set {A} is valid since it is non-empty and its union is exactly A. Thus, it occurs sometimes.",
+    "source": "Final Exam"
+  },
+  {
+    "question": "How many ways can we distribute 12 identical markers to 4 different students?",
+    "choices": [
+      "4^12",
+      "12^4",
+      "15! / (12! 3!)",
+      "16! / (12! 4!)"
+    ],
+    "correctIndex": 2,
+    "explanation": "Unordered with repetition (stars and bars). 12 items (stars) to distribute among 4 categories (requires 3 bars). Total items = 12 + 4 - 1 = 15. We choose 3 spots for the bars: 15! / (12! 3!).",
+    "source": "Final Exam"
+  },
+  {
+    "question": "Which of these sets is NOT countable?",
+    "choices": [
+      "The set of all rational numbers \u211a",
+      "The set of all integers \u2124",
+      "The set of all infinite bit strings",
+      "The set of all finite bit strings"
+    ],
+    "correctIndex": 2,
+    "explanation": "By Cantor's diagonalization argument, the set of all infinite sequences of 0s and 1s is uncountably infinite. All finite sequences, integers, and rationals are countable.",
+    "source": "Final Exam"
+  }
+]

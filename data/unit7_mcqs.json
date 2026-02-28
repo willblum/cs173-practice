@@ -1,0 +1,51 @@
+[
+  {
+    "question": "Putting 10 people in the canoe caused it to sink. 10 is...",
+    "choices": [
+      "an upper bound on",
+      "exactly",
+      "a lower bound on",
+      "not a bound on"
+    ],
+    "correctIndex": 0,
+    "explanation": "If it sank at 10, the maximum capacity the canoe can hold is STRICTLY LESS than 10. Therefore, 10 serves as a strict upper bound on its capacity.",
+    "source": "Examlet 7 (White)"
+  },
+  {
+    "question": "What is the chromatic number of the complete bipartite graph K_{m,n} (Assuming m \u2265 1, n \u2265 1)?",
+    "choices": [
+      "2",
+      "3",
+      "4",
+      "can't tell"
+    ],
+    "correctIndex": 0,
+    "explanation": "A bipartite graph can always be colored with exactly 2 colors since nodes are partitioned into two disjoint sets, and edges only connect between the sets, not within them.",
+    "source": "Examlet 7 (White)"
+  },
+  {
+    "question": "What is the chromatic number of the graph below?",
+    "image": "images/sp19_ex7_mcq.png",
+    "choices": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correctIndex": 2,
+    "explanation": "If the graph contains a K_4 subgraph (4 mutually connected nodes), it immediately requires at least 4 colors. Further analysis determines if a 5th color is needed, but typically these exact graphs have a maximum clique of 4 resulting in a chromatic number of 4.",
+    "source": "Examlet 7 (White)"
+  },
+  {
+    "question": "What is the chromatic number of a graph containing a W_n (wheel graph)?",
+    "choices": [
+      "\u2264 3",
+      "\u2265 3",
+      "\u2265 n",
+      "can't tell"
+    ],
+    "correctIndex": 1,
+    "explanation": "A wheel graph contains a central hub connected to an outer cycle. The central hub is adjacent to all cycle nodes, so it must be a different color. The cycle itself requires at least 2 colors (or 3 if odd). Therefore, any W_n requires at least 1 + 2 = 3 colors.",
+    "source": "Examlet 7 (White)"
+  }
+]

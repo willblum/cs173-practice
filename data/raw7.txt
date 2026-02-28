@@ -1,0 +1,64 @@
+CS 173, Summer 19
+Examlet 7
+10
+Name:
+NetID:
+Lecture:
+A
+Discussion:
+Monday & Wednesday
+1:30
+2:30
+(15 points)
+Working directly from the deﬁnition of divides, use (strong) induction to prove the
+following claim:
+Claim: 7n −2n is divisible by 5, for all natural numbers n.
+Proof by induction on n.
+Base case(s):
+Inductive Hypothesis [Be speciﬁc, don’t just refer to “the claim”]:
+Rest of the inductive step:
+CS 173, Summer 19
+Examlet 7
+11
+Name:
+NetID:
+Lecture:
+A
+Discussion:
+Monday & Wednesday
+1:30
+2:30
+1. (9 points) What is the chromatic number of the graph below? Justify your answer.
+A
+B
+H
+C
+D
+E
+F
+2. (6 points) Check the (single) box that best characterizes each item.
+Chromatic number of W2n.
+2
+3
+≤3
+≤4
+p
+X
+i=1
+i
+p(p−1)
+2
+(p−1)2
+2
+p(p+1)
+2
+(p−1)(p+1)
+2
+Leal team’s bridge collapsed under
+a 100 pound weight. 100 pounds is
+on how much the bridge can
+hold.
+an upper bound on
+exactly
+a lower bound on
+not a bound on

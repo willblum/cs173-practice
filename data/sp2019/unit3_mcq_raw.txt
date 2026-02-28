@@ -1,0 +1,308 @@
+CS 173, Spring 19
+Examlet 3, white sheet
+1
+Name:
+NetID:
+Lecture:
+A
+B
+Discussion:
+Thursday
+Friday
+9
+10
+11
+12
+1
+2
+3
+4
+5
+6
+1. (4 points) Is this claim true? Give a concrete counter-example or brieﬂy explain why it’s true.
+For any sets A and B, (A ∩B) ∪(A ∩B) = A.
+2. (4 points) Check the (single) box that best characterizes each item.
+If x ∈A ∩B,
+then x ∈A.
+true for all sets A and B
+true for some sets A and B
+false for all sets A and B
+For all positive integers n,
+if n! < −10, then n > 8.
+true
+false
+undeﬁned
+3. (7 points) In Z7, ﬁnd the value of [3]37. You must show your work, keeping all numbers in your
+calculations small. You may not use a calculator. You must express your ﬁnal answer as [n],
+where 0 ≤n ≤6.
+CS 173, Spring 19
+Examlet 3, white sheet
+2
+Name:
+NetID:
+Lecture:
+A
+B
+Discussion:
+Thursday
+Friday
+9
+10
+11
+12
+1
+2
+3
+4
+5
+6
+1. (4 points) A = {4, 5, 9}
+B = {arya, bran}
+C = { 2, 4, 10 }
+(A ∩C) × B =
+|A × B × C| =
+2. (4 points) Check the (single) box that best characterizes each item.
+A × A = A
+(Assume A ̸= ∅)
+true for all sets A
+false for all sets A
+true for some sets A
+∅⊆A
+true for all sets A
+true for some sets A
+false for all sets A
+3. (7 points) In Z11, ﬁnd the value of [6]42. You must show your work, keeping all numbers in your
+calculations small. You may not use a calculator. You must express your ﬁnal answer as [n],
+where 0 ≤n ≤10.
+CS 173, Spring 19
+Examlet 3, white sheet
+3
+Name:
+NetID:
+Lecture:
+A
+B
+Discussion:
+Thursday
+Friday
+9
+10
+11
+12
+1
+2
+3
+4
+5
+6
+1. (4 points) M = {cereal, toast}
+N = {milk, coﬀee, wine}
+P = {wine, beer, (coﬀee, ham), (milk, ham)}
+M × (N −P) =
+|M × N × P| =
+2. (4 points) Check the (single) box that best characterizes each item.
+A ∪B = A ∩B
+true for all sets A and B
+true for some sets A and B
+false for all sets A and B
+{∅} × {∅} =
+∅
+{∅}
+{∅, ∅}
+{(∅, ∅)}
+3. (7 points) In Z17, ﬁnd the value of [5]37. You must show your work, keeping all numbers in your
+calculations small. You may not use a calculator. You must express your ﬁnal answer as [n],
+where 0 ≤n ≤16.
+CS 173, Spring 19
+Examlet 3, white sheet
+4
+Name:
+NetID:
+Lecture:
+A
+B
+Discussion:
+Thursday
+Friday
+9
+10
+11
+12
+1
+2
+3
+4
+5
+6
+1. (4 points) A = {trump, rubio}
+B = {clinton, sanders}
+C = { (trump, clinton), (sanders, rubio) }
+(B × A) −C =
+(A ∩C) × B =
+2. (4 points) Check the (single) box that best characterizes each item.
+A ∩B = A ∪B
+true for all sets A and B
+true for some sets A and B
+false for all sets A and B
+For all reals n, if n2 = 101,
+then n > 11.
+true
+false
+undeﬁned
+3. (7 points) In Z9, ﬁnd the value of [4]6 × [5]20. You must show your work, keeping all numbers in
+your calculations small. You may not use a calculator. You must express your ﬁnal answer as
+[n], where 0 ≤n ≤8.
+CS 173, Spring 19
+Examlet 3, white sheet
+5
+Name:
+NetID:
+Lecture:
+A
+B
+Discussion:
+Thursday
+Friday
+9
+10
+11
+12
+1
+2
+3
+4
+5
+6
+1. (4 points) A = {ginger, clove, nutmeg}
+B = {ginger, vanilla, pepper}
+C = { (clove, nutmeg) }
+A ∩B =
+A ∩C =
+2. (4 points) Check the (single) box that best characterizes each item.
+For any sets A and B,
+if x ∈A −B, then x ∈A.
+true
+false
+{∅} ⊆A
+true for all sets A
+true for some sets A
+false for all sets A
+3. (7 points) In Z17, ﬁnd the value of [5]42. You must show your work, keeping all numbers in your
+calculations small. You may not use a calculator. You must express your ﬁnal answer as [n],
+where 0 ≤n ≤16.
+CS 173, Spring 19
+Examlet 3, white sheet
+6
+Name:
+NetID:
+Lecture:
+A
+B
+Discussion:
+Thursday
+Friday
+9
+10
+11
+12
+1
+2
+3
+4
+5
+6
+1. (4 points) Is this claim true? Give a concrete counter-example or brieﬂy explain why it’s true.
+For any sets A and B, A ∪(B −A) = A ∪B.
+2. (4 points) Check the (single) box that best characterizes each item.
+Let A and B be disjoint.
+|A −B| = |A| −|B|
+true for all sets A and B
+true for some sets A and B
+false for all sets A and B
+{1, 2} ∩∅=
+∅
+{(1, ∅), (2, ∅)}
+{1, 2, ∅}
+{∅}
+{1, 2}
+undeﬁned
+3. (7 points) In Z7, ﬁnd the value of [3]41. You must show your work, keeping all numbers in your
+calculations small. You may not use a calculator. You must express your ﬁnal answer as [n],
+where 0 ≤n ≤6.
+CS 173, Spring 19
+Examlet 3, white sheet
+7
+Name:
+NetID:
+Lecture:
+A
+B
+Discussion:
+Thursday
+Friday
+9
+10
+11
+12
+1
+2
+3
+4
+5
+6
+1. (4 points) Is this claim true? Give a concrete counter-example or brieﬂy explain why it’s true.
+For any sets A, B, and C, if A ∩B = ∅and B ∩C = ∅then A ∩C = ∅.
+2. (4 points) Check the (single) box that best characterizes each item.
+|A ∪B| ≤|A| + |B|
+true for all sets A and B
+true for some sets A and B
+false for all sets A and B
+∀x ∈Q, if x2 = 3, then x > 1000.
+true
+false
+undeﬁned
+3. (7 points) In Z13, ﬁnd the value of [7]19. You must show your work, keeping all numbers in your
+calculations small. You may not use a calculator. You must express your ﬁnal answer as [n],
+where 0 ≤n ≤12.
+CS 173, Spring 19
+Examlet 3, white sheet
+8
+Name:
+NetID:
+Lecture:
+A
+B
+Discussion:
+Thursday
+Friday
+9
+10
+11
+12
+1
+2
+3
+4
+5
+6
+1. (4 points) A = {oak, apple, maple, elm}
+B = {tree, leaf, oak}
+C = {(oak, tree)}
+|A × (B −C)| =
+A ∩B =
+2. (4 points) Check the (single) box that best characterizes each item.
+Sets A and B are disjoint
+A −B = B −A
+A = B
+A ∩B = {∅}
+A ∩B = ∅
+{1, 2} × ∅=
+∅
+{(1, ∅), (2, ∅)}
+{1, 2, ∅}
+{∅}
+{1, 2}
+undeﬁned
+3. (7 points) In Z13, ﬁnd the value of [7]21. You must show your work, keeping all numbers in your
+calculations small. You may not use a calculator. You must express your ﬁnal answer as [n],
+where 0 ≤n ≤12.

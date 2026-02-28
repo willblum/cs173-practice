@@ -1,0 +1,8 @@
+[
+  {
+    "instruction": "Apply the Pigeonhole Principle.",
+    "claim": "Hermione Grainger has 7000 socks in her randomly expanding drawer. The socks are colored purple, magenta, shocking pink, and neon green. How many socks must she pull out of the drawer before she is guaranteed to have two socks of the same color? Briefly justify your answer.",
+    "solution": "By the Pigeonhole Principle, if we want to guarantee at least 2 items in the same category (bucket), and there are 4 categories (colors), we need bucket count + 1 items. Therefore, she needs 4 + 1 = 5 socks to guarantee a pair of the same color.",
+    "source": "Examlet 5"
+  }
+]

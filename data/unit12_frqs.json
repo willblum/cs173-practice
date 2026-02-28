@@ -1,0 +1,14 @@
+[
+  {
+    "instruction": "Solve combinatorics application.",
+    "claim": "In Knuth's system, each resistor has 10 stripes colored red, blue, or green. The type is determined by the total amount of each color, order does not matter. How many different types of resistor can this code represent?",
+    "solution": "This is an unordered sampling with replacement problem ('stars and bars'). We need to drop 10 stripes (stars) into 3 color buckets (requiring 2 bars). The total arrangements are (10 + 3 - 1) choose (3 - 1), which is 12 choose 2. 12! / (10! 2!) = (12 \u00d7 11) / 2 = 66 ways.",
+    "source": "Final Exam"
+  },
+  {
+    "instruction": "Explain uncountability.",
+    "claim": "Prove that the set of all infinite binary strings is uncountable.",
+    "solution": "Proof by Cantor's Diagonalization. Assume for contradiction the set is countable. We can list the infinite strings in a sequence: s_1, s_2, s_3, ... Construct a new infinite binary string x where the i-th bit of x is the logic flipped bit of the i-th bit of s_i. The string x is an infinite binary string, but it cannot be anywhere in our sequence, because it differs from every string s_k at the k-th position. This contradicts the assumption that all strings were listed. Thus, the set is uncountable. \u25A1",
+    "source": "Final Exam"
+  }
+]

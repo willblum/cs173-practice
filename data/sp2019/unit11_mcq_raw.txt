@@ -1,0 +1,467 @@
+CS 173, Spring 19
+Examlet 11, white sheet
+1
+Name:
+NetID:
+Lecture:
+A
+B
+Discussion:
+Thursday
+Friday
+9
+10
+11
+12
+1
+2
+3
+4
+5
+6
+(15 points) Check the (single) box that best characterizes each item.
+Algorithm A takes log2 n time. On
+one input, A takes x time. How long
+will it take if I double the input size?
+x + 1
+2x
+2x
+x2
+T(1) = c
+T(n) = 4T(n/2) + n
+Θ(n)
+Θ(n log n)
+Θ(n2)
+Θ(n3)
+Θ(nlog3 2)
+Θ(nlog2 3)
+Θ(2n)
+Θ(3n)
+The running time of binary search is
+O(n log n).
+true
+false
+For a problem to satisfy the deﬁnition of NP, a
+“yes” answer must have a succinct justiﬁcation.
+true
+false
+Deciding whether an input logic
+expression be made true by appro-
+priate choice of input values.
+polynomial
+exponential
+in NP
+CS 173, Spring 19
+Examlet 11, white sheet
+2
+Name:
+NetID:
+Lecture:
+A
+B
+Discussion:
+Thursday
+Friday
+9
+10
+11
+12
+1
+2
+3
+4
+5
+6
+(15 points) Check the (single) box that best characterizes each item.
+Karatsuba’s integer
+multiplication
+algorithm
+Θ(log n)
+Θ(n)
+Θ(n log n)
+Θ(n2)
+Θ(n3)
+Θ(nlog3 2)
+Θ(nlog2 3)
+Θ(2n)
+T(1) = d
+T(n) = 2T(n/4) + n
+Θ(log n)
+Θ(√n)
+Θ(n)
+Θ(n log n)
+Θ(n2)
+Θ(n3)
+Θ(2n)
+Θ(3n)
+The running time of merge is
+recursively deﬁned by T(1)
+=
+d and
+T(n) =
+T(n −1) + c
+T(n −1) + cn
+2T(n −1) + c
+2T(n −1) + cn
+Circuit
+satisﬁability
+can
+be
+solved in polynomial time.
+true
+false
+not known
+For a problem to satisfy the deﬁnition of co-NP,
+a “no” answer must have a succinct justiﬁcation.
+true
+false
+CS 173, Spring 19
+Examlet 11, white sheet
+3
+Name:
+NetID:
+Lecture:
+A
+B
+Discussion:
+Thursday
+Friday
+9
+10
+11
+12
+1
+2
+3
+4
+5
+6
+(15 points) Check the (single) box that best characterizes each item.
+The running time
+of merge
+Θ(log n)
+Θ(n)
+Θ(n log n)
+Θ(n2)
+Θ(n3)
+Θ(nlog3 2)
+Θ(nlog2 3)
+Θ(2n)
+T(1) = d
+T(n) = T(n −1) + n
+Θ(n)
+Θ(n log n)
+Θ(n2)
+Θ(n3)
+Θ(nlog3 2)
+Θ(nlog2 3)
+Θ(2n)
+Θ(3n)
+T(1) = d
+T(n) = 2T(n/3) + d
+Θ(n)
+Θ(n log n)
+Θ(n2)
+Θ(n3)
+Θ(nlog3 2)
+Θ(nlog2 3)
+Θ(2n)
+Θ(3n)
+The solution to the Tower of
+Hanoi puzzle with n disks
+requires Θ(2n) steps
+true
+false
+not known
+The chromatic number of a graph with n
+nodes can be found in polynomial time.
+true
+false
+not known
+CS 173, Spring 19
+Examlet 11, white sheet
+4
+Name:
+NetID:
+Lecture:
+A
+B
+Discussion:
+Thursday
+Friday
+9
+10
+11
+12
+1
+2
+3
+4
+5
+6
+(6 points)
+Fill in the missing bits of a recursive implementation of Merge, which merges two lists
+of integers sorted in increasing order. Use the functions ﬁrst (ﬁrst element), rest (everything after ﬁrst
+element), and and cons (adds number to list).
+Merge(L1,L2: sorted lists of real numbers)
+if (L1 is empty and L2 is empty) return emptylist
+else if (L2 is empty or ﬁrst(L1) <= ﬁrst(L2))
+else
+(9 points) Check the (single) box that best characterizes each item.
+T(1) = d
+T(n) = 3T(n/3) + c
+Θ(n)
+Θ(n log n)
+Θ(n2)
+Θ(n3)
+Θ(nlog3 2)
+Θ(nlog2 3)
+Θ(2n)
+Θ(3n)
+The Towers of Hanoi puzzle
+requires exponential time.
+true
+false
+not known
+Finding the chromatic number of a graph
+with n nodes requires Θ(2n) time.
+true
+false
+not known
+CS 173, Spring 19
+Examlet 11, white sheet
+5
+Name:
+NetID:
+Lecture:
+A
+B
+Discussion:
+Thursday
+Friday
+9
+10
+11
+12
+1
+2
+3
+4
+5
+6
+(15 points) Check the (single) box that best characterizes each item.
+The running time of Karatsuba’s algorithm
+is recursively deﬁned by T(1) = d and
+T(n) =
+4T(n/2) + cn
+4T(n/2) + c
+2T(n/2) + cn
+3T(n/2) + cn
+T(1) = d
+T(n) = 2T(n −1) + c
+Θ(n)
+Θ(n log n)
+Θ(n2)
+Θ(n3)
+Θ(nlog3 2)
+Θ(nlog2 3)
+Θ(2n)
+Θ(3n)
+The running time of the Towers of Hanoi
+solver is recursively deﬁned by T(1) = d
+and T(n) =
+2T(n −1) + c
+2T(n −1) + cn
+2T(n/2) + c
+2T(n/2) + cn
+For a problem to satisfy the deﬁnition of co-NP,
+a “yes” answer must have a succinct justiﬁcation.
+true
+false
+The Towers of Hanoi puzzle can
+be solved in polynomial time.
+true
+false
+not known
+CS 173, Spring 19
+Examlet 11, white sheet
+6
+Name:
+NetID:
+Lecture:
+A
+B
+Discussion:
+Thursday
+Friday
+9
+10
+11
+12
+1
+2
+3
+4
+5
+6
+(15 points) Check the (single) box that best characterizes each item.
+Adding element to
+start of array (array
+gets longer)
+Θ(1)
+Θ(log n)
+Θ(n)
+Θ(n log n)
+Θ(n2)
+Θ(n3)
+Θ(2n)
+Θ(3n)
+T(1) = d
+T(n) = 3T(n/2) + d
+Θ(n)
+Θ(n log n)
+Θ(n2)
+Θ(n3)
+Θ(nlog3 2)
+Θ(nlog2 3)
+Θ(2n)
+Θ(3n)
+T(1) = c
+T(n) = 2T(n/2) + n2
+Θ(n)
+Θ(n log n)
+Θ(n2)
+Θ(n3)
+Θ(nlog3 2)
+Θ(nlog2 3)
+Θ(2n)
+Θ(3n)
+Problems in class NP require
+exponential time
+true
+false
+not known
+The Marker Making problem can be
+solved in polynomial time.
+true
+false
+not known
+CS 173, Spring 19
+Examlet 11, white sheet
+7
+Name:
+NetID:
+Lecture:
+A
+B
+Discussion:
+Thursday
+Friday
+9
+10
+11
+12
+1
+2
+3
+4
+5
+6
+(15 points) Check the (single) box that best characterizes each item.
+T(1) = d
+T(n) = T(n/3) + c
+Θ(log n)
+Θ(√n)
+Θ(n)
+Θ(n log n)
+Θ(n2)
+Θ(n3)
+Θ(2n)
+Θ(3n)
+Dividing a linked list in
+half
+Θ(1)
+Θ(log n)
+Θ(n)
+Θ(n log n)
+Θ(n2)
+Θ(n3)
+Θ(2n)
+Θ(3n)
+The running time of the Towers of Hanoi
+solver is recursively deﬁned by T(1) = d
+and T(n) =
+2T(n/2) + c
+2T(n/2) + cn
+2T(n −1) + c
+2T(n −1) + cn
+Producing all parses
+for a sentence.
+polynomial
+exponential
+in NP
+The Travelling Salesman
+Problem
+polynomial
+exponential
+in NP
+CS 173, Spring 19
+Examlet 11, white sheet
+8
+Name:
+NetID:
+Lecture:
+A
+B
+Discussion:
+Thursday
+Friday
+9
+10
+11
+12
+1
+2
+3
+4
+5
+6
+(15 points) Check the (single) box that best characterizes each item.
+T(1) = d
+T(n) = T(n/2) + n
+Θ(log n)
+Θ(√n)
+Θ(n)
+Θ(n log n)
+Θ(n2)
+Θ(n3)
+Θ(2n)
+Θ(3n)
+Algorithm A takes 2n time. On one
+input, A takes x time. How long will
+it take if I add one to the input size?
+x + 2
+2x
+2x
+x2
+T(1) = d
+T(n) = 3T(n/2) + n
+Θ(n)
+Θ(n log n)
+Θ(n2)
+Θ(n3)
+Θ(nlog3 2)
+Θ(nlog2 3)
+Θ(2n)
+Θ(3n)
+Problems in class P (as in P vs. NP)
+require exponential time
+true
+false
+not known
+The Travelling Salesman
+problem can be solved in
+polynomial time.
+true
+false
+not known

@@ -1,0 +1,44 @@
+CS 173, Summer 19
+Examlet 8
+10
+Name:
+NetID:
+Lecture:
+A
+Discussion:
+Monday & Wednesday
+1:30
+2:30
+(20 points) Recall that Fn is the nth Fibonacci number, and these start with F0 = 0, F1 = 1. Use
+(strong) induction to prove the following claim:
+Claim: Fn < (5/3)n for any natural number n.
+Proof by induction on n.
+Base case(s):
+Inductive Hypothesis [Be speciﬁc, don’t just refer to “the claim”]:
+Rest of the inductive step:
+CS 173, Summer 19
+Examlet 8
+11
+Name:
+NetID:
+Lecture:
+A
+Discussion:
+Monday & Wednesday
+1:30
+2:30
+(10 points) Suppose we have a function F deﬁned (for n a power of 2) by
+F(2)
+=
+c
+F(n)
+=
+F(n/2) + n for n ≥4
+Your partner has already ﬁgured out that
+F(n) = F(n/2k) +
+k−1
+X
+i=0
+n 1
+2i
+Finish ﬁnding the closed form for F. Show your work and simplify your answer.

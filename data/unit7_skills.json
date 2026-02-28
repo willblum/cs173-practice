@@ -1,0 +1,8 @@
+[
+  "Read summation and product notation Extract the first or last term in a sum or product.",
+  "Move values outside the sum/product when they don't depend on the index variable. Divide complex products/sums when the inside part is a sum/product. Rewrite a sum or product to use a different index variable, perhaps starting at a different value.",
+  "Know the closed form for the sum of the first n integers. Know the closed form for a geometric series, especially two special cases: sum of (1/2) k and sum of 2 k . Induction Given a claim, identify/state the key parts of an inductive proof: the induction variable, the claim P(n), base case, inductive step, inductive hypothesis, conclusion of the inductive step.",
+  "Be able to state a (strong) inductive hypothesis. (We always use and require strong hypotheses in this class, but some of you may have used weak hypotheses in other classes.)",
+  "Use induction to prove a formula (equality or inequality) is correct for all integers starting at some base case.",
+  "Use induction to prove that a non-formula claim (e.g. a divisibility relation) holds for all integers starting at some base case."
+]

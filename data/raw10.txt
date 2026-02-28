@@ -1,0 +1,64 @@
+CS 173, Summer 19
+Examlet 10
+10
+Name:
+NetID:
+Lecture:
+A
+Discussion:
+Monday & Wednesday
+1:30
+2:30
+(15 points) Use (strong) induction to prove the following claim:
+Claim:
+(2n)!
+n!n! < 4n, for all integers n ≥2
+Proof by induction on n.
+Base case(s):
+Inductive Hypothesis [Be speciﬁc, don’t just refer to “the claim”]:
+Rest of the inductive step:
+CS 173, Summer 19
+Examlet 10
+11
+Name:
+NetID:
+Lecture:
+A
+Discussion:
+Monday & Wednesday
+1:30
+2:30
+1. (7 points)
+You found the following claim on a hallway whiteboard. Suppose that f and g are
+increasing functions from the reals to the reals, for which all output values are > 1. If f(x) is
+O(g(x)), then log(f(x)) is O(log(g(x))). Is this true? Brieﬂy justify your answer.
+2. (8 points) Check the (single) box that best characterizes each item.
+T(1) = d
+T(n) = 2T(n −1) + c
+Θ(log n)
+Θ(√n)
+Θ(n)
+Θ(n log n)
+Θ(n2)
+Θ(n3)
+Θ(2n)
+Θ(3n)
+T(1) = d
+T(n) = T(n −1) + n
+Θ(log n)
+Θ(√n)
+Θ(n)
+Θ(n log n)
+Θ(n2)
+Θ(n3)
+Θ(2n)
+Θ(3n)
+n1.5 is
+Θ(n1.414)
+O(n1.414)
+neither of these
+Suppose f(n) is Θ(g(n)).
+Will g(n) be O(f(n))?
+no
+sometimes
+yes

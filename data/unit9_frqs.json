@@ -1,0 +1,20 @@
+[
+  {
+    "instruction": "Prove property using structural induction.",
+    "claim": "A Mouse tree is a binary tree containing 2D points such that: Leaf nodes contain (3, 1), (-2, -5), or (2, 2). A node with one child (a, b) has label (a + 1, b - 1). A node with two children (x, y) and (a, b) has label (x + a, y + b). Use (strong) structural induction to prove that the point in the root node of any Mouse tree is on or below the line x = y (i.e., its y-coordinate \u2264 x-coordinate).",
+    "solution": "Induction on the tree structure. Base Case (leaf): The tree is a leaf. The possible points are (3,1), (-2,-5), and (2,2). For each, 1 \u2264 3, -5 \u2264 -2, and 2 \u2264 2 holds. IH: Assume an arbitrary Mouse tree T_1 with root (a,b) and/or T_2 with root (x,y) satisfy b \u2264 a and y \u2264 x. Step: The new root R either has one or two children. Case 1 (1 child): child is T_1 with root (a,b). R's label is (a+1, b-1). Since b \u2264 a, combining gives b-1 < a+1, so R satisfies the property. Case 2 (2 children): children are T_1 and T_2. R's label is (x+a, y+b). Since y \u2264 x and b \u2264 a, adding inequalities yields y+b \u2264 x+a. R satisfies property. \u25A1",
+    "source": "Examlet 9 (Colored)"
+  },
+  {
+    "instruction": "Demonstrate grammar construction.",
+    "claim": "Write a context-free grammar G that will generate all strings of the form a^n b^n (where n \u2265 1). That is, strings consisting of one or more a's followed by the exact same number of b's. Specify rules for start symbol S.",
+    "solution": "To enforce an equal number of a's and b's, the grammar must build outward from the center symmetrically. Thus, S must produce an 'a' on the left and a 'b' on the right, sandwiching either more of the same (recursive S) or terminating.\nRules:\nS \u2192 a S b | a b",
+    "source": "Examlet 9 (Colored)"
+  },
+  {
+    "instruction": "Verify a tree property.",
+    "claim": "Recall that a node in a full binary tree is either a leaf or has exactly two children. A Snake tree is a full binary tree whose leaves are all blue and whose root is orange. Use (strong) induction to prove that a Snake tree contains an orange node with two blue children.",
+    "solution": "Induction on height h of Snake tree. Base case h=1: Root is orange. Since it's full, it has 2 leaves, which must be blue. The root is an orange node with 2 blue children. IH: Assume every Snake tree of height \u2264 k contains an orange node with 2 blue children. Step (h=k+1): The root R is orange and has 2 children, C_1 and C_2. If both C_1 and C_2 are blue, R is the required node. Otherwise, at least one child (say C_1) is orange. C_1 is now the root of a subtree which itself forms a Snake tree of height \u2264 k. By the IH, this subtree must contain an orange node with 2 blue children. Thus the entire tree contains it. \u25A1",
+    "source": "Examlet 9 (Colored)"
+  }
+]

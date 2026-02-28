@@ -1,0 +1,8 @@
+[
+  "Know the big-O running times of basic operations on linked lists and arrays. These include reading/writing values, adding/removing elements, and dividing the list/array at locations at/near the start, in the middle, and at the end. Be familiar with the overall structure and big-O running times of the following algorithms. merge two sorted lists",
+  "graph reachability (what's in x's connected component)",
+  "Be familiar with the overall structure and big-O running times of the following algorithms. Towers of Hanoi solver Karatsuba's algorithm (you won't have to reproduce all the details)",
+  "Find a big-O solution for slightly harder recursive definitions than the ones for examlet 10, e.g. requiring use of the change of base formula. Given an unfamiliar but fairly simple function in pseudo-code, analyze how long it takes using big-O notation. You should be able to analyze nested for loops, recursive functions, and simple examples of while loops.",
+  "For an algorithm involving loops (perhaps nested), express its running time using summations.",
+  "Given a recursive algorithm (familiar or unfamiliar) express its running time as a recursive definition."
+]

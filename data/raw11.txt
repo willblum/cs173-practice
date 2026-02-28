@@ -1,0 +1,83 @@
+CS 173, Summer 19
+Examlet 11
+10
+Name:
+NetID:
+Lecture:
+A
+Discussion:
+Monday & Wednesday
+1:30
+2:30
+00 Flang(a1, . . . , an) : list of n positive integers, n ≥2)
+01
+if (n = 2) return |a1 −a2|
+02
+else
+03
+bestval = 0
+04
+for k = 1 to n
+05
+newval = Flang(a1, a2, . . . , ak−1, ak+1, . . . an)
+\\ constant time to remove ak
+06
+if (newval > bestval) bestval = newval
+07
+return bestval
+1. (3 points) Describe (in English) what Flang computes.
+2. (5 points) Suppose that T(n) is the running time of Flang on an input list of length n. Give a
+recursive deﬁnition of T(n).
+3. (3 points) What is the height of the recursion tree for T(n)?
+4. (4 points) How many leaf nodes are there in the recursion tree for T(n)?
+CS 173, Summer 19
+Examlet 11
+11
+Name:
+NetID:
+Lecture:
+A
+Discussion:
+Monday & Wednesday
+1:30
+2:30
+(15 points) Check the (single) box that best characterizes each item.
+T(1) = d
+T(n) = 2T(n/4) + c
+Θ(log n)
+Θ(√n)
+Θ(n)
+Θ(n log n)
+Θ(n2)
+Θ(n3)
+Θ(2n)
+Θ(3n)
+Dividing a list in half
+Θ(1)
+Θ(log n)
+Θ(n)
+Θ(n log n)
+Θ(n2)
+Θ(n3)
+Θ(2n)
+Θ(3n)
+T(1) = d
+T(n) = T(n/2) + d
+Θ(log n)
+Θ(√n)
+Θ(n)
+Θ(n log n)
+Θ(n2)
+Θ(n3)
+Θ(2n)
+Θ(3n)
+Finding the chromatic number of a graph
+with n nodes requires Θ(2n) time.
+true
+false
+not known
+Problems in class P (as in P vs. NP) can
+be solved in exponential time
+true
+false
+not known

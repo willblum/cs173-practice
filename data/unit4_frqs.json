@@ -1,0 +1,8 @@
+[
+  {
+    "instruction": "Prove a relation is antisymmetric.",
+    "claim": "Let's define a relation T between natural numbers as follows: aTb if and only if a = b + 2k, where k is a natural number. Working directly from this definition, prove that T is antisymmetric.",
+    "solution": "Let a, b be natural numbers. Suppose aTb and bTa. By definition of T, there exist natural numbers k and j such that a = b + 2k and b = a + 2j. Substituting the second equation into the first yields a = (a + 2j) + 2k. Subtracting a from both sides gives 0 = 2j + 2k. Since j and k are natural numbers (j \u2265 0, k \u2265 0), the only way their sum can be 0 is if j = 0 and k = 0. If k = 0, then a = b + 2(0) = b. Therefore, a = b, proving that T is antisymmetric.",
+    "source": "Examlet 4 (Colored)"
+  }
+]

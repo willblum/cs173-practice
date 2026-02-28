@@ -1,0 +1,382 @@
+CS 173, Spring 19
+Examlet 9, white
+1
+Name:
+NetID:
+Lecture:
+A
+B
+Discussion:
+Thursday
+Friday
+9
+10
+11
+12
+1
+2
+3
+4
+5
+6
+1. (8 points) Consider the following grammar G, with start symbol S and terminals a and b.
+S
+→
+a S a | b S b | a S b | b S a | a | b
+Amy claims that this generates all non-empty strings containing a’s and/or b’s. Is this correct?
+Justify your answer.
+2. (4 points) Check the (single) box that best characterizes each item.
+Total number of leaves in a
+full and complete 5-ary tree of
+height h
+5h
+≤5h
+≥5h
+5h+1 −1
+The level of a leaf node
+in a full and complete
+binary tree of height h.
+0
+1
+h −1
+≤h
+h
+CS 173, Spring 19
+Examlet 9, white
+2
+Name:
+NetID:
+Lecture:
+A
+B
+Discussion:
+Thursday
+Friday
+9
+10
+11
+12
+1
+2
+3
+4
+5
+6
+1. (8 points) Here is a grammar with start symbol S and terminal symbols a and b. Draw three parse
+trees for the string abba that match this grammar.
+S
+→
+S S | a S | S a | b
+2. (4 points) Check the (single) box that best characterizes each item.
+A full m-ary tree with i internal
+nodes has mi + 1 nodes total.
+always
+sometimes
+never
+A binary tree of height h has at
+least 2h+1 −1 nodes.
+true
+false
+CS 173, Spring 19
+Examlet 9, white
+3
+Name:
+NetID:
+Lecture:
+A
+B
+Discussion:
+Thursday
+Friday
+9
+10
+11
+12
+1
+2
+3
+4
+5
+6
+1. (8 points)
+Consider the following grammar G
+S →S b S | a | c d
+S is the only start symbol. The terminal symbols are a, b, c, and d.
+Here are two sequences of leaf labels. For each sequence, either draw a tree from grammar G whose
+leaves have this sequence of labels, or else explain brieﬂy why G cannot generate this sequence of
+leaf labels.
+aaacd
+bbbbb
+2. (4 points) Check the (single) box that best characterizes each item.
+The mathematical symbol for
+an empty (zero-length) string
+∅
+e
+ǫ
+NULL
+Number of bit strings of
+length ≤k.
+2k
+2k −1
+2k−1
+2k+1 −1
+CS 173, Spring 19
+Examlet 9, white
+4
+Name:
+NetID:
+Lecture:
+A
+B
+Discussion:
+Thursday
+Friday
+9
+10
+11
+12
+1
+2
+3
+4
+5
+6
+1. (8 points) Min’s virus detection code needs to generate all strings of the form anbn. That is, all
+strings that consist of a sequence of one or more a’s followed by the same number of b’s. Write a
+context-free grammar G that will do this.
+2. (4 points) Check the (single) box that best characterizes each item.
+The number of nodes in a
+binary tree of height h
+≥2h
+2h+1 −1
+≤2h+1 −1
+≥2h+1 −1
+A tree node is a descendent
+of itself.
+always
+sometimes
+never
+CS 173, Spring 19
+Examlet 9, white
+5
+Name:
+NetID:
+Lecture:
+A
+B
+Discussion:
+Thursday
+Friday
+9
+10
+11
+12
+1
+2
+3
+4
+5
+6
+1. (8 points)
+Consider the following grammar G
+S →a S b | b S b | c
+S is the only start symbol. The terminal symbols are a, b, and c.
+Here are two sequences of leaf labels. For each sequence, either draw a tree from grammar G whose
+leaves have this sequence of labels, or else explain brieﬂy why G cannot generate this sequence of
+leaf labels.
+ababb
+babcbbb
+2. (4 points) Check the (single) box that best characterizes each item.
+The level of the root node
+in a tree of height h.
+0
+1
+h −1
+h
+h + 1
+A tree node is a proper ancestor
+of itself.
+always
+sometimes
+never
+CS 173, Spring 19
+Examlet 9, white
+6
+Name:
+NetID:
+Lecture:
+A
+B
+Discussion:
+Thursday
+Friday
+9
+10
+11
+12
+1
+2
+3
+4
+5
+6
+1. (8 points)
+Here is a grammar with start symbol S and terminal symbols a, b, and c. Circle the
+trees that match the grammar.
+S
+→
+a N a | b N b | a | b
+N
+→
+S S | c
+S
+b
+N
+a
+c
+S
+a
+N
+a
+S
+S
+a
+b
+S
+a
+N
+S
+S
+a
+b
+2. (4 points) Check the (single) box that best characterizes each item.
+A binary tree of height h has at
+least 2h −1 nodes.
+true
+false
+A full m-ary tree with i
+internal
+nodes
+has
+nodes total.
+mi −1
+mi
+mi + 1
+≤mi + 1
+CS 173, Spring 19
+Examlet 9, white
+7
+Name:
+NetID:
+Lecture:
+A
+B
+Discussion:
+Thursday
+Friday
+9
+10
+11
+12
+1
+2
+3
+4
+5
+6
+1. (8 points)
+Consider the following grammar G
+S →a S b | b S b | a | b
+S is the only start symbol. The terminal symbols are a and b.
+Here are two sequences of leaf labels. For each sequence, either draw a tree from grammar G whose
+leaves have this sequence of labels, or else explain brieﬂy why G cannot generate this sequence of
+leaf labels.
+bababbb
+aaaab
+2. (4 points) Check the (single) box that best characterizes each item.
+The number of leaves in a
+binary tree of height h
+2h
+2h+1 −1
+≥2h
+≤2h
+The number of paths between
+two distinct nodes in an n-node
+tree. Paths in opposite
+directions count as the same.
+n
+2n
+n(n−1)
+2
+n(n −1)
+n2
+n(n+1)
+2
+CS 173, Spring 19
+Examlet 9, white
+8
+Name:
+NetID:
+Lecture:
+A
+B
+Discussion:
+Thursday
+Friday
+9
+10
+11
+12
+1
+2
+3
+4
+5
+6
+1. (8 points)
+Here is a grammar with start symbol S and terminal symbols a, b, c, and d. Circle the
+trees that match the grammar.
+S
+→
+a N b | a N c | a
+N
+→
+S S | d
+S
+a
+N
+c
+S
+S
+a
+a
+S
+a
+N
+b
+S
+S
+S
+S
+S
+a N c
+a
+d
+S
+b
+N
+a
+d
+2. (4 points) Check the (single) box that best characterizes each item.
+The diameter of a tree of height h.
+≤h
+h
+h + 1
+2h
+≤2h
+The number of nodes in a
+full complete binary tree of height h
+≥2h
+2h+1 −1
+≤2h+1 −1
+≥2h+1 −1

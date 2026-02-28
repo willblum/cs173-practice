@@ -1,0 +1,303 @@
+CS 173, Spring 19
+Examlet 6, colored
+1
+Name:
+NetID:
+Lecture:
+A
+B
+Discussion:
+Thursday
+Friday
+9
+10
+11
+12
+1
+2
+3
+4
+5
+6
+1. (10 points)
+How many isomorphisms are there from G (below) to itself? Justify your answer
+and/or show your work clearly .
+a
+b
+c
+d
+e
+f
+h
+p
+q
+s
+r
+t
+u
+2. (5 points) The wheel graph W73 has 73 nodes on the rim. How many edges does it have?
+CS 173, Spring 19
+Examlet 6, colored
+2
+Name:
+NetID:
+Lecture:
+A
+B
+Discussion:
+Thursday
+Friday
+9
+10
+11
+12
+1
+2
+3
+4
+5
+6
+1. (10 points)
+Are graphs X and Y (below) isomorphic? Justify your answer.
+Graph X
+A
+B
+D
+C
+E
+F
+Graph Y
+1
+2
+3
+4
+5
+6
+2. (5 points) Show four distinct (i.e. not isomorphic) graphs, each of which is connected and has six
+nodes and no cycles.
+CS 173, Spring 19
+Examlet 6, colored
+3
+Name:
+NetID:
+Lecture:
+A
+B
+Discussion:
+Thursday
+Friday
+9
+10
+11
+12
+1
+2
+3
+4
+5
+6
+1. (10 points)
+Are graphs X and Y (below) isomorphic? Justify your answer.
+Graph X
+A
+B
+D
+C
+E
+Graph Y
+1
+2
+3
+4
+5
+2. (5 points) Is the cycle graph C4 a subgraph of graph K3,3? Brieﬂy justify your answer.
+CS 173, Spring 19
+Examlet 6, colored
+4
+Name:
+NetID:
+Lecture:
+A
+B
+Discussion:
+Thursday
+Friday
+9
+10
+11
+12
+1
+2
+3
+4
+5
+6
+1. (10 points)
+How many isomorphisms are there from G (below) to itself? Justify your answer
+and/or show your work clearly .
+A
+P
+Q
+R
+T
+S
+W
+X
+Y
+B
+2. (5 points) What is the diﬀerence between a path and an open walk?
+CS 173, Spring 19
+Examlet 6, colored
+5
+Name:
+NetID:
+Lecture:
+A
+B
+Discussion:
+Thursday
+Friday
+9
+10
+11
+12
+1
+2
+3
+4
+5
+6
+1. (10 points)
+Are graphs X and Y (below) isomorphic? Justify your answer.
+Graph X
+A
+H
+B
+G
+C
+F
+D
+E
+Graph Y
+1
+8
+2
+7
+3
+6
+4
+5
+2. (5 points) The degree sequence of a graph is the list of the degrees of all the nodes in the graph,
+arranged in numerical order, largest to smallest. Suppose that graph G has degree sequence 1, 1,
+1, 1, 1, 1. How many connected components does G have?
+CS 173, Spring 19
+Examlet 6, colored
+6
+Name:
+NetID:
+Lecture:
+A
+B
+Discussion:
+Thursday
+Friday
+9
+10
+11
+12
+1
+2
+3
+4
+5
+6
+1. (10 points)
+How many isomorphisms are there from G (below) to itself? Justify your answer
+and/or show your work clearly .
+A
+B
+C
+D
+E
+F
+Q
+H
+J
+K
+L
+2. (5 points) Is the cycle graph C17 a subgraph of the wheel graph W23? Brieﬂy justify your answer.
+CS 173, Spring 19
+Examlet 6, colored
+7
+Name:
+NetID:
+Lecture:
+A
+B
+Discussion:
+Thursday
+Friday
+9
+10
+11
+12
+1
+2
+3
+4
+5
+6
+1. (10 points)
+How many isomorphisms are there from G (below) to itself? Justify your answer
+and/or show your work clearly .
+A
+P
+Q
+R
+T
+S
+W
+X
+Y
+B
+2. (5 points) The degree sequence of a graph is the list of the degrees of all the nodes in the graph,
+arranged in numerical order, largest to smallest. Suppose graph G has degree sequence 1, 1, 1, 1,
+2. Is G connected? Brieﬂy justify your answer.
+CS 173, Spring 19
+Examlet 6, colored
+8
+Name:
+NetID:
+Lecture:
+A
+B
+Discussion:
+Thursday
+Friday
+9
+10
+11
+12
+1
+2
+3
+4
+5
+6
+1. (10 points)
+Are graphs X and Y (below) isomorphic? Justify your answer.
+Graph X
+A
+B
+C
+D
+E
+F
+Graph Y
+1
+2
+3
+4
+5
+6
+2. (5 points) Is the graph C10 bipartite? Brieﬂy justify your answer.

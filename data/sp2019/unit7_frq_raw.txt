@@ -1,0 +1,262 @@
+CS 173, Spring 19
+Examlet 7, colored
+1
+Name:
+NetID:
+Lecture:
+A
+B
+Discussion:
+Thursday
+Friday
+9
+10
+11
+12
+1
+2
+3
+4
+5
+6
+(15 points)
+Working directly from the deﬁnition of divides, use (strong) induction to prove the
+following claim:
+Claim: n3 + 5n is divisible by 6, for all positive integers n.
+Proof by induction on n.
+Base case(s):
+Inductive Hypothesis [Be speciﬁc, don’t just refer to “the claim”]:
+Rest of the inductive step:
+CS 173, Spring 19
+Examlet 7, colored
+2
+Name:
+NetID:
+Lecture:
+A
+B
+Discussion:
+Thursday
+Friday
+9
+10
+11
+12
+1
+2
+3
+4
+5
+6
+(15 points) Use (strong) induction to prove the following claim.
+Claim: For any positive integer n,
+n
+X
+p=1
+log(p2) = 2 log(n!)
+Proof by induction on n.
+Base case(s):
+Inductive Hypothesis [Be speciﬁc, don’t just refer to “the claim”]:
+Rest of the inductive step:
+CS 173, Spring 19
+Examlet 7, colored
+3
+Name:
+NetID:
+Lecture:
+A
+B
+Discussion:
+Thursday
+Friday
+9
+10
+11
+12
+1
+2
+3
+4
+5
+6
+(15 points) Let A be a constant integer. Use (strong) induction to prove the following claim. Re-
+member that 0! = 1.
+Claim: For any integer n ≥A, Pn
+p=A
+p!
+A!(p−A)! =
+(n+1)!
+(A+1)!(n−A)!
+Proof by induction on n.
+Base case(s):
+Inductive Hypothesis [Be speciﬁc, don’t just refer to “the claim”]:
+Rest of the inductive step:
+CS 173, Spring 19
+Examlet 7, colored
+4
+Name:
+NetID:
+Lecture:
+A
+B
+Discussion:
+Thursday
+Friday
+9
+10
+11
+12
+1
+2
+3
+4
+5
+6
+(15 points) The operator Q is like P except that it multiplies its terms rather than adding them.
+So e.g. Q5
+p=3(p + 1) = 4 · 5 · 6. Use (strong) induction to prove the following claim:
+Qn
+p=2(1 −1
+p2) = n+1
+2n for any integer n ≥2.
+Proof by induction on n.
+Base case(s):
+Inductive Hypothesis [Be speciﬁc, don’t just refer to “the claim”]:
+Rest of the inductive step:
+CS 173, Spring 19
+Examlet 7, colored
+5
+Name:
+NetID:
+Lecture:
+A
+B
+Discussion:
+Thursday
+Friday
+9
+10
+11
+12
+1
+2
+3
+4
+5
+6
+(15 points) Use (strong) induction to prove the following claim:
+Claim: for all natural numbers n,
+n
+X
+j=0
+2(−7)j = 1 −(−7)n+1
+4
+Proof by induction on n.
+Base case(s):
+Inductive Hypothesis [Be speciﬁc, don’t just refer to “the claim”]:
+Rest of the inductive step:
+CS 173, Spring 19
+Examlet 7, colored
+6
+Name:
+NetID:
+Lecture:
+A
+B
+Discussion:
+Thursday
+Friday
+9
+10
+11
+12
+1
+2
+3
+4
+5
+6
+(15 points) Use (strong) induction to prove the following claim.
+Claim: For any positive integer n,
+n
+X
+p=1
+1
+√p −1 + √p = √n
+Proof by induction on n.
+Base case(s):
+Inductive Hypothesis [Be speciﬁc, don’t just refer to “the claim”]:
+Rest of the inductive step: (Recall that
+1
+a+b =
+a−b
+(a−b)(a+b) =
+a−b
+a2−b2.)
+CS 173, Spring 19
+Examlet 7, colored
+7
+Name:
+NetID:
+Lecture:
+A
+B
+Discussion:
+Thursday
+Friday
+9
+10
+11
+12
+1
+2
+3
+4
+5
+6
+(15 points) Use (strong) induction to prove the following claim:
+Claim:
+n
+X
+j=1
+1
+j(j + 1) =
+n
+n + 1 for all positive integers n.
+Proof by induction on n.
+Base case(s):
+Inductive Hypothesis [Be speciﬁc, don’t just refer to “the claim”]:
+Rest of the inductive step:
+CS 173, Spring 19
+Examlet 7, colored
+8
+Name:
+NetID:
+Lecture:
+A
+B
+Discussion:
+Thursday
+Friday
+9
+10
+11
+12
+1
+2
+3
+4
+5
+6
+(15 points) Use (strong) induction and the fact that Pn
+i=0 i = n(n+1)
+2
+to prove the following claim:
+For all natural numbers n, (Pn
+i=0 i)2 = Pn
+i=0 i3
+Proof by induction on n.
+Base case(s):
+Inductive Hypothesis [Be speciﬁc, don’t just refer to “the claim”]:
+Rest of the inductive step:
+(Start by removing the top term from the sum on the lefthand side.)

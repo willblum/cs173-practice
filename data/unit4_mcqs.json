@@ -1,0 +1,23 @@
+[
+  {
+    "question": "A relation is a partial order if it has which three properties?",
+    "choices": [
+      "reflexive, symmetric, transitive",
+      "reflexive, antisymmetric, transitive",
+      "irreflexive, antisymmetric, transitive"
+    ],
+    "correctIndex": 1,
+    "explanation": "A partial order must be reflexive (every element relates to itself), antisymmetric (no two distinct elements relate to each other), and transitive.",
+    "source": "Examlet 4 (White)"
+  },
+  {
+    "question": "Suppose that R is a relation on the integers such that xRy for all integers x and y. Is R an equivalence relation?",
+    "choices": [
+      "Yes",
+      "No"
+    ],
+    "correctIndex": 0,
+    "explanation": "Yes. This is the complete relation. It connects every item to every item, so it trivially satisfies reflexivity, symmetry, and transitivity.",
+    "source": "Examlet 4 (White)"
+  }
+]

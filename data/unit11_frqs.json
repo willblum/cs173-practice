@@ -1,0 +1,14 @@
+[
+  {
+    "instruction": "Analyze a recursive algorithm's complexity.",
+    "claim": "Grind algorithm takes a sorted array. It computes m = \u230an/2\u230b. If a_m > 0, it recursively calls Grind on the first half. Otherwise, it calls Grind on the second half. Assuming splitting takes constant time, give a recursive definition for the running time T(n), its recursion tree height, and Big-Theta notation.",
+    "solution": "1. There is only ONE recursive call per level, on half the array. Plus O(1) conditional check. Thus T(n) = T(n/2) + c. \n2. The tree height is log_2(n). \n3. The Big-Theta running time is \u0398(log n) because it is a single path down the tree doing constant work at each level (identical to binary search).",
+    "source": "Examlet 11 (Colored)"
+  },
+  {
+    "instruction": "Analyze a complex tree.",
+    "claim": "Act(a, b) algorithm divides arrays in half and makes 4 recursive calls on half-sized pieces: Act(left A, left B), Act(left A, right B), Act(right A, right B), Act(right A, left B). Taking O(1) time to split, give the recursion T(n) and the closed form Big-Theta running time.",
+    "solution": "1. 4 recursive branches of size n/2 and constant local work: T(n) = 4T(n/2) + c.\n2. The height of the recursion tree is log_2(n).\n3. By Master Theorem (a=4, b=2), log_2(4) = 2. The leaves do strictly more work than the root. Number of leaves is exactly 4^{log_2 n} = n^2. Thus, the running time is \u0398(n^2).",
+    "source": "Examlet 11 (Colored)"
+  }
+]

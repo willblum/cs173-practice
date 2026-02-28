@@ -1,0 +1,261 @@
+CS 173, Spring 19
+Examlet 10, colored
+1
+Name:
+NetID:
+Lecture:
+A
+B
+Discussion:
+Thursday
+Friday
+9
+10
+11
+12
+1
+2
+3
+4
+5
+6
+(15 points) Use (strong) induction to prove the following claim:
+Claim:
+n
+X
+p=1
+p
+p + 1 ≤
+n2
+n + 1 for all positive integers n.
+Proof by induction on n.
+Base case(s):
+Inductive Hypothesis [Be speciﬁc, don’t just refer to “the claim”]:
+Rest of the inductive step:
+CS 173, Spring 19
+Examlet 10, colored
+2
+Name:
+NetID:
+Lecture:
+A
+B
+Discussion:
+Thursday
+Friday
+9
+10
+11
+12
+1
+2
+3
+4
+5
+6
+(15 points) Use (strong) induction to prove the following claim:
+Claim: (2n)!2 < (4n)! for all positive integers.
+Proof by induction on n.
+Base case(s):
+Inductive Hypothesis [Be speciﬁc, don’t just refer to “the claim”]:
+Rest of the inductive step:
+CS 173, Spring 19
+Examlet 10, colored
+3
+Name:
+NetID:
+Lecture:
+A
+B
+Discussion:
+Thursday
+Friday
+9
+10
+11
+12
+1
+2
+3
+4
+5
+6
+(15 points) The operator Q is like P except that it multiplies its terms rather than adding them.
+So e.g. Q5
+p=3(p + 1) = 4 · 5 · 6. Use (strong) induction to prove the following claim:
+Claim: For any positive integer n and any reals a1, . . . , an between 0 and 1 (inclusive)
+n
+Y
+p=1
+(1 −ap) ≥1 −
+n
+X
+p=1
+ap
+Proof by induction on n.
+Base case(s):
+Inductive Hypothesis [Be speciﬁc, don’t just refer to “the claim”]:
+Rest of the inductive step:
+CS 173, Spring 19
+Examlet 10, colored
+4
+Name:
+NetID:
+Lecture:
+A
+B
+Discussion:
+Thursday
+Friday
+9
+10
+11
+12
+1
+2
+3
+4
+5
+6
+(15 points) Use (strong) induction to prove the following claim.
+Claim: For any positive integer n,
+n
+X
+p=1
+(−1)p−1
+p
+> 0
+Proof by induction on n.
+Base case(s):
+Inductive Hypothesis [Be speciﬁc, don’t just refer to “the claim”]:
+Rest of the inductive step: Hint: divide into cases based on whether k is even or odd. Consider
+removing more than term from the summation in one case.
+CS 173, Spring 19
+Examlet 10, colored
+5
+Name:
+NetID:
+Lecture:
+A
+B
+Discussion:
+Thursday
+Friday
+9
+10
+11
+12
+1
+2
+3
+4
+5
+6
+(15 points) Use (strong) induction to prove the following claim:
+Claim:
+(2n)!
+n!n! > 2n, for all integers n ≥2
+Proof by induction on n.
+Base case(s):
+Inductive Hypothesis [Be speciﬁc, don’t just refer to “the claim”]:
+Rest of the inductive step:
+CS 173, Spring 19
+Examlet 10, colored
+6
+Name:
+NetID:
+Lecture:
+A
+B
+Discussion:
+Thursday
+Friday
+9
+10
+11
+12
+1
+2
+3
+4
+5
+6
+(15 points) Use (strong) induction to prove the following claim:
+Claim: For any natural number n and any real number x, where 0 < x < 1, (1−x)n ≥1−nx.
+Let x be a real number, where 0 < x < 1.
+Proof by induction on n.
+Base case(s):
+Inductive Hypothesis [Be speciﬁc, don’t just refer to “the claim”]:
+Rest of the inductive step:
+CS 173, Spring 19
+Examlet 10, colored
+7
+Name:
+NetID:
+Lecture:
+A
+B
+Discussion:
+Thursday
+Friday
+9
+10
+11
+12
+1
+2
+3
+4
+5
+6
+(15 points) Use (strong) induction to prove the following claim:
+Claim:
+n
+X
+p=1
+1
+p ≤n
+2 + 1, for any positive integer n.
+Proof by induction on n.
+Base case(s):
+Inductive Hypothesis [Be speciﬁc, don’t just refer to “the claim”]:
+Rest of the inductive step: Hint: recall that if x ≤y, then 1
+y ≤1
+x
+CS 173, Spring 19
+Examlet 10, colored
+8
+Name:
+NetID:
+Lecture:
+A
+B
+Discussion:
+Thursday
+Friday
+9
+10
+11
+12
+1
+2
+3
+4
+5
+6
+(15 points) The operator Q is like P except that it multiplies its terms rather than adding them.
+So e.g. Q5
+p=3(p + 1) = 4 · 5 · 6. Use (strong) induction to prove the following claim:
+Claim: For any positive integer n and any positive reals a1, . . . , an,
+n
+Y
+p=1
+(1 + ap) ≥1 +
+n
+X
+p=1
+ap
+Proof by induction on n.
+Base case(s):
+Inductive Hypothesis [Be speciﬁc, don’t just refer to “the claim”]:
+Rest of the inductive step:

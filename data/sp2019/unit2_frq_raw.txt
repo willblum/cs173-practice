@@ -1,0 +1,213 @@
+CS 173, Spring 19
+Examlet 2, colored
+1
+Name:
+NetID:
+Lecture:
+A
+B
+Discussion:
+Thursday
+Friday
+9
+10
+11
+12
+1
+2
+3
+4
+5
+6
+(15 points) Use proof by contrapositive to prove the following claim, using your best mathematical
+style and working directly from the deﬁnitions of “odd” and “even.” (You may assume that odd and
+even are opposites.)
+For all integers p and q, if p2(q2 −4) is odd, then p and q are odd.
+You must begin by explicitly stating the contrapositive of the claim:
+CS 173, Spring 19
+Examlet 2, colored
+2
+Name:
+NetID:
+Lecture:
+A
+B
+Discussion:
+Thursday
+Friday
+9
+10
+11
+12
+1
+2
+3
+4
+5
+6
+(15 points) Prove the following claim, using your best mathematical style and the following deﬁnition
+of congruence mod k:
+x ≡y (mod k) if and only if x = y + nk for some integer n.
+For all integers x, y, p, q and m, with m > 0, if x ≡p (mod m) and y ≡q (mod m), then
+x2 + xy ≡p2 + pq (mod m).
+CS 173, Spring 19
+Examlet 2, colored
+3
+Name:
+NetID:
+Lecture:
+A
+B
+Discussion:
+Thursday
+Friday
+9
+10
+11
+12
+1
+2
+3
+4
+5
+6
+(15 points)
+For any two real numbers x and y, the harmonic mean is H(x, y) =
+2xy
+x+y. Using this
+deﬁnition and your best mathematical style, prove the following claim:
+For any real numbers x and y, if 0 < x < y, then H(x, y) < y.
+CS 173, Spring 19
+Examlet 2, colored
+4
+Name:
+NetID:
+Lecture:
+A
+B
+Discussion:
+Thursday
+Friday
+9
+10
+11
+12
+1
+2
+3
+4
+5
+6
+(15 points) Recall that a real number p is rational if there are integers m and n (n non-zero) such
+that p =
+m
+n .
+Use this deﬁnition and your best mathematical style to prove the following claim by
+contrapositive.
+For all real numbers x and y, if x is not rational, then 2x + 3y is not rational or y is not
+rational.
+You must begin by explicitly stating the contrapositive of the claim:
+CS 173, Spring 19
+Examlet 2, colored
+5
+Name:
+NetID:
+Lecture:
+A
+B
+Discussion:
+Thursday
+Friday
+9
+10
+11
+12
+1
+2
+3
+4
+5
+6
+(15 points)
+A triple (a, b, c) of positive integers is Pythagorean if a2 + b2 = c2.
+Use proof by
+contrapositive to prove the following claim, using your best mathematical style and working directly
+from the deﬁnitions of “odd” and “even.” (You may assume that odd and even are opposites.)
+For any Pythagorean triple (a, b, c), if c2 is odd, then a is even or b is even.
+You must begin by explicitly stating the contrapositive of the claim:
+CS 173, Spring 19
+Examlet 2, colored
+6
+Name:
+NetID:
+Lecture:
+A
+B
+Discussion:
+Thursday
+Friday
+9
+10
+11
+12
+1
+2
+3
+4
+5
+6
+(15 points)
+For any two real numbers x and y, the harmonic mean is H(x, y) =
+2xy
+x+y. Using this
+deﬁnition and your best mathematical style, prove the following claim:
+For any real numbers x and y, if 0 < x < y, then x < H(x, y).
+CS 173, Spring 19
+Examlet 2, colored
+7
+Name:
+NetID:
+Lecture:
+A
+B
+Discussion:
+Thursday
+Friday
+9
+10
+11
+12
+1
+2
+3
+4
+5
+6
+(15 points) Prove the following claim, using your best mathematical style and the following deﬁnition
+of congruence mod k:
+x ≡y (mod k) if and only if x = y + nk for some integer n.
+For all integers a, b, c, p and k (c positive), if ap ≡b (mod c) and k | a and k | c, then k | b.
+CS 173, Spring 19
+Examlet 2, colored
+8
+Name:
+NetID:
+Lecture:
+A
+B
+Discussion:
+Thursday
+Friday
+9
+10
+11
+12
+1
+2
+3
+4
+5
+6
+(15 points) Prove the following claim, using your best mathematical style. Hint: look at remainders
+and use proof by cases.
+For any integer n, n2 + 2 is not divisible by 4.

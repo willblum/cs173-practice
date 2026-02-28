@@ -1,0 +1,61 @@
+CS 173, Summer 19
+Examlet 9
+10
+Name:
+NetID:
+Lecture:
+A
+Discussion:
+Monday & Wednesday
+1:30
+2:30
+(18 points) A Borg tree is a full binary tree whose nodes contain integers such that
+• Every leaf contains the value 0.
+• The value v(X) in a node X is (strictly) larger than the values in X’s children.
+Use (strong) induction to prove that the value in the root of a Borg tree is larger than the value in
+any other node of the tree.
+The induction variable is named
+and it is the
+of/in the tree.
+Base Case(s):
+Inductive Hypothesis [Be speciﬁc, don’t just refer to “the claim”]:
+Inductive Step:
+CS 173, Summer 19
+Examlet 9
+11
+Name:
+NetID:
+Lecture:
+A
+Discussion:
+Monday & Wednesday
+1:30
+2:30
+1. (8 points) Here is a grammar with start symbol S and terminal symbols a and b. Draw three parse
+trees for the string aab that match this grammar.
+S
+→
+a N | N
+N
+→
+a S | S | b
+2. (4 points) Check the (single) box that best characterizes each item.
+The number of paths between
+two nodes in an n-node tree.
+Paths in opposite directions
+count as diﬀerent.
+n
+2n
+n(n−1)
+2
+n(n −1)
+n2
+n(n+1)
+2
+The level of the root node
+in a tree of height h.
+−1
+0
+1
+h −1
+h

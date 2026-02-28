@@ -1,0 +1,291 @@
+CS 173, Spring 19
+Examlet 6, white
+1
+Name:
+NetID:
+Lecture:
+A
+B
+Discussion:
+Thursday
+Friday
+9
+10
+11
+12
+1
+2
+3
+4
+5
+6
+(9 points)
+How many cycle subgraphs (i.e. subgraphs isomorphic to Cn for some n) does the graph
+below contain? Count two cycles as the same if they have the same set of nodes and the same set of
+edges. Don’t worry about which node is the start/end node. Brieﬂy justify and/or show work.
+A
+P
+Q
+R
+T
+X
+Y
+B
+(2 points) Is the above graph acyclic?
+(2 points) Does the above graph have an Euler circuit?
+(2 points) What is the largest complete (Kn) subgraph of the above graph?
+CS 173, Spring 19
+Examlet 6, white
+2
+Name:
+NetID:
+Lecture:
+A
+B
+Discussion:
+Thursday
+Friday
+9
+10
+11
+12
+1
+2
+3
+4
+5
+6
+(9 points) How many paths are there from A to Q in the graph below? Explain or show work.
+A
+B
+C
+D
+E
+F
+Q
+P
+H
+K
+J
+M
+(2 points) Does the above graph contain a 4-node cycle?
+(2 points) How many connected components does the above graph have?
+(2 points) What is the largest complete (Kn) subgraph of the above graph?
+CS 173, Spring 19
+Examlet 6, white
+3
+Name:
+NetID:
+Lecture:
+A
+B
+Discussion:
+Thursday
+Friday
+9
+10
+11
+12
+1
+2
+3
+4
+5
+6
+(9 points) In the graph below, how many paths are there from one node to a distinct (aka diﬀerent)
+node? Consider all choices of start and end nodes. Explain or show work.
+A
+B
+C
+D
+E
+F
+Q
+H
+K
+L
+(2 points) Is the above graph acyclic?
+(2 points) How many connected components does the above graph have?
+(2 points) What is the largest complete (Kn) subgraph of the above graph?
+CS 173, Spring 19
+Examlet 6, white
+4
+Name:
+NetID:
+Lecture:
+A
+B
+Discussion:
+Thursday
+Friday
+9
+10
+11
+12
+1
+2
+3
+4
+5
+6
+(9 points) How many paths are there from A to C in the graph below? Explain or show work.
+A
+B
+H
+C
+D
+E
+F
+G
+K
+I
+J
+(2 points) Does the above graph contain a 6-node cycle?
+(2 points) How many connected components does the above graph have?
+(2 points) Is the above graph bipartite?
+CS 173, Spring 19
+Examlet 6, white
+5
+Name:
+NetID:
+Lecture:
+A
+B
+Discussion:
+Thursday
+Friday
+9
+10
+11
+12
+1
+2
+3
+4
+5
+6
+(9 points)
+How many cycle subgraphs (i.e. subgraphs isomorphic to Cn for some n) does the graph
+below contain? Count two cycles as the same if they have the same set of nodes and the same set of
+edges. Don’t worry about which node is the start/end node. Brieﬂy justify and/or show work.
+A
+P
+Q
+R
+T
+S
+W
+X
+Y
+B
+(2 points) Does the above graph have a cut edge?
+(2 points) How many connected components does the above graph have?
+(2 points) What is the diameter of the above graph?
+CS 173, Spring 19
+Examlet 6, white
+6
+Name:
+NetID:
+Lecture:
+A
+B
+Discussion:
+Thursday
+Friday
+9
+10
+11
+12
+1
+2
+3
+4
+5
+6
+(9 points)
+How many cycle subgraphs (i.e. subgraphs isomorphic to Cn for some n) does the graph
+below contain? Count two cycles as the same if they have the same set of nodes and the same set of
+edges. Don’t worry about which node is the start/end node. Brieﬂy justify and/or show work.
+A
+B
+C
+D
+H
+(2 points) What is the largest complete (Kn) subgraph of the above graph?
+(2 points) How many connected components does the above graph have?
+(2 points) What is the diameter of the above graph?
+CS 173, Spring 19
+Examlet 6, white
+7
+Name:
+NetID:
+Lecture:
+A
+B
+Discussion:
+Thursday
+Friday
+9
+10
+11
+12
+1
+2
+3
+4
+5
+6
+(9 points) How many paths are there in the graph below? Consider all choices of start and end nodes.
+Explain or show work.
+A
+B
+C
+D
+E
+F
+Q
+H
+K
+L
+M
+R
+(2 points) Is the above graph acyclic?
+(2 points) How many connected components does the above graph have?
+(2 points) Is the above graph bipartite?
+CS 173, Spring 19
+Examlet 6, white
+8
+Name:
+NetID:
+Lecture:
+A
+B
+Discussion:
+Thursday
+Friday
+9
+10
+11
+12
+1
+2
+3
+4
+5
+6
+(9 points)
+How many cycle subgraphs (i.e. subgraphs isomorphic to Cn for some n) does the graph
+below contain? Count two cycles as the same if they have the same set of nodes and the same set of
+edges. Don’t worry about which node is the start/end node. Brieﬂy justify and/or show work.
+A
+B
+C
+D
+E
+F
+Q
+H
+K
+(2 points) What is the diameter of the above graph?
+(2 points) How many connected components does the above graph have?
+(2 points) Is the above graph bipartite?

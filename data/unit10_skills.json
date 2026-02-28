@@ -1,0 +1,8 @@
+[
+  "Define what it means for a function f to be asymptotically smaller than g (f &#8810; g), O(g) and/or &theta;(g). where g is another function.",
+  "For specific functions f and g, identify whether f is asymptotically smaller than g (f &#8810; g), O(g) and/or &theta;(g).",
+  "Know the asymptotic relationships among key primitive functions: constant, log n, n, n log n, polynomials of higher orders, exponentials, factorial.",
+  "Given functions f and g, prove that f is O(g) and/or &theta;(g).",
+  "Given a recursively defined function, find its closed form by drawing a recursion tree and adding up the work at all levels. (Examples would look like those presented in the textbook, e.g. the level sums are constant or increase in a pattern based on the key summations given above.)",
+  "Find a big-O solution for a simple recursive definition, of the types that we've seen as examples of unrolling and recursion trees."
+]

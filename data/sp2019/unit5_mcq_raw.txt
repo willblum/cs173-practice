@@ -1,0 +1,331 @@
+CS 173, Spring 18
+Examlet 5 (only one sheet)
+1
+Name:
+NetID:
+Lecture:
+A
+B
+Discussion:
+Thursday
+Friday
+9
+10
+11
+12
+1
+2
+3
+4
+5
+6
+1. (5 points) How many diﬀerent 13-letter strings can be made be rearranging the letters in the word
+‘‘massachusetts’’? Show your work.
+2. (12 points) Check the (single) box that best characterizes each item.
+If a function from R to R is strictly
+increasing, it must be one-to-one.
+true
+false
+g : Z →Z
+g(x) = 7 −
+ x
+3
+
+onto
+not onto
+not a function
+g : (0, π
+2) →R
+g(x) = sin(x)
+one-to-one
+not one-to-one
+not a function
+We painted 12 mailboxes.
+There were 5 colors to
+choose from and each mailbox is painted with a
+single color. By the pigeonhole principle, every color
+appears on at least two mailboxes.
+true
+false
+∃y ∈N, ∀x ∈N, x = xy
+true
+false
+(f ◦g)(x)
+f(g(x))
+g(f(x))
+neither
+CS 173, Spring 18
+Examlet 5 (only one sheet)
+2
+Name:
+NetID:
+Lecture:
+A
+B
+Discussion:
+Thursday
+Friday
+9
+10
+11
+12
+1
+2
+3
+4
+5
+6
+1. (5 points) Suppose that |A| = p, |B| = q, |C| = n. How many diﬀerent functions are there from
+A × B to C?
+2. (12 points) Check the (single) box that best characterizes each item.
+If a function from R to R is increasing,
+it must be one-to-one.
+true
+false
+g : Z →R
+g(x) = x + 2.137
+one-to-one
+not one-to-one
+not a function
+g : Z →Z
+g(x) = ⌊x⌋
+onto
+not onto
+not a function
+Each ACM shirt has one of 6 trendy slogans. I bought
+13 ACM shirts. Each slogan appears on at least two
+shirts.
+true
+false
+∀x ∈Z, ∃y ∈Z, x ̸= y and x + y = 0
+true
+false
+Suppose f : A →B.
+For
+all x, y ∈A, if f(x) = f(y),
+then x = y.
+onto
+one-to-one
+neither
+CS 173, Spring 18
+Examlet 5 (only one sheet)
+3
+Name:
+NetID:
+Lecture:
+A
+B
+Discussion:
+Thursday
+Friday
+9
+10
+11
+12
+1
+2
+3
+4
+5
+6
+1. (5 points)
+10 men and 15 women showed up to this week’s meeting of the UIUC Swing Dance
+Society. How many diﬀerent ways can we form as many as possible into pairs, where each pair
+consists of one man and one woman?
+2. (12 points) Check the (single) box that best characterizes each item.
+If f : A →B is onto, then
+|A| ≥|B|
+|A| ≤|B|
+|A| = |B|
+f : Z →Z
+f(x) = x + 3 (x even),
+f(x) = x −21 (x odd)
+onto
+not onto
+not a function
+g : N →Z
+g(x) = x2
+one-to-one
+not one-to-one
+not a function
+Each ACM shirt has one of 6 trendy slogans. I bought
+13 ACM shirts. At least three of these shirts must have
+the same slogan.
+true
+false
+∀x ∈R, ∃m, n ∈Z, x = m
+n
+true
+false
+Suppose f : A →B.
+For
+all x ∈A, there is a y ∈B,
+f(x) = y.
+onto
+one-to-one
+neither
+CS 173, Spring 18
+Examlet 5 (only one sheet)
+4
+Name:
+NetID:
+Lecture:
+A
+B
+Discussion:
+Thursday
+Friday
+9
+10
+11
+12
+1
+2
+3
+4
+5
+6
+1. (5 points) How many diﬀerent 9-letter strings can be made be rearranging the letters in the word
+‘‘silliness’’? Show your work.
+2. (12 points) Check the (single) box that best characterizes each item.
+A function is one-to-one if and only
+if each value in the co-domain has
+exactly one pre-image.
+true
+false
+f : Z →Z
+f(x) = x + 4 (x even),
+f(x) = x −21 (x odd)
+one-to-one
+not one-to-one
+not a function
+f : N2 →R
+f(p, q) = pq
+onto
+not onto
+not a function
+Each ACM shirt has one of 6 trendy slogans. I bought
+13 ACM shirts. There is a slogan that appears on at
+least two shirts.
+true
+false
+∃y ∈N, ∀x ∈Z, x2 = y
+true
+false
+Suppose f : A →B.
+For
+all x, y ∈A, if x = y, then
+f(x) = f(y).
+onto
+one-to-one
+neither
+CS 173, Spring 18
+Examlet 5 (only one sheet)
+5
+Name:
+NetID:
+Lecture:
+A
+B
+Discussion:
+Thursday
+Friday
+9
+10
+11
+12
+1
+2
+3
+4
+5
+6
+1. (5 points) Hermione Grainger has 7000 socks in her magically expanding drawer. The socks are
+colored purple, magenta, shocking pink, and neon green. How many socks must she pull out of the
+drawer before she is guaranteed to have two socks of the same color. Brieﬂy justify your answer.
+2. (12 points) Check the (single) box that best characterizes each item.
+The composition of two one-to-one
+functions is one-to-one.
+true
+false
+g : R →R
+g(x) = sin(x)
+one-to-one
+not one-to-one
+not a function
+g : Z →R
+g(x) = ⌊x⌋
+onto
+not onto
+not a function
+If f : N →Z is a function such that
+f(x) = −|x| then N is the
+of f.
+domain
+co-domain
+image
+none of these
+∀x ∈Z, ∃y ∈N, x2 = y
+true
+false
+Suppose f : R →R.
+For
+all x, y ∈R, if x < y, then
+f(x) < f(y).
+increasing
+strictly increasing
+neither
+CS 173, Spring 18
+Examlet 5 (only one sheet)
+6
+Name:
+NetID:
+Lecture:
+A
+B
+Discussion:
+Thursday
+Friday
+9
+10
+11
+12
+1
+2
+3
+4
+5
+6
+1. (5 points) Suppose that |A| = 3 and |B| = 2. How many onto functions are there from A to B?
+Brieﬂy justify or show work.
+2. (12 points) Check the (single) box that best characterizes each item.
+If a function is onto, then each value in the
+co-domain has at least one pre-image.
+true
+false
+g : R →Z
+g(x) = ⌊x⌋
+one-to-one
+not one-to-one
+not a function
+g : Z →R
+g(x) = x −0.314
+onto
+not onto
+not a function
+Each dorm room is given an integer access code be-
+tween 1 and 10 (inclusive). According to the pigeon-
+hole principle, if there are 21 dorm rooms, then there is
+some access code that is shared by at least two rooms.
+true
+false
+∀m, n ∈Z, ∃x ∈Q, x = m
+n
+true
+false
+Suppose f : A →B. For all
+y ∈B, there is an x ∈A,
+f(x) = y.
+onto
+one-to-one
+neither

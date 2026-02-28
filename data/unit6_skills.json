@@ -1,0 +1,12 @@
+[
+  "Understand the difference between an exact result, an upper bound, and a lower bound.",
+  "Prove an equality by establishing upper and lower bounds. Prove a set equality by proving inclusion in both directions.",
+  "Prove that the chromatic number of a graph G is n by showing an upper and a lower bound. Typically this means Upper bound: show a specific coloring of the graph. Lower bound: identify a subgraph whose chromatic number is already known. Graph coloring Know that a (vertex) coloring of a graph is labelling of each vertex with a color, such that adjacent vertices always have different colors.",
+  "Know that the chromatic number of a graph is the minimum number of colors required to color it.",
+  "Know the shorthand notation &chi;(G).",
+  "Know that graph coloring is useful for (among other things) register allocation in compilers for programming languages like C and Java.",
+  "Know that if D is the maximum degree of any vertex in a graph G, then G can be colored with D+1 colors.",
+  "Know that the \"greedy\" coloring algorithm often produces pretty good colorings fast, but is not guaranteed to produce the best solution.",
+  "Know that the chromatic number of a graph is at least as large as the chromatic number of any subgraph. Be familiar with the chromatic numbers of standard small graphs and special-case graphs: Bipartite graphs Cycle and wheel graphs Complete graphs The Moser spindle Proof by Contradiction (Recap from the past:) Give the negation of a statement, simplifying it so that all negations are on individual propositions/predicates.",
+  "Write a proof by contradiction."
+]

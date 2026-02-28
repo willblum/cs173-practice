@@ -1,0 +1,24 @@
+[
+  {
+    "question": "If x \u2208 A \u2229 B, then x \u2208 A. This is...",
+    "choices": [
+      "true for all sets A and B",
+      "true for some sets A and B",
+      "false for all sets A and B"
+    ],
+    "correctIndex": 0,
+    "explanation": "By definition of intersection, an element is in A \u2229 B if and only if it is in A and in B. Therefore, it must be in A.",
+    "source": "Examlet 3 (White)"
+  },
+  {
+    "question": "For all positive integers n, if n! < -10, then n > 8.",
+    "choices": [
+      "true",
+      "false",
+      "undefined"
+    ],
+    "correctIndex": 0,
+    "explanation": "True by vacuous truth. A factorial of a positive integer is never negative, so the premise n! < -10 is false. A conditional with a false premise is vacuously true.",
+    "source": "Examlet 3 (White)"
+  }
+]

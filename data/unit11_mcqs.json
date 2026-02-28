@@ -1,0 +1,45 @@
+[
+  {
+    "question": "Algorithm A takes 2^n time. On one input, A takes x time. How long will it take if I add one to the input size?",
+    "choices": [
+      "x + 2",
+      "2x",
+      "x^2"
+    ],
+    "correctIndex": 1,
+    "explanation": "If T(n) = 2^n = x, then T(n+1) = 2^{n+1} = 2 \u00d7 2^n = 2x.",
+    "source": "Examlet 11 (White)"
+  },
+  {
+    "question": "For a problem to satisfy the definition of co-NP, a 'no' answer must have a succinct justification.",
+    "choices": [
+      "true",
+      "false"
+    ],
+    "correctIndex": 0,
+    "explanation": "True. The definition of NP is that 'yes' instances have short polynomial-time verifiable certificates. The definition of co-NP is the complement: 'no' instances must have a succinct deterministically verifiable certificate.",
+    "source": "Examlet 11 (White)"
+  },
+  {
+    "question": "The running time of the Towers of Hanoi solver is recursively defined by:",
+    "choices": [
+      "T(1) = d; T(n) = 2T(n/2) + c",
+      "T(1) = d; T(n) = 2T(n-1) + c",
+      "T(1) = d; T(n) = 2T(n-1) + cn"
+    ],
+    "correctIndex": 1,
+    "explanation": "Towers of Hanoi works by recursively moving a stack of (n-1) disks, moving the bottom 1 disk (constant time c), and moving the (n-1) stack back on top. Thus, it requires 2 recursive calls of size (n-1), making T(n) = 2T(n-1) + c.",
+    "source": "Examlet 11 (White)"
+  },
+  {
+    "question": "Circuit satisfiability can be solved in polynomial time.",
+    "choices": [
+      "true",
+      "false",
+      "not known"
+    ],
+    "correctIndex": 2,
+    "explanation": "Circuit satisfiability is an NP-complete problem. Whether any NP-complete problem can be solved in polynomial time (P vs NP) is the most famous unsolved problem in computer science. Therefore, it is 'not known'.",
+    "source": "Examlet 11 (White)"
+  }
+]
